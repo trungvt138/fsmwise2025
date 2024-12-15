@@ -76,8 +76,8 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/fb1runfsm/fb1runidle.h
         operatingfsm1/fb1runfsm/fb1runwait.cpp
         operatingfsm1/fb1runfsm/fb1runwait.h
-        operatingfsm1/fb1runfsm/running.cpp
-        operatingfsm1/fb1runfsm/running.h
+        operatingfsm1/fb1runfsm/fb1running.cpp
+        operatingfsm1/fb1runfsm/fb1running.h
         operatingfsm1/runningfsm/runningbasestate.cpp
         operatingfsm1/runningfsm/runningbasestate.h
         operatingfsm1/runningfsm/runningpseudostart.h
@@ -85,4 +85,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/runningfsm/fast.h
         operatingfsm1/runningfsm/slow.cpp
         operatingfsm1/runningfsm/slow.h
+        operatingfsm1/fb1sortfsm/fb1sortok.cpp
+        operatingfsm1/fb1sortfsm/fb1sortok.h
 )

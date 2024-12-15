@@ -6,6 +6,7 @@
 #define FB1SORTBASESTATE_H
 #include "../../action.h"
 #include "../../contextdata.h"
+#include "../../triggerprocessingstate.h"
 
 
 class FB1SortBaseState {
@@ -32,6 +33,11 @@ public:
 
     virtual void leavingState(){exit();};
     void showState();
+
+    virtual TriggerProcessingState sortRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState sortFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState slideRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState slideFall1(){ return TriggerProcessingState::pending; }
 };
 
 

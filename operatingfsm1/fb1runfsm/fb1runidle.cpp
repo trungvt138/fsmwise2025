@@ -4,7 +4,7 @@
 
 #include "fb1runidle.h"
 #include <iostream>
-#include "running.h"
+#include "fb1running.h"
 using namespace std;
 
 void Fb1RunIdle::entry() {

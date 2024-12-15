@@ -7,7 +7,7 @@
 #include "fb1runidle.h"
 #include <iostream>
 
-#include "running.h"
+#include "fb1running.h"
 using namespace std;
 
 void Fb1RunWait::initSubFSM() {
@@ -36,7 +36,7 @@ void Fb1RunWait::leavingState() {
 
 TriggerProcessingState Fb1RunWait::end2Fall() {
     leavingState();
-    if (true) {//data->fb1_clr) {
+    if (data->isFB1Clear()) {
         new(this) Fb1RunIdle;
         enterByDefaultEntryPoint();
     } else {

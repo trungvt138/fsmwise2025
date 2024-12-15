@@ -87,4 +87,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/runningfsm/slow.h
         operatingfsm1/fb1sortfsm/fb1sortok.cpp
         operatingfsm1/fb1sortfsm/fb1sortok.h
+        operatingfsm1/fb1sortfsm/fb1sortout.cpp
+        operatingfsm1/fb1sortfsm/fb1sortout.h
 )

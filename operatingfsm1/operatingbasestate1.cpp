@@ -1,0 +1,44 @@
+//
+// Created by Trung Dam on 11.12.24.
+//
+
+#include "operatingbasestate1.h"
+
+#include "fb1runfsm/pseudostartfb1run.h"
+#include "fb1sortfsm/pseudostartfb1sort.h"
+#include <iostream>
+#include "fb1.h"
+using namespace std;
+
+void OperatingBaseState1::initSubFSM() {
+    fb1runFSM = new PseudoStartFB1Run();
+    fb1runFSM->initSubFSM();
+    fb1sortFSM = new PseudoStartFB1Sort();
+    fb1sortFSM->initSubFSM();
+}
+
+void OperatingBaseState1::setAction(Actions *action) {
+    this->actions = action;
+    fb1runFSM->setAction(action);
+    fb1sortFSM->setAction(action);
+}
+
+void OperatingBaseState1::setData(ContextData *data) {
+    this->data = data;
+    fb1sortFSM->setData(data);
+    fb1sortFSM->setData(data);
+}
+
+void OperatingBaseState1::enterViaPseudoStart() {
+    new(this) FB1;
+    enterByDefaultEntryPoint();
+}
+
+void OperatingBaseState1::enterViaDeepHistory() {
+    fb1runFSM->enterViaDeepHistory();
+    //
+}
+
+void OperatingBaseState1::resetDeepHistory() {
+    fb1runFSM->resetDeepHistory();
+}

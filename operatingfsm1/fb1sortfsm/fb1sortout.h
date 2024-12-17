@@ -8,7 +8,12 @@
 
 
 class FB1SortOut : public FB1SortBaseState {
+public:
+    void entry() override;
 
+    void exit() override;
+
+    TriggerProcessingState slideRise1() override;
 };
 
 

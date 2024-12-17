@@ -9,8 +9,6 @@
 
 class FB1SortOK : FB1SortBaseState {
 public:
-    void initSubFSM() override;
-
     void entry() override;
 
     void exit() override;

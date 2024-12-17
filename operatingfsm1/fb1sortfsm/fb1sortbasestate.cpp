@@ -8,18 +8,11 @@ void FB1SortBaseState::initSubFSM() {
 }
 
 void FB1SortBaseState::setData(ContextData *data) {
+    this->data = data;
 }
 
 void FB1SortBaseState::setAction(Actions *action) {
-}
-
-void FB1SortBaseState::enterViaPseudoStart() {
-}
-
-void FB1SortBaseState::enterViaDeepHistory() {
-}
-
-void FB1SortBaseState::resetDeepHistory() {
+    this->action = action;
 }
 
 void FB1SortBaseState::showState() {

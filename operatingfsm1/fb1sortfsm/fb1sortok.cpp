@@ -4,11 +4,9 @@
 
 #include "fb1sortok.h"
 #include <iostream>
-using namespace std;
 
-void FB1SortOK::initSubFSM() {
-    FB1SortBaseState::initSubFSM();
-}
+#include "fb1sortout.h"
+using namespace std;
 
 void FB1SortOK::entry() {
     FB1SortBaseState::entry();
@@ -32,8 +30,10 @@ void FB1SortOK::leavingState() {
 
 TriggerProcessingState FB1SortOK::sortRise1() {
     cout << "Sorting Rise 1" << endl;
+    //TODO must check the sequence first
     leavingState();
-
+    new(this) FB1SortOut;
+    enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }
 

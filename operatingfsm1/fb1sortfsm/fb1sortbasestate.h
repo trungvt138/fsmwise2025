@@ -22,11 +22,11 @@ public:
     virtual void entry(){};
     virtual void exit(){};
 
-    void enterViaPseudoStart();
+    void enterViaPseudoStart(){enterByDefaultEntryPoint();};
 
-    void enterViaDeepHistory();
+    void enterViaDeepHistory(){enterByDeepHistoryEntryPoint();};
 
-    void resetDeepHistory();
+    //void resetDeepHistory();
 
     virtual void enterByDefaultEntryPoint(){entry();};
     virtual void enterByDeepHistoryEntryPoint(){entry();};

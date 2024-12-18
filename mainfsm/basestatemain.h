@@ -88,7 +88,7 @@ public:
     virtual TriggerProcessingState metalRise2(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalFall2(){ return TriggerProcessingState::pending; }
 
-    //virtual TriggerProcessingState connectionLost(){return TriggerProcessingState::pending;}
+    virtual TriggerProcessingState connectionLost(){return TriggerProcessingState::pending;}
     virtual TriggerProcessingState ws_timer_end(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState motor_timer_end(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState irqUpdate(){ return TriggerProcessingState::pending; }

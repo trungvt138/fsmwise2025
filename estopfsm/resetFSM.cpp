@@ -7,6 +7,7 @@
 #include "pseudoendestop.h"
 #include <iostream>
 
+#include "connectionlost.h"
 #include "e1pressed.h"
 #include "e2pressed.h"
 using namespace std;
@@ -54,5 +55,12 @@ TriggerProcessingState ResetFSM::estopPressed2() {
     cout << "ResetFSM::stopPressed2()" << endl;
     leavingState();
     new(this) E2Pressed;
+    return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState ResetFSM::connectionLost() {
+    cout << "ResetFSM::connectionLost()" << endl;
+    leavingState();
+    new(this) ConnectionLost;
     return TriggerProcessingState::consumed;
 }

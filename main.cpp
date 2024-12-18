@@ -31,4 +31,9 @@ int main(int argc, char** argv)
     fsm.heightStart1();
     fsm.stopPressed1();
     fsm.startShortPressed1();
+    fsm.connectionLost();
+    fsm.connectionBack();
+    fsm.estopUnpressed2();
+    fsm.resetPressed1();
+    fsm.resetPressed2();
 }

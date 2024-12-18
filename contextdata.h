@@ -10,9 +10,16 @@
 class ContextData {
 private:
     bool fb1_clr = true;
+    bool fb2_clr = true;
+    bool isE2Pressed = false;
 public:
     bool isFB1Clear();
     void setFB1Clear(bool val);
+    bool isFB2Clear();
+    void setFB2Clear(bool val);
+
+    bool isE2PressedAfterCL();
+    void setE2PressedAfterCL(bool val);
 };
 
 

@@ -10,7 +10,7 @@ using namespace std;
 
 //TODO: implement resetfsm states
 void BaseStateReset::enterViaPseudoStart() {
-    cout << "Entering Via Pseudo Start" << endl;
+    cout << "Entering Reset via Pseudo Start" << endl;
     new(this) Wait;
     enterByDefaultEntryPoint();
 }

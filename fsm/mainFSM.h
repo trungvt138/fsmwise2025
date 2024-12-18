@@ -71,7 +71,7 @@ public:
 
     //void connectionBack() override;
 
-    //void connectionLost() override;
+    void connectionLost() override;
 
     void estopPressed1() override;
 

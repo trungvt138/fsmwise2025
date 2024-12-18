@@ -64,6 +64,9 @@ public:
     void ws_height();
     void ws_metal();
 
+    void connectionLost();
+    void connectionBack();
+
     void showState();
 };
 

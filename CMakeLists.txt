@@ -89,4 +89,10 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/fb1sortfsm/fb1sortok.h
         operatingfsm1/fb1sortfsm/fb1sortout.cpp
         operatingfsm1/fb1sortfsm/fb1sortout.h
+        estopfsm/e1pressedcl.cpp
+        estopfsm/e1pressedcl.h
+        estopfsm/connectionlost.cpp
+        estopfsm/connectionlost.h
+        estopfsm/bothpressedcl.cpp
+        estopfsm/bothpressedcl.h
 )

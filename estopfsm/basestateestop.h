@@ -46,6 +46,8 @@ public:
     virtual TriggerProcessingState estopPressed2(){return TriggerProcessingState::pending;};
     virtual TriggerProcessingState estopUnpressed1(){return TriggerProcessingState::pending;};
     virtual TriggerProcessingState estopUnpressed2(){return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState connectionLost(){return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState connectionBack(){return TriggerProcessingState::pending;};
 };
 
 

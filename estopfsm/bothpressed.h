@@ -13,7 +13,7 @@ public:
 
     TriggerProcessingState estopUnpressed2() override;
 
-    //TriggerProcessingState connectionLost() override;
+    TriggerProcessingState connectionLost() override;
 
     void showState() override;
 };

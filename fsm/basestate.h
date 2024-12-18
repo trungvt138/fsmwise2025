@@ -39,6 +39,7 @@ public:
 
     virtual void enterViaPortE1(){};
     virtual void enterViaPortE2(){};
+    virtual void enterViaPortCL(){};
 
     virtual void startShortPressed1(){}
     virtual void startShortPressed2(){}
@@ -86,8 +87,8 @@ public:
     virtual void ws_height(){};
     virtual void ws_metal(){};
 
-    //virtual void connectionLost(){};
-    //virtual void connectionBack(){};
+    virtual void connectionLost(){};
+    virtual void connectionBack(){};
 
 };
 

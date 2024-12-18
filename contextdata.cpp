@@ -11,3 +11,20 @@ bool ContextData::isFB1Clear() {
 void ContextData::setFB1Clear(bool val) {
     fb1_clr = val;
 }
+
+bool ContextData::isFB2Clear() {
+    return fb2_clr;
+}
+
+void ContextData::setFB2Clear(bool val) {
+    fb2_clr = val;
+}
+
+bool ContextData::isE2PressedAfterCL() {
+    return isE2Pressed;
+}
+
+void ContextData::setE2PressedAfterCL(bool val) {
+    isE2Pressed = val;
+}
+

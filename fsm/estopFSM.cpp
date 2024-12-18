@@ -17,6 +17,12 @@ void EstopFSM::enterViaPortE2() {
     estopfsm->enterViaPortE2();
 }
 
+void EstopFSM::enterViaPortCL() {
+    entry();
+    estopfsm->enterViaPortCL();
+}
+
+
 void EstopFSM::handleDefaultExit(const TriggerProcessingState &processing_state) {
     if (processing_state == TriggerProcessingState::endstatereached) {
         estopfsm->exit();
@@ -73,19 +79,13 @@ void EstopFSM::estopUnpressed2() {
     handleDefaultExit(processing_state);
 }
 
-// void EstopFSM::connectionLost() {
-//     TriggerProcessingState processing_state = estopfsm->connectionLost();
-//     handleDefaultExit(processing_state);
-// }
-//
-// void EstopFSM::connectionBack() {
-//     TriggerProcessingState processing_state = estopfsm->connectionBack();
-//     handleDefaultExit(processing_state);
-// }
-// void EstopFSM::connectionLost() {
-//     BaseState::connectionLost();
-// }
-//
-// void EstopFSM::connectionBack() {
-//     BaseState::connectionBack();
-// }
+void EstopFSM::connectionLost() {
+    TriggerProcessingState processing_state = estopfsm->connectionLost();
+    handleDefaultExit(processing_state);
+}
+
+void EstopFSM::connectionBack() {
+    TriggerProcessingState processing_state = estopfsm->connectionBack();
+    handleDefaultExit(processing_state);
+}
+

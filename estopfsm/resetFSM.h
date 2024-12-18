@@ -22,6 +22,8 @@ public:
     TriggerProcessingState estopPressed1() override;
 
     TriggerProcessingState estopPressed2() override;
+
+    TriggerProcessingState connectionLost() override;
 };
 
 

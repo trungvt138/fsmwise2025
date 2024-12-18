@@ -7,6 +7,7 @@
 #include "../resetfsm/pseudostartreset.h"
 #include <iostream>
 
+#include "connectionlost.h"
 #include "e1pressed.h"
 #include "e2pressed.h"
 using namespace std;
@@ -17,16 +18,18 @@ void BaseStateEstop::initSubFSM() {
 }
 //TODO: implement estop states
 void BaseStateEstop::enterViaPortE1() {
-    cout << "Entering PseudoStart in BaseStateEstop" << endl;
+    cout << "Entering via E1" << endl;
     new(this) E1Pressed;
 }
 
 void BaseStateEstop::enterViaPortE2() {
-    cout << "Entering PseudoStart in BaseStateEstop" << endl;
+    cout << "Entering via E2" << endl;
     new(this) E2Pressed;
 }
 
 void BaseStateEstop::enterViaPortCL() {
+    cout << "Entering via CL" << endl;
+    new(this) ConnectionLost;
 }
 
 TriggerProcessingState BaseStateEstop::handleDefaultExit(const TriggerProcessingState &handled) {

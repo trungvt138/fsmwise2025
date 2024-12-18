@@ -6,6 +6,7 @@
 #include <iostream>
 
 #include "bothpressed.h"
+#include "connectionlost.h"
 #include "resetFSM.h"
 using namespace std;
 
@@ -21,6 +22,12 @@ TriggerProcessingState E2Pressed::estopUnpressed2() {
     leavingState();
     new(this) ResetFSM;
     enterByDefaultEntryPoint();
+    return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState E2Pressed::connectionLost() {
+    cout << "E2Pressed::connectionLost()" << endl;
+    new(this) ConnectionLost;
     return TriggerProcessingState::consumed;
 }
 

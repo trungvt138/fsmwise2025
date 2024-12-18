@@ -13,6 +13,8 @@ public:
 
     void enterViaPortE2() override;
 
+    void enterViaPortCL() override;
+
     void handleDefaultExit(const TriggerProcessingState &handled) override;
 
     void entry() override;
@@ -33,9 +35,9 @@ public:
 
     void estopUnpressed2() override;
 
-    //void connectionLost() override;
+    void connectionLost() override;
 
-    //void connectionBack() override;
+    void connectionBack() override;
 };
 
 

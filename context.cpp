@@ -185,6 +185,14 @@ void Context::ws_metal() {
     state->ws_metal();
 }
 
+void Context::connectionLost() {
+    state->connectionLost();
+}
+
+void Context::connectionBack() {
+    state->connectionBack();
+}
+
 void Context::showState() {
     state->showState();
 }

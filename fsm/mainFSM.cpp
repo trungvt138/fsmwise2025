@@ -192,6 +192,22 @@ void MainFSM::estopPressed2() {
     }
 }
 
+void MainFSM::connectionLost() {
+    cout << "MainFSM::connectionLost()" << endl;
+    TriggerProcessingState processing_state = mainfsm->connectionLost();
+
+    //TODO: delete this line
+    data->setE2PressedAfterCL(true);
+
+    if (processing_state == TriggerProcessingState::pending) {
+        mainfsm->resetDeepHistory();
+        mainfsm->exit();
+        leavingState();
+        new(this) EstopFSM;
+        enterViaPortCL();
+    }
+}
+
 void MainFSM::ws_timer_end() {
     mainfsm->ws_timer_end();
 }

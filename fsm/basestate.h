@@ -81,8 +81,8 @@ public:
     virtual void metalRise2(){}
     virtual void metalFall2(){}
 
-    virtual void ws_timer_end(){};
-    virtual void motor_timer_end(){};
+    virtual void ws_early(){};
+    virtual void ws_lost(){};
     virtual void irqUpdate(){};
     virtual void ws_height(){};
     virtual void ws_metal(){};

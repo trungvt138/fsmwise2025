@@ -4,9 +4,6 @@
 
 #include "err_slide_full.h"
 
-Err_slide_full::~Err_slide_full() {
-}
-
 void Err_slide_full::entry() {
     OperatingBaseState1::entry();
 }

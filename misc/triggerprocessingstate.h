@@ -11,6 +11,7 @@ enum class TriggerProcessingState {
     consumed,
     pending,
     endstatereached,
+    explicitexit,
 };
 
 

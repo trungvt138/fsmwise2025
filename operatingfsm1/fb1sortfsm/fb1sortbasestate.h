@@ -22,7 +22,7 @@ public:
     virtual void entry(){};
     virtual void exit(){};
 
-    void enterViaPseudoStart(){enterByDefaultEntryPoint();};
+    void enterViaPseudoStart();
 
     void enterViaDeepHistory(){enterByDeepHistoryEntryPoint();};
 

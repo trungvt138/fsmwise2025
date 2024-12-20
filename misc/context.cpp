@@ -165,12 +165,12 @@ void Context::sortFall2() {
     state->sortFall2();
 }
 
-void Context::ws_timer_end() {
-    state->ws_timer_end();
+void Context::ws_lost() {
+    state->ws_lost();
 }
 
-void Context::motor_timer_end() {
-    state->motor_timer_end();
+void Context::ws_early() {
+    state->ws_early();
 }
 
 void Context::irqUpdate() {

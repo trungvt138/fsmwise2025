@@ -95,4 +95,6 @@ add_executable(fsm_estop main.cpp
         estopfsm/connectionlost.h
         estopfsm/bothpressedcl.cpp
         estopfsm/bothpressedcl.h
+        operatingfsm1/fb1sortfsm/fb1warning.cpp
+        operatingfsm1/fb1sortfsm/fb1warning.h
 )

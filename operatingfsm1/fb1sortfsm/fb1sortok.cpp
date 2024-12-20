@@ -6,6 +6,7 @@
 #include <iostream>
 
 #include "fb1sortout.h"
+#include "fb1warning.h"
 using namespace std;
 
 void FB1SortOK::entry() {
@@ -31,6 +32,7 @@ void FB1SortOK::leavingState() {
 TriggerProcessingState FB1SortOK::sortRise1() {
     cout << "Sorting Rise 1" << endl;
     //TODO must check the sequence first
+    //if (!checksequence(ws_height))
     leavingState();
     new(this) FB1SortOut;
     enterByDefaultEntryPoint();
@@ -42,7 +44,11 @@ TriggerProcessingState FB1SortOK::sortFall1() {
 }
 
 TriggerProcessingState FB1SortOK::slideRise1() {
-    return FB1SortBaseState::slideRise1();
+    cout << "Sliding Rise 1" << endl;
+    leavingState();
+    new(this) FB1Warning;
+    enterByDefaultEntryPoint();
+    return TriggerProcessingState::consumed;
 }
 
 TriggerProcessingState FB1SortOK::slideFall1() {

@@ -93,9 +93,9 @@ public:
 
     void sortFall2() override;
 
-    void ws_timer_end() override;
+    void ws_lost() override;
 
-    void motor_timer_end() override;
+    void ws_early() override;
 
     void irqUpdate() override;
 

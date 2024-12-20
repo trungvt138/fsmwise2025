@@ -55,8 +55,8 @@ public:
     virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; };
-    virtual TriggerProcessingState motor_timer_end(){ return TriggerProcessingState::pending; };
-    virtual TriggerProcessingState ws_metal(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState ws_early(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState ws_lost(){ return TriggerProcessingState::pending; };
 };
 
 

@@ -25,15 +25,11 @@ int main(int argc, char** argv)
     fsm.resetPressed2();
     fsm.startShortPressed1();*/
 
-    //Test History
+    //Test Sort
     fsm.startShortPressed1();
     fsm.startRise1();
     fsm.heightStart1();
-    fsm.stopPressed1();
-    fsm.startShortPressed1();
-    fsm.connectionLost();
-    fsm.connectionBack();
-    fsm.estopUnpressed2();
-    fsm.resetPressed1();
-    fsm.resetPressed2();
+    fsm.heightEnd1();
+    fsm.sortRise1();
+    fsm.slideRise1();
 }

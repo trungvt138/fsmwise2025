@@ -68,15 +68,23 @@ public:
 
     TriggerProcessingState metalFall2() override;
 
+    TriggerProcessingState sortRise1() override;
+
+    TriggerProcessingState sortFall1() override;
+
+    TriggerProcessingState sortRise2() override;
+
+    TriggerProcessingState sortFall2() override;
+
     //TriggerProcessingState connectionLost() override;
 
     TriggerProcessingState startShortPressed1() override;
 
     TriggerProcessingState startShortPressed2() override;
 
-    TriggerProcessingState ws_timer_end() override;
+    TriggerProcessingState ws_early() override;
 
-    TriggerProcessingState motor_timer_end() override;
+    TriggerProcessingState ws_lost() override;
 
     TriggerProcessingState irqUpdate() override;
 

@@ -27,6 +27,8 @@ public:
 
     void showState() override;
 
+    TriggerProcessingState handleDefaultExit(TriggerProcessingState processing_state);
+
     TriggerProcessingState startRise1() override;
 
     TriggerProcessingState startFall1() override;
@@ -53,7 +55,9 @@ public:
 
     TriggerProcessingState startShortPressed1() override;
 
-    TriggerProcessingState motor_timer_end() override;
+    TriggerProcessingState ws_early() override;
+
+    TriggerProcessingState ws_lost() override;
 };
 
 

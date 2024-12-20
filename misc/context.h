@@ -58,8 +58,8 @@ public:
     void heightEnd2();
 
 
-    void ws_timer_end();
-    void motor_timer_end();
+    void ws_lost();
+    void ws_early();
     void irqUpdate();
     void ws_height();
     void ws_metal();

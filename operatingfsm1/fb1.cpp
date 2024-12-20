@@ -4,6 +4,10 @@
 
 #include "fb1.h"
 #include <iostream>
+
+#include "err_lost_ws.h"
+#include "err_new_ws.h"
+#include "err_slide_full.h"
 using namespace std;
 
 void FB1::entry() {
@@ -42,12 +46,19 @@ void FB1::showState() {
     OperatingBaseState1::showState();
 }
 
-TriggerProcessingState FB1::startRise1() {
-    return fb1runFSM->startRise1();
+TriggerProcessingState FB1::handleDefaultExit(TriggerProcessingState processing_state) {
+    if (processing_state == TriggerProcessingState::explicitexit) {
+        fb1runFSM->exit();
+        fb1sortFSM->exit();
+        leavingState();
+        new(this) Err_slide_full;
+        enterByDefaultEntryPoint();
+    }
+    return TriggerProcessingState::consumed;
 }
 
-TriggerProcessingState FB1::motor_timer_end() {
-    return fb1runFSM->motor_timer_end();
+TriggerProcessingState FB1::startRise1() {
+    return fb1runFSM->startRise1();
 }
 
 TriggerProcessingState FB1::startFall1() {
@@ -63,20 +74,20 @@ TriggerProcessingState FB1::endFall1() {
 }
 
 TriggerProcessingState FB1::sortRise1() {
-    return OperatingBaseState1::sortRise1();
+    TriggerProcessingState processing_state = fb1sortFSM->sortRise1();
+    return handleDefaultExit(processing_state);
 }
 
 TriggerProcessingState FB1::sortFall1() {
-    return OperatingBaseState1::sortFall1();
+    return fb1runFSM->sortFall1();
 }
 
 TriggerProcessingState FB1::slideRise1() {
-    cout << "slideRise1" << endl;
-    return OperatingBaseState1::slideRise1();
+    return fb1sortFSM->slideRise1();
 }
 
 TriggerProcessingState FB1::slideFall1() {
-    return OperatingBaseState1::slideFall1();
+    return fb1sortFSM->slideFall1();
 }
 
 TriggerProcessingState FB1::heightStart1() {
@@ -97,4 +108,20 @@ TriggerProcessingState FB1::metalFall1() {
 
 TriggerProcessingState FB1::startShortPressed1() {
     return OperatingBaseState1::startShortPressed1();
+}
+
+TriggerProcessingState FB1::ws_early() {
+    cout << "ws_early" << endl;
+    leavingState();
+    new(this) Err_new_ws;
+    enterByDefaultEntryPoint();
+    return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState FB1::ws_lost() {
+    cout << "ws_lost" << endl;
+    leavingState();
+    new(this) Err_lost_ws;
+    enterByDefaultEntryPoint();
+    return TriggerProcessingState::consumed;
 }

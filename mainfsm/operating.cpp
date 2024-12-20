@@ -143,16 +143,33 @@ TriggerProcessingState Operating::metalFall2() {
     return operatingFSM2->metalFall2();
 }
 
+TriggerProcessingState Operating::sortRise1() {
+    return operatingFSM1->sortRise1();
+}
+
+TriggerProcessingState Operating::sortFall1() {
+    return operatingFSM1->sortFall1();
+}
+
+TriggerProcessingState Operating::sortRise2() {
+    return operatingFSM2->sortRise2();
+}
+
+TriggerProcessingState Operating::sortFall2() {
+    return operatingFSM2->sortFall2();
+}
+
 // TriggerProcessingState Operating::connectionLost() {
 //     return operatingFSM2->connectionLost();
 // }
 
-TriggerProcessingState Operating::ws_timer_end() {
-    return BaseStateMain::ws_timer_end();
+TriggerProcessingState Operating::ws_early() {
+    TriggerProcessingState state = operatingFSM1->ws_early();
+    return state;
 }
 
-TriggerProcessingState Operating::motor_timer_end() {
-    TriggerProcessingState state = operatingFSM1->motor_timer_end();
+TriggerProcessingState Operating::ws_lost() {
+    TriggerProcessingState state = operatingFSM1->ws_lost();
     //operatingFSM2->motor_timer_end();
     return state;
 }

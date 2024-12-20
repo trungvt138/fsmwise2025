@@ -9,8 +9,6 @@
 
 class Err_slide_full : public OperatingBaseState1 {
 public:
-    ~Err_slide_full() override;
-
     void entry() override;
 
     void exit() override;

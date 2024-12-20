@@ -208,12 +208,12 @@ void MainFSM::connectionLost() {
     }
 }
 
-void MainFSM::ws_timer_end() {
-    mainfsm->ws_timer_end();
+void MainFSM::ws_lost() {
+    mainfsm->ws_lost();
 }
 
-void MainFSM::motor_timer_end() {
-    mainfsm->motor_timer_end();
+void MainFSM::ws_early() {
+    mainfsm->ws_early();
 }
 
 void MainFSM::irqUpdate() {

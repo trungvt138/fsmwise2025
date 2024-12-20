@@ -18,6 +18,7 @@ void Slow::exit() {
 
 void Slow::enterByDefaultEntryPoint() {
     entry();
+    slowfsm->enterViaPseudoStart();
 }
 
 void Slow::enterByDeepHistoryEntryPoint() {

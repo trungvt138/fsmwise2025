@@ -97,4 +97,24 @@ add_executable(fsm_estop main.cpp
         estopfsm/bothpressedcl.h
         operatingfsm1/fb1sortfsm/fb1warning.cpp
         operatingfsm1/fb1sortfsm/fb1warning.h
+        operatingfsm1/slowfsm/basestateslow1.cpp
+        operatingfsm1/slowfsm/basestateslow1.h
+        operatingfsm1/slowfsm/pseudostartslow1.h
+        operatingfsm1/slowfsm/idleslow1.cpp
+        operatingfsm1/slowfsm/idleslow1.h
+        operatingfsm1/slowfsm/ws_flat1.cpp
+        operatingfsm1/slowfsm/ws_flat1.h
+        operatingfsm1/slowfsm/ws_high1.cpp
+        operatingfsm1/slowfsm/ws_high1.h
+        operatingfsm1/slowfsm/bore1.cpp
+        operatingfsm1/slowfsm/bore1.h
+        operatingfsm1/slowfsm/ws_bore1.cpp
+        operatingfsm1/slowfsm/ws_bore1.h
+        operatingfsm1/slowfsm/ws_bin1.cpp
+        operatingfsm1/slowfsm/ws_bin1.h
+        operatingfsm1/slowfsm/high1.cpp
+        operatingfsm1/slowfsm/high1.h
+        operatingfsm1/slowfsm/pseudoendslow1.h
+        operatingfsm1/slowfsm/flat1.cpp
+        operatingfsm1/slowfsm/flat1.h
 )

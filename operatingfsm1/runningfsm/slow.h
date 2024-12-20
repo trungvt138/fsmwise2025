@@ -22,6 +22,8 @@ public:
     void showState() override;
 
     TriggerProcessingState heightEnd1() override;
+
+    //TODO: override triggers in slowfsm here
 };
 
 

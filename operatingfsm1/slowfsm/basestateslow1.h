@@ -1,21 +1,20 @@
 //
-// Created by Trung Dam on 12.12.24.
+// Created by Trung Dam on 20.12.24.
 //
 
-#ifndef RUNNINGBASESTATE_H
-#define RUNNINGBASESTATE_H
+#ifndef BASESTATESLOW1_H
+#define BASESTATESLOW1_H
+
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
 #include "../../misc/triggerprocessingstate.h"
-#include "../slowfsm/basestateslow1.h"
 
-class RunningBaseState {
+class BaseStateSlow1 {
 protected:
     Actions *action;
     ContextData *data;
-    BaseStateSlow1 *slowfsm;
 public:
-    virtual void initSubFSM();
+    virtual void initSubFSM(){};
 
     void setData(ContextData *data);
     void setAction(Actions *action);
@@ -35,17 +34,10 @@ public:
     virtual void leavingState(){exit();};
     virtual void showState(){};
 
-    virtual TriggerProcessingState heightStart1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightEnd1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
-
     virtual TriggerProcessingState heightFlat(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightHigh(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBore(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBelt(){ return TriggerProcessingState::pending; }
 };
 
-
-
-#endif //RUNNINGBASESTATE_H
+#endif //BASESTATESLOW1_H

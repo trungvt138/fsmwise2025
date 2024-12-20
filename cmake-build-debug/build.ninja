@@ -307,6 +307,60 @@ build CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.o: CXX_CO
   OBJECT_DIR = CMakeFiles/fsm_estop.dir
   OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm
 
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/basestateslow1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/idleslow1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/ws_flat1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/ws_high1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/bore1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/ws_bore1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/ws_bin1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/high1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
+build CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.o: CXX_COMPILER__fsm_estop_unscanned_Debug /Users/trungdam/CLionProjects/fsm_estop/operatingfsm1/slowfsm/flat1.cpp || cmake_object_order_depends_target_fsm_estop
+  DEP_FILE = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/fsm_estop.dir
+  OBJECT_FILE_DIR = CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target fsm_estop
@@ -315,7 +369,7 @@ build CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.o: CXX_CO
 #############################################
 # Link the executable fsm_estop
 
-build fsm_estop: CXX_EXECUTABLE_LINKER__fsm_estop_Debug CMakeFiles/fsm_estop.dir/main.cpp.o CMakeFiles/fsm_estop.dir/misc/action.cpp.o CMakeFiles/fsm_estop.dir/misc/context.cpp.o CMakeFiles/fsm_estop.dir/fsm/basestate.cpp.o CMakeFiles/fsm_estop.dir/misc/contextdata.cpp.o CMakeFiles/fsm_estop.dir/fsm/pseudostartstate.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/basestatemain.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/basestateestop.cpp.o CMakeFiles/fsm_estop.dir/fsm/mainFSM.cpp.o CMakeFiles/fsm_estop.dir/fsm/estopFSM.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/basestatereset.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e1pressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e2pressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/bothpressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/resetFSM.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/wait.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/r1pressed.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/r2pressed.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/idle.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/Operating.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/calibrating.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/operatingbasestate1.cpp.o CMakeFiles/fsm_estop.dir/calibratingfsm/calibratingbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm2/operatingbasestate2.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/Err_lost_ws.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/Err_slide_full.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.o
+build fsm_estop: CXX_EXECUTABLE_LINKER__fsm_estop_Debug CMakeFiles/fsm_estop.dir/main.cpp.o CMakeFiles/fsm_estop.dir/misc/action.cpp.o CMakeFiles/fsm_estop.dir/misc/context.cpp.o CMakeFiles/fsm_estop.dir/fsm/basestate.cpp.o CMakeFiles/fsm_estop.dir/misc/contextdata.cpp.o CMakeFiles/fsm_estop.dir/fsm/pseudostartstate.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/basestatemain.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/basestateestop.cpp.o CMakeFiles/fsm_estop.dir/fsm/mainFSM.cpp.o CMakeFiles/fsm_estop.dir/fsm/estopFSM.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/basestatereset.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e1pressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e2pressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/bothpressed.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/resetFSM.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/wait.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/r1pressed.cpp.o CMakeFiles/fsm_estop.dir/resetfsm/r2pressed.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/idle.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/Operating.cpp.o CMakeFiles/fsm_estop.dir/mainfsm/calibrating.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/operatingbasestate1.cpp.o CMakeFiles/fsm_estop.dir/calibratingfsm/calibratingbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm2/operatingbasestate2.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/Err_lost_ws.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/Err_slide_full.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.o CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.o CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
   OBJECT_DIR = CMakeFiles/fsm_estop.dir
   POST_BUILD = :

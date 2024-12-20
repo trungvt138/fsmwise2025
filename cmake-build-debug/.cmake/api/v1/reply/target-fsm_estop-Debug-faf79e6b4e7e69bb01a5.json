@@ -91,7 +91,16 @@
 				86,
 				88,
 				90,
-				92
+				92,
+				94,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				112
 			]
 		}
 	],
@@ -166,7 +175,16 @@
 				86,
 				88,
 				90,
-				92
+				92,
+				94,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				112
 			]
 		},
 		{
@@ -223,7 +241,18 @@
 				87,
 				89,
 				91,
-				93
+				93,
+				95,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				111,
+				113
 			]
 		}
 	],
@@ -740,6 +769,115 @@
 		{
 			"backtrace" : 1,
 			"path" : "operatingfsm1/fb1sortfsm/fb1warning.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/basestateslow1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/basestateslow1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/pseudostartslow1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/idleslow1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/idleslow1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/ws_flat1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/ws_flat1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/ws_high1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/ws_high1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/bore1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/bore1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/ws_bore1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/ws_bore1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/ws_bin1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/ws_bin1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/high1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/high1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/pseudoendslow1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm1/slowfsm/flat1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm1/slowfsm/flat1.h",
 			"sourceGroupIndex" : 1
 		}
 	],

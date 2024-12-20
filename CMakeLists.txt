@@ -4,15 +4,15 @@ project(fsm_estop)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(fsm_estop main.cpp
-        action.cpp
-        action.h
-        context.cpp
-        context.h
+        misc/action.cpp
+        misc/action.h
+        misc/context.cpp
+        misc/context.h
         fsm/basestate.cpp
         fsm/basestate.h
-        contextdata.cpp
-        contextdata.h
-        TriggerProcessingState.h
+        misc/contextdata.cpp
+        misc/contextdata.h
+        misc/triggerprocessingstate.h
         fsm/pseudostartstate.cpp
         fsm/pseudostartstate.h
         mainfsm/basestatemain.cpp

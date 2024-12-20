@@ -4,9 +4,9 @@
 
 #ifndef RUNNINGBASESTATE_H
 #define RUNNINGBASESTATE_H
-#include "../../action.h"
-#include "../../contextdata.h"
-#include "../../triggerprocessingstate.h"
+#include "../../misc/action.h"
+#include "../../misc/contextdata.h"
+#include "../../misc/triggerprocessingstate.h"
 
 class RunningBaseState {
 protected:

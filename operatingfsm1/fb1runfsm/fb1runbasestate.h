@@ -4,10 +4,10 @@
 
 #ifndef FB1RUNBASESTATE_H
 #define FB1RUNBASESTATE_H
-#include "../../action.h"
-#include "../../contextdata.h"
+#include "../../misc/action.h"
+#include "../../misc/contextdata.h"
 #include "../runningfsm/runningbasestate.h"
-#include "../../triggerprocessingstate.h"
+#include "../../misc/triggerprocessingstate.h"
 
 class FB1RunBaseState {
 protected:

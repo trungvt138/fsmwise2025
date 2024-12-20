@@ -5,9 +5,9 @@
 #ifndef BASESTATEESTOP_H
 #define BASESTATEESTOP_H
 
-#include "../action.h"
-#include "../contextdata.h"
-#include "../triggerprocessingstate.h"
+#include "../misc/action.h"
+#include "../misc/contextdata.h"
+#include "../misc/triggerprocessingstate.h"
 #include "../resetfsm/basestatereset.h"
 
 

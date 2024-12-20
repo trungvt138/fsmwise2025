@@ -6,7 +6,7 @@
 #define CONTEXT_H
 #include "action.h"
 #include "contextdata.h"
-#include "fsm/basestate.h"
+#include "../fsm/basestate.h"
 
 
 class Context {

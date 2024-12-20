@@ -4,8 +4,8 @@
 
 #ifndef CALIBRATINGBASESTATE_H
 #define CALIBRATINGBASESTATE_H
-#include "../action.h"
-#include "../contextdata.h"
+#include "../misc/action.h"
+#include "../misc/contextdata.h"
 
 
 class CalibratingBaseState {

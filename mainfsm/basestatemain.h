@@ -5,9 +5,9 @@
 #ifndef BASESTATEMAIN_H
 #define BASESTATEMAIN_H
 
-#include "../action.h"
-#include "../contextdata.h"
-#include "../triggerprocessingstate.h"
+#include "../misc/action.h"
+#include "../misc/contextdata.h"
+#include "../misc/triggerprocessingstate.h"
 #include "../operatingfsm1/operatingbasestate1.h"
 #include "../operatingfsm2/operatingbasestate2.h"
 #include "../calibratingfsm/calibratingbasestate.h"

@@ -4,9 +4,9 @@
 
 #ifndef FB1SORTBASESTATE_H
 #define FB1SORTBASESTATE_H
-#include "../../action.h"
-#include "../../contextdata.h"
-#include "../../triggerprocessingstate.h"
+#include "../../misc/action.h"
+#include "../../misc/contextdata.h"
+#include "../../misc/triggerprocessingstate.h"
 
 
 class FB1SortBaseState {

@@ -4,10 +4,10 @@
 
 #ifndef OPERATINGBASESTATE1_H
 #define OPERATINGBASESTATE1_H
-#include "../action.h"
-#include "../contextdata.h"
+#include "../misc/action.h"
+#include "../misc/contextdata.h"
 
-#include "../triggerprocessingstate.h"
+#include "../misc/triggerprocessingstate.h"
 #include "fb1runfsm/fb1runbasestate.h"
 #include "fb1sortfsm/fb1sortbasestate.h"
 

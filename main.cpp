@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "action.h"
-#include "context.h"
+#include "misc/action.h"
+#include "misc/context.h"
 
 int main(int argc, char** argv)
 {

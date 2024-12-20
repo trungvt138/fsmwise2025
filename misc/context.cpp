@@ -4,7 +4,7 @@
 
 #include "context.h"
 
-#include "fsm/pseudostartstate.h"
+#include "../fsm/pseudostartstate.h"
 
 Context::Context(Actions *shared_action) : action(shared_action) {
     state = new PseudoStartState();

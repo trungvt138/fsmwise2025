@@ -31,7 +31,3 @@ void BaseStateEstop::enterViaPortCL() {
     cout << "Entering via CL" << endl;
     new(this) ConnectionLost;
 }
-
-TriggerProcessingState BaseStateEstop::handleDefaultExit(const TriggerProcessingState &handled) {
-    return TriggerProcessingState::pending;
-}

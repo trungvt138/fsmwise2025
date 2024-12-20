@@ -26,8 +26,6 @@ public:
     void setData(ContextData *data){this->data = data;};
     void setAction(Actions *action){this->action = action;};
 
-    virtual TriggerProcessingState handleDefaultExit(const TriggerProcessingState &handled);
-
     virtual void enterByDefaultEntryPoint(){entry();};
     virtual void leavingState(){exit();};
 

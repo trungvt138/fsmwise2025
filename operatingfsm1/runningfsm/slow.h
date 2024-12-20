@@ -21,9 +21,18 @@ public:
 
     void showState() override;
 
-    TriggerProcessingState heightEnd1() override;
+    //TriggerProcessingState heightEnd1() override;
 
-    //TODO: override triggers in slowfsm here
+    TriggerProcessingState handleDefaultExit(TriggerProcessingState state);
+
+    TriggerProcessingState heightFlat() override;
+
+    TriggerProcessingState heightHigh() override;
+
+    TriggerProcessingState heightBore() override;
+
+    TriggerProcessingState heightBelt() override;
+
 };
 
 

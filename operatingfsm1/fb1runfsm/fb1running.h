@@ -30,6 +30,14 @@ public:
     TriggerProcessingState metalFall1() override;
 
     TriggerProcessingState endRise1() override;
+
+    TriggerProcessingState heightFlat() override;
+
+    TriggerProcessingState heightHigh() override;
+
+    TriggerProcessingState heightBore() override;
+
+    TriggerProcessingState heightBelt() override;
 };
 
 

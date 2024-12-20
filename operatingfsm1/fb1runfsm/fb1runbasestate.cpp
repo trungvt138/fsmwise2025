@@ -10,6 +10,7 @@ using namespace std;
 
 void FB1RunBaseState::initSubFSM() {
     runningfsm = new RunningPseudoStart();
+    runningfsm->initSubFSM();
 }
 
 void FB1RunBaseState::setData(ContextData *data) {

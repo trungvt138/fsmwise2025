@@ -8,7 +8,6 @@
 #include "wait.h"
 using namespace std;
 
-//TODO: implement resetfsm states
 void BaseStateReset::enterViaPseudoStart() {
     cout << "Entering Reset via Pseudo Start" << endl;
     new(this) Wait;

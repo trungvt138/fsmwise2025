@@ -197,7 +197,7 @@ void MainFSM::connectionLost() {
     TriggerProcessingState processing_state = mainfsm->connectionLost();
 
     //TODO: delete this line
-    data->setE2PressedAfterCL(true);
+    //data->setE2PressedAfterCL(true);
 
     if (processing_state == TriggerProcessingState::pending) {
         mainfsm->resetDeepHistory();
@@ -226,5 +226,21 @@ void MainFSM::ws_height() {
 
 void MainFSM::ws_metal() {
     mainfsm->ws_metal();
+}
+
+void MainFSM::heightFlat() {
+    mainfsm->heightFlat();
+}
+
+void MainFSM::heightHigh() {
+    mainfsm->heightHigh();
+}
+
+void MainFSM::heightBore() {
+    mainfsm->heightBore();
+}
+
+void MainFSM::heightBelt() {
+    mainfsm->heightBelt();
 }
 

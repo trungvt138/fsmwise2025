@@ -11,6 +11,7 @@ using namespace std;
 TriggerProcessingState WS_Bore1::heightBelt() {
     cout << "WS_Bore1::heightBelt()" << endl;
     leavingState();
+    //TODO: set_ws_height(bore)
     new(this) PseudoEndSlow1;
     return TriggerProcessingState::endstatereached;
 }

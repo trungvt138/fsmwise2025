@@ -67,6 +67,11 @@ public:
     void connectionLost();
     void connectionBack();
 
+    void heightFlat();
+    void heightHigh();
+    void heightBore();
+    void heightBelt();
+
     void showState();
 };
 

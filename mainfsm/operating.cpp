@@ -186,6 +186,22 @@ TriggerProcessingState Operating::ws_metal() {
     return BaseStateMain::ws_metal();
 }
 
+TriggerProcessingState Operating::heightFlat() {
+    return operatingFSM1->heightFlat();
+}
+
+TriggerProcessingState Operating::heightHigh() {
+    return operatingFSM1->heightHigh();
+}
+
+TriggerProcessingState Operating::heightBore() {
+    return operatingFSM1->heightBore();
+}
+
+TriggerProcessingState Operating::heightBelt() {
+    return operatingFSM1->heightBelt();
+}
+
 void Operating::showState() {
     operatingFSM1->showState();
     operatingFSM2->showState();

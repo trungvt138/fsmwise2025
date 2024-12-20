@@ -92,6 +92,14 @@ public:
 
     TriggerProcessingState ws_metal() override;
 
+    TriggerProcessingState heightFlat() override;
+
+    TriggerProcessingState heightHigh() override;
+
+    TriggerProcessingState heightBore() override;
+
+    TriggerProcessingState heightBelt() override;
+
     void showState() override;
 };
 

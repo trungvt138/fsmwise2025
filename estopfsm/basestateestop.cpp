@@ -16,7 +16,7 @@ void BaseStateEstop::initSubFSM() {
     resetfsm = new PseudoStartReset();
     resetfsm->initSubFSM();
 }
-//TODO: implement estop states
+
 void BaseStateEstop::enterViaPortE1() {
     cout << "Entering via E1" << endl;
     new(this) E1Pressed;

@@ -102,6 +102,14 @@ public:
     void ws_height() override;
 
     void ws_metal() override;
+
+    void heightFlat() override;
+
+    void heightHigh() override;
+
+    void heightBore() override;
+
+    void heightBelt() override;
 };
 
 

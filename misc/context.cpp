@@ -193,6 +193,22 @@ void Context::connectionBack() {
     state->connectionBack();
 }
 
+void Context::heightFlat() {
+    state->heightFlat();
+}
+
+void Context::heightHigh() {
+    state->heightHigh();
+}
+
+void Context::heightBore() {
+    state->heightBore();
+}
+
+void Context::heightBelt() {
+    state->heightBelt();
+}
+
 void Context::showState() {
     state->showState();
 }

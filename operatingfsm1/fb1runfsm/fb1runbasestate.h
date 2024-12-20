@@ -53,6 +53,11 @@ public:
     virtual TriggerProcessingState motor_timer_end(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_metal(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState end2Fall(){ return TriggerProcessingState::pending; };
+
+    virtual TriggerProcessingState heightFlat(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightHigh(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBore(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBelt(){ return TriggerProcessingState::pending; }
 };
 
 

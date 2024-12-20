@@ -58,3 +58,19 @@ TriggerProcessingState Running::metalRise1() {
 TriggerProcessingState Running::metalFall1() {
     return runningfsm->metalFall1();
 }
+
+TriggerProcessingState Running::heightFlat() {
+    return runningfsm->heightFlat();
+}
+
+TriggerProcessingState Running::heightHigh() {
+    return runningfsm->heightHigh();
+}
+
+TriggerProcessingState Running::heightBore() {
+    return runningfsm->heightBore();
+}
+
+TriggerProcessingState Running::heightBelt() {
+    return runningfsm->heightBelt();
+}

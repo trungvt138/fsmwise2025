@@ -11,6 +11,7 @@ using namespace std;
 TriggerProcessingState WS_Bin1::heightBelt() {
     cout << "WS_Bin1::heightBelt()" << endl;
     leavingState();
+    //TODO: set_ws_height(bin)
     new(this) PseudoEndSlow1;
     return TriggerProcessingState::endstatereached;
 }

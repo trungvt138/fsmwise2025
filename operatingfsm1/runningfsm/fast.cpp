@@ -35,7 +35,7 @@ void Fast::showState() {
 TriggerProcessingState Fast::heightStart1() {
     leavingState();
     new(this) Slow;
-    enterByDeepHistoryEntryPoint();
+    enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }
 
@@ -43,7 +43,7 @@ TriggerProcessingState Fast::metalRise1() {
     leavingState();
     new(this) Fast;
     //TODO: update metal ws
-    enterByDeepHistoryEntryPoint();
+    enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }
 

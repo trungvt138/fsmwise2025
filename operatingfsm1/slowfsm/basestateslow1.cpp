@@ -3,6 +3,9 @@
 //
 
 #include "basestateslow1.h"
+#include "idleslow1.h"
+#include <iostream>
+using namespace std;
 
 void BaseStateSlow1::setData(ContextData *data) {
     this->data = data;
@@ -13,7 +16,7 @@ void BaseStateSlow1::setAction(Actions *action) {
 }
 
 void BaseStateSlow1::enterViaPseudoStart() {
-    //TODO new(this) IdleSlow1;
+    new(this) IdleSlow1;
     enterByDefaultEntryPoint();
 }
 

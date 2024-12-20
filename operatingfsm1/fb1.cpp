@@ -125,3 +125,19 @@ TriggerProcessingState FB1::ws_lost() {
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }
+
+TriggerProcessingState FB1::heightFlat() {
+    return fb1runFSM->heightFlat();
+}
+
+TriggerProcessingState FB1::heightHigh() {
+    return fb1runFSM->heightHigh();
+}
+
+TriggerProcessingState FB1::heightBore() {
+    return fb1runFSM->heightBore();
+}
+
+TriggerProcessingState FB1::heightBelt() {
+    return fb1runFSM->heightBelt();
+}

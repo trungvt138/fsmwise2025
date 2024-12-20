@@ -58,6 +58,14 @@ public:
     TriggerProcessingState ws_early() override;
 
     TriggerProcessingState ws_lost() override;
+
+    TriggerProcessingState heightFlat() override;
+
+    TriggerProcessingState heightHigh() override;
+
+    TriggerProcessingState heightBore() override;
+
+    TriggerProcessingState heightBelt() override;
 };
 
 

@@ -29,7 +29,9 @@ int main(int argc, char** argv)
     fsm.startShortPressed1();
     fsm.startRise1();
     fsm.heightStart1();
-    fsm.heightEnd1();
+    fsm.heightHigh();
+    fsm.heightFlat();
+    fsm.heightBelt();
     fsm.sortRise1();
     fsm.slideRise1();
 }

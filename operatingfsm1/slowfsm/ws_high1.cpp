@@ -29,6 +29,7 @@ TriggerProcessingState WS_High1::heightBore() {
 TriggerProcessingState WS_High1::heightBelt() {
     cout << "WS_High1::heightBelt()" << endl;
     leavingState();
+    //TODO: set_ws_height(high)
     new(this) PseudoEndSlow1;
     return TriggerProcessingState::endstatereached;
 }

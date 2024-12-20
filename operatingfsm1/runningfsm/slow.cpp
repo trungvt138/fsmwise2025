@@ -33,11 +33,28 @@ void Slow::showState() {
     RunningBaseState::showState();
 }
 
-TriggerProcessingState Slow::heightEnd1() {
-    cout << "Height end 1" << endl;
-    leavingState();
-    //TODO: save/update ws height
-    new(this) Fast;
-    enterByDefaultEntryPoint();
+TriggerProcessingState Slow::handleDefaultExit(TriggerProcessingState state) {
+    if (state == TriggerProcessingState::endstatereached) {
+        slowfsm->exit();
+        leavingState();
+        new(this) Fast;
+        enterByDefaultEntryPoint();
+    }
     return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState Slow::heightFlat() {
+    return handleDefaultExit(slowfsm->heightFlat());
+}
+
+TriggerProcessingState Slow::heightHigh() {
+    return handleDefaultExit(slowfsm->heightHigh());
+}
+
+TriggerProcessingState Slow::heightBore() {
+    return handleDefaultExit(slowfsm->heightBore());
+}
+
+TriggerProcessingState Slow::heightBelt() {
+    return handleDefaultExit(slowfsm->heightBelt());;
 }

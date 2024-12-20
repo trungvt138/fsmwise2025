@@ -15,8 +15,6 @@ protected:
     ContextData *data;
     RunningBaseState *runningfsm;
 public:
-    virtual ~FB1RunBaseState() = default;
-
     virtual void initSubFSM();
 
     void setData(ContextData *data);

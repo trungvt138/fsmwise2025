@@ -36,20 +36,28 @@ void Actions::lightGreenOff2() {
     cout << "Actions::lightGreenOff2" << endl;
 }
 
-void Actions::lightGreenBlinkFast1() {
-    cout << "Actions::lightGreenBlinkFast1" << endl;
+void Actions::lightGreenBlink1() {
+    cout << "Actions::lightGreenBlink1" << endl;
 }
 
-void Actions::lightGreenBlinkFast2() {
-    cout << "Actions::lightGreenBlinkFast2" << endl;
+void Actions::lightGreenBlink2() {
+    cout << "Actions::lightGreenBlink2" << endl;
 }
 
-void Actions::lightGreenBlinkSlow1() {
-    cout << "Actions::lightGreenBlinkSlow1" << endl;
+void Actions::lightRedBlinkFast1() {
+    cout << "Actions::lightRedBlinkFast1" << endl;
 }
 
-void Actions::lightGreenBlinkSlow2() {
-    cout << "Actions::lightGreenBlinkSlow2" << endl;
+void Actions::lightRedBlinkFast2() {
+    cout << "Actions::lightRedBlinkFast2" << endl;
+}
+
+void Actions::lightRedBlinkSlow1() {
+    cout << "Actions::lightRedBlinkSlow1" << endl;
+}
+
+void Actions::lightRedBlinkSlow2() {
+    cout << "Actions::lightRedBlinkSlow2" << endl;
 }
 
 void Actions::lightRedOn1() {

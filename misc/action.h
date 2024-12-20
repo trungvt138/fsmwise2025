@@ -17,15 +17,18 @@ public:
     virtual void lightGreenOn2();
     virtual void lightGreenOff2();
 
-    virtual void lightGreenBlinkFast1();
-    virtual void lightGreenBlinkFast2();
-    virtual void lightGreenBlinkSlow1();
-    virtual void lightGreenBlinkSlow2();
+    virtual void lightGreenBlink1();
+    virtual void lightGreenBlink2();
 
     virtual void lightRedOn1();
     virtual void lightRedOff1();
     virtual void lightRedOn2();
     virtual void lightRedOff2();
+
+    virtual void lightRedBlinkFast1();
+    virtual void lightRedBlinkFast2();
+    virtual void lightRedBlinkSlow1();
+    virtual void lightRedBlinkSlow2();
 
     virtual void lightYellowOn1();
     virtual void lightYellowOff1();

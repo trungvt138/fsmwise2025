@@ -34,11 +34,11 @@ void Operating::resetDeepHistory() {
 }
 
 TriggerProcessingState Operating::resetPressed1() {
-    return BaseStateMain::resetPressed1();
+    return operatingFSM1->resetPressed1();
 }
 
 TriggerProcessingState Operating::resetPressed2() {
-    return BaseStateMain::resetPressed2();
+    return operatingFSM1->resetPressed2();
 }
 
 TriggerProcessingState Operating::startShortPressed1() {

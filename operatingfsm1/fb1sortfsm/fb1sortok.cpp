@@ -18,7 +18,7 @@ void FB1SortOK::exit() {
 }
 
 void FB1SortOK::enterByDefaultEntryPoint() {
-    FB1SortBaseState::enterByDefaultEntryPoint();
+    entry();
 }
 
 void FB1SortOK::enterByDeepHistoryEntryPoint() {

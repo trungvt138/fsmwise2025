@@ -117,4 +117,14 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/slowfsm/pseudoendslow1.h
         operatingfsm1/slowfsm/flat1.cpp
         operatingfsm1/slowfsm/flat1.h
+        operatingfsm1/errorfsm/errorbasestate.cpp
+        operatingfsm1/errorfsm/errorbasestate.h
+        operatingfsm1/errorfsm/pseudostarterror.h
+        operatingfsm1/errorfsm/pseudoenderror.h
+        operatingfsm1/errorfsm/waiterror.cpp
+        operatingfsm1/errorfsm/handlingerror.cpp
+        operatingfsm1/errorfsm/handlingerror.h
+        operatingfsm1/errorfsm/waiterror.h
+        operatingfsm1/error.cpp
+        operatingfsm1/error.h
 )

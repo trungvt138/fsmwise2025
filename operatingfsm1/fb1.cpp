@@ -5,6 +5,7 @@
 #include "fb1.h"
 #include <iostream>
 
+#include "error.h"
 #include "err_lost_ws.h"
 #include "err_new_ws.h"
 #include "err_slide_full.h"
@@ -51,8 +52,8 @@ TriggerProcessingState FB1::handleDefaultExit(TriggerProcessingState processing_
         fb1runFSM->exit();
         fb1sortFSM->exit();
         leavingState();
-        new(this) Err_slide_full;
-        enterByDefaultEntryPoint();
+        new(this) Error;
+        enterViaErrSlideFull();
     }
     return TriggerProcessingState::consumed;
 }
@@ -113,16 +114,16 @@ TriggerProcessingState FB1::startShortPressed1() {
 TriggerProcessingState FB1::ws_early() {
     cout << "ws_early" << endl;
     leavingState();
-    new(this) Err_new_ws;
-    enterByDefaultEntryPoint();
+    new(this) Error;
+    enterViaErrNewWS();
     return TriggerProcessingState::consumed;
 }
 
 TriggerProcessingState FB1::ws_lost() {
     cout << "ws_lost" << endl;
     leavingState();
-    new(this) Err_lost_ws;
-    enterByDefaultEntryPoint();
+    new(this) Error;
+    enterViaErrLostWS();
     return TriggerProcessingState::consumed;
 }
 

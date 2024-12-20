@@ -8,6 +8,7 @@
 #include "../misc/contextdata.h"
 
 #include "../misc/triggerprocessingstate.h"
+#include "errorfsm/errorbasestate.h"
 #include "fb1runfsm/fb1runbasestate.h"
 #include "fb1sortfsm/fb1sortbasestate.h"
 
@@ -18,10 +19,12 @@ protected:
     ContextData *data;
     FB1RunBaseState *fb1runFSM;
     FB1SortBaseState *fb1sortFSM;
+    ErrorBaseState *errorFSM;
 public:
     virtual ~OperatingBaseState1() {
         delete fb1runFSM;
         delete fb1sortFSM;
+        delete errorFSM;
     };
     void initSubFSM();
     void setAction(Actions *action);
@@ -31,6 +34,9 @@ public:
     virtual void exit(){};
 
     virtual void enterViaPseudoStart();
+    virtual void enterViaErrNewWS(){}
+    virtual void enterViaErrLostWS(){}
+    virtual void enterViaErrSlideFull(){}
 
     virtual void enterViaDeepHistory();
 
@@ -55,6 +61,9 @@ public:
     virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState startShortPressed2(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState resetPressed1() { return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState resetPressed2() { return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_early(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_lost(){ return TriggerProcessingState::pending; };
 

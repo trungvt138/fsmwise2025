@@ -25,13 +25,10 @@ int main(int argc, char** argv)
     fsm.resetPressed2();
     fsm.startShortPressed1();*/
 
-    //Test Sort
+    //Test Error
     fsm.startShortPressed1();
     fsm.startRise1();
-    fsm.heightStart1();
-    fsm.heightHigh();
-    fsm.heightFlat();
-    fsm.heightBelt();
-    fsm.sortRise1();
-    fsm.slideRise1();
+    fsm.ws_early();
+    fsm.resetPressed1();
+    fsm.startShortPressed1();
 }

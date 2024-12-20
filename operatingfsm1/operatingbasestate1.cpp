@@ -8,6 +8,7 @@
 #include "fb1sortfsm/pseudostartfb1sort.h"
 #include <iostream>
 #include "fb1.h"
+#include "errorfsm/pseudostarterror.h"
 using namespace std;
 
 void OperatingBaseState1::initSubFSM() {
@@ -15,18 +16,21 @@ void OperatingBaseState1::initSubFSM() {
     fb1runFSM->initSubFSM();
     fb1sortFSM = new PseudoStartFB1Sort();
     fb1sortFSM->initSubFSM();
+    errorFSM = new PseudoStartError();
 }
 
 void OperatingBaseState1::setAction(Actions *action) {
     this->actions = action;
     fb1runFSM->setAction(action);
     fb1sortFSM->setAction(action);
+    errorFSM->setAction(action);
 }
 
 void OperatingBaseState1::setData(ContextData *data) {
     this->data = data;
     fb1sortFSM->setData(data);
     fb1sortFSM->setData(data);
+    errorFSM->setData(data);
 }
 
 void OperatingBaseState1::enterViaPseudoStart() {

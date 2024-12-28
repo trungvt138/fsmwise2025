@@ -2,22 +2,29 @@
 // Created by Trung Dam on 11.12.24.
 //
 
-#ifndef OPERATINGBASESTATE2_H
-#define OPERATINGBASESTATE2_H
+#ifndef OPERATINGBASESTATE1_H
+#define OPERATINGBASESTATE1_H
 #include "../misc/action.h"
 #include "../misc/contextdata.h"
+
 #include "../misc/triggerprocessingstate.h"
+#include "errorfsm/errorbasestate.h"
+#include "fb1runfsm/fb1runbasestate.h"
+#include "fb1sortfsm/fb1sortbasestate.h"
 
 
-class OperatingBaseState2 {
+class OperatingBaseState1 {
 protected:
     Actions *actions;
-    ContextData *contextData;
+    ContextData *data;
+    FB1RunBaseState *fb1runFSM;
+    FB1SortBaseState *fb1sortFSM;
+    ErrorBaseState *errorFSM;
 public:
-    virtual ~OperatingBaseState2() {
-        //delete fb1runFSM;
-        //delete fb1sortFSM;
-        //delete errorFSM;
+    virtual ~OperatingBaseState1() {
+        delete fb1runFSM;
+        delete fb1sortFSM;
+        delete errorFSM;
     };
     void initSubFSM();
     void setAction(Actions *action);
@@ -41,20 +48,18 @@ public:
     virtual void leavingState(){exit();};
     virtual void showState(){};
 
-
-    virtual TriggerProcessingState startRise2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState startFall2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState slideRise2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState slideFall2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState endRise2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState endFall2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState sortRise2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState sortFall2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightStart2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightEnd2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalRise2(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalFall2(){ return TriggerProcessingState::pending; }
-
+    virtual TriggerProcessingState startRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState startFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState endRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState endFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState sortRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState sortFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState slideRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState slideFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightStart1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightEnd1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState startShortPressed2(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState resetPressed1() { return TriggerProcessingState::pending; };
@@ -70,4 +75,4 @@ public:
 
 
 
-#endif //OPERATINGBASESTATE2_H
+#endif //OPERATINGBASESTATE1_H

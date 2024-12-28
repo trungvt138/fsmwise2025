@@ -128,30 +128,6 @@ fsm_estop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/build
 .PHONY : fsm_estop/fast
 
-action.obj: action.cpp.obj
-.PHONY : action.obj
-
-# target to build an object file
-action.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/action.cpp.obj
-.PHONY : action.cpp.obj
-
-action.i: action.cpp.i
-.PHONY : action.i
-
-# target to preprocess a source file
-action.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/action.cpp.i
-.PHONY : action.cpp.i
-
-action.s: action.cpp.s
-.PHONY : action.s
-
-# target to generate assembly for a file
-action.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/action.cpp.s
-.PHONY : action.cpp.s
-
 calibratingfsm/calibratingbasestate.obj: calibratingfsm/calibratingbasestate.cpp.obj
 .PHONY : calibratingfsm/calibratingbasestate.obj
 
@@ -175,54 +151,6 @@ calibratingfsm/calibratingbasestate.s: calibratingfsm/calibratingbasestate.cpp.s
 calibratingfsm/calibratingbasestate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/calibratingfsm/calibratingbasestate.cpp.s
 .PHONY : calibratingfsm/calibratingbasestate.cpp.s
-
-context.obj: context.cpp.obj
-.PHONY : context.obj
-
-# target to build an object file
-context.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/context.cpp.obj
-.PHONY : context.cpp.obj
-
-context.i: context.cpp.i
-.PHONY : context.i
-
-# target to preprocess a source file
-context.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/context.cpp.i
-.PHONY : context.cpp.i
-
-context.s: context.cpp.s
-.PHONY : context.s
-
-# target to generate assembly for a file
-context.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/context.cpp.s
-.PHONY : context.cpp.s
-
-contextdata.obj: contextdata.cpp.obj
-.PHONY : contextdata.obj
-
-# target to build an object file
-contextdata.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/contextdata.cpp.obj
-.PHONY : contextdata.cpp.obj
-
-contextdata.i: contextdata.cpp.i
-.PHONY : contextdata.i
-
-# target to preprocess a source file
-contextdata.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/contextdata.cpp.i
-.PHONY : contextdata.cpp.i
-
-contextdata.s: contextdata.cpp.s
-.PHONY : contextdata.s
-
-# target to generate assembly for a file
-contextdata.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/contextdata.cpp.s
-.PHONY : contextdata.cpp.s
 
 estopfsm/basestateestop.obj: estopfsm/basestateestop.cpp.obj
 .PHONY : estopfsm/basestateestop.obj
@@ -272,6 +200,54 @@ estopfsm/bothpressed.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/bothpressed.cpp.s
 .PHONY : estopfsm/bothpressed.cpp.s
 
+estopfsm/bothpressedcl.obj: estopfsm/bothpressedcl.cpp.obj
+.PHONY : estopfsm/bothpressedcl.obj
+
+# target to build an object file
+estopfsm/bothpressedcl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj
+.PHONY : estopfsm/bothpressedcl.cpp.obj
+
+estopfsm/bothpressedcl.i: estopfsm/bothpressedcl.cpp.i
+.PHONY : estopfsm/bothpressedcl.i
+
+# target to preprocess a source file
+estopfsm/bothpressedcl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.i
+.PHONY : estopfsm/bothpressedcl.cpp.i
+
+estopfsm/bothpressedcl.s: estopfsm/bothpressedcl.cpp.s
+.PHONY : estopfsm/bothpressedcl.s
+
+# target to generate assembly for a file
+estopfsm/bothpressedcl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.s
+.PHONY : estopfsm/bothpressedcl.cpp.s
+
+estopfsm/connectionlost.obj: estopfsm/connectionlost.cpp.obj
+.PHONY : estopfsm/connectionlost.obj
+
+# target to build an object file
+estopfsm/connectionlost.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj
+.PHONY : estopfsm/connectionlost.cpp.obj
+
+estopfsm/connectionlost.i: estopfsm/connectionlost.cpp.i
+.PHONY : estopfsm/connectionlost.i
+
+# target to preprocess a source file
+estopfsm/connectionlost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.i
+.PHONY : estopfsm/connectionlost.cpp.i
+
+estopfsm/connectionlost.s: estopfsm/connectionlost.cpp.s
+.PHONY : estopfsm/connectionlost.s
+
+# target to generate assembly for a file
+estopfsm/connectionlost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.s
+.PHONY : estopfsm/connectionlost.cpp.s
+
 estopfsm/e1pressed.obj: estopfsm/e1pressed.cpp.obj
 .PHONY : estopfsm/e1pressed.obj
 
@@ -295,6 +271,30 @@ estopfsm/e1pressed.s: estopfsm/e1pressed.cpp.s
 estopfsm/e1pressed.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/e1pressed.cpp.s
 .PHONY : estopfsm/e1pressed.cpp.s
+
+estopfsm/e1pressedcl.obj: estopfsm/e1pressedcl.cpp.obj
+.PHONY : estopfsm/e1pressedcl.obj
+
+# target to build an object file
+estopfsm/e1pressedcl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj
+.PHONY : estopfsm/e1pressedcl.cpp.obj
+
+estopfsm/e1pressedcl.i: estopfsm/e1pressedcl.cpp.i
+.PHONY : estopfsm/e1pressedcl.i
+
+# target to preprocess a source file
+estopfsm/e1pressedcl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.i
+.PHONY : estopfsm/e1pressedcl.cpp.i
+
+estopfsm/e1pressedcl.s: estopfsm/e1pressedcl.cpp.s
+.PHONY : estopfsm/e1pressedcl.s
+
+# target to generate assembly for a file
+estopfsm/e1pressedcl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.s
+.PHONY : estopfsm/e1pressedcl.cpp.s
 
 estopfsm/e2pressed.obj: estopfsm/e2pressed.cpp.obj
 .PHONY : estopfsm/e2pressed.obj
@@ -560,6 +560,78 @@ mainfsm/operating.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/mainfsm/operating.cpp.s
 .PHONY : mainfsm/operating.cpp.s
 
+misc/action.obj: misc/action.cpp.obj
+.PHONY : misc/action.obj
+
+# target to build an object file
+misc/action.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/action.cpp.obj
+.PHONY : misc/action.cpp.obj
+
+misc/action.i: misc/action.cpp.i
+.PHONY : misc/action.i
+
+# target to preprocess a source file
+misc/action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/action.cpp.i
+.PHONY : misc/action.cpp.i
+
+misc/action.s: misc/action.cpp.s
+.PHONY : misc/action.s
+
+# target to generate assembly for a file
+misc/action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/action.cpp.s
+.PHONY : misc/action.cpp.s
+
+misc/context.obj: misc/context.cpp.obj
+.PHONY : misc/context.obj
+
+# target to build an object file
+misc/context.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/context.cpp.obj
+.PHONY : misc/context.cpp.obj
+
+misc/context.i: misc/context.cpp.i
+.PHONY : misc/context.i
+
+# target to preprocess a source file
+misc/context.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/context.cpp.i
+.PHONY : misc/context.cpp.i
+
+misc/context.s: misc/context.cpp.s
+.PHONY : misc/context.s
+
+# target to generate assembly for a file
+misc/context.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/context.cpp.s
+.PHONY : misc/context.cpp.s
+
+misc/contextdata.obj: misc/contextdata.cpp.obj
+.PHONY : misc/contextdata.obj
+
+# target to build an object file
+misc/contextdata.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/contextdata.cpp.obj
+.PHONY : misc/contextdata.cpp.obj
+
+misc/contextdata.i: misc/contextdata.cpp.i
+.PHONY : misc/contextdata.i
+
+# target to preprocess a source file
+misc/contextdata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/contextdata.cpp.i
+.PHONY : misc/contextdata.cpp.i
+
+misc/contextdata.s: misc/contextdata.cpp.s
+.PHONY : misc/contextdata.s
+
+# target to generate assembly for a file
+misc/contextdata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/misc/contextdata.cpp.s
+.PHONY : misc/contextdata.cpp.s
+
 operatingfsm1/err_lost_ws.obj: operatingfsm1/err_lost_ws.cpp.obj
 .PHONY : operatingfsm1/err_lost_ws.obj
 
@@ -631,6 +703,102 @@ operatingfsm1/err_slide_full.s: operatingfsm1/err_slide_full.cpp.s
 operatingfsm1/err_slide_full.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.s
 .PHONY : operatingfsm1/err_slide_full.cpp.s
+
+operatingfsm1/error.obj: operatingfsm1/error.cpp.obj
+.PHONY : operatingfsm1/error.obj
+
+# target to build an object file
+operatingfsm1/error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj
+.PHONY : operatingfsm1/error.cpp.obj
+
+operatingfsm1/error.i: operatingfsm1/error.cpp.i
+.PHONY : operatingfsm1/error.i
+
+# target to preprocess a source file
+operatingfsm1/error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.i
+.PHONY : operatingfsm1/error.cpp.i
+
+operatingfsm1/error.s: operatingfsm1/error.cpp.s
+.PHONY : operatingfsm1/error.s
+
+# target to generate assembly for a file
+operatingfsm1/error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.s
+.PHONY : operatingfsm1/error.cpp.s
+
+operatingfsm1/errorfsm/errorbasestate.obj: operatingfsm1/errorfsm/errorbasestate.cpp.obj
+.PHONY : operatingfsm1/errorfsm/errorbasestate.obj
+
+# target to build an object file
+operatingfsm1/errorfsm/errorbasestate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj
+.PHONY : operatingfsm1/errorfsm/errorbasestate.cpp.obj
+
+operatingfsm1/errorfsm/errorbasestate.i: operatingfsm1/errorfsm/errorbasestate.cpp.i
+.PHONY : operatingfsm1/errorfsm/errorbasestate.i
+
+# target to preprocess a source file
+operatingfsm1/errorfsm/errorbasestate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.i
+.PHONY : operatingfsm1/errorfsm/errorbasestate.cpp.i
+
+operatingfsm1/errorfsm/errorbasestate.s: operatingfsm1/errorfsm/errorbasestate.cpp.s
+.PHONY : operatingfsm1/errorfsm/errorbasestate.s
+
+# target to generate assembly for a file
+operatingfsm1/errorfsm/errorbasestate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.s
+.PHONY : operatingfsm1/errorfsm/errorbasestate.cpp.s
+
+operatingfsm1/errorfsm/handlingerror.obj: operatingfsm1/errorfsm/handlingerror.cpp.obj
+.PHONY : operatingfsm1/errorfsm/handlingerror.obj
+
+# target to build an object file
+operatingfsm1/errorfsm/handlingerror.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj
+.PHONY : operatingfsm1/errorfsm/handlingerror.cpp.obj
+
+operatingfsm1/errorfsm/handlingerror.i: operatingfsm1/errorfsm/handlingerror.cpp.i
+.PHONY : operatingfsm1/errorfsm/handlingerror.i
+
+# target to preprocess a source file
+operatingfsm1/errorfsm/handlingerror.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.i
+.PHONY : operatingfsm1/errorfsm/handlingerror.cpp.i
+
+operatingfsm1/errorfsm/handlingerror.s: operatingfsm1/errorfsm/handlingerror.cpp.s
+.PHONY : operatingfsm1/errorfsm/handlingerror.s
+
+# target to generate assembly for a file
+operatingfsm1/errorfsm/handlingerror.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.s
+.PHONY : operatingfsm1/errorfsm/handlingerror.cpp.s
+
+operatingfsm1/errorfsm/waiterror.obj: operatingfsm1/errorfsm/waiterror.cpp.obj
+.PHONY : operatingfsm1/errorfsm/waiterror.obj
+
+# target to build an object file
+operatingfsm1/errorfsm/waiterror.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj
+.PHONY : operatingfsm1/errorfsm/waiterror.cpp.obj
+
+operatingfsm1/errorfsm/waiterror.i: operatingfsm1/errorfsm/waiterror.cpp.i
+.PHONY : operatingfsm1/errorfsm/waiterror.i
+
+# target to preprocess a source file
+operatingfsm1/errorfsm/waiterror.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.i
+.PHONY : operatingfsm1/errorfsm/waiterror.cpp.i
+
+operatingfsm1/errorfsm/waiterror.s: operatingfsm1/errorfsm/waiterror.cpp.s
+.PHONY : operatingfsm1/errorfsm/waiterror.s
+
+# target to generate assembly for a file
+operatingfsm1/errorfsm/waiterror.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.s
+.PHONY : operatingfsm1/errorfsm/waiterror.cpp.s
 
 operatingfsm1/fb1.obj: operatingfsm1/fb1.cpp.obj
 .PHONY : operatingfsm1/fb1.obj
@@ -824,6 +992,30 @@ operatingfsm1/fb1sortfsm/fb1sortout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.s
 .PHONY : operatingfsm1/fb1sortfsm/fb1sortout.cpp.s
 
+operatingfsm1/fb1sortfsm/fb1warning.obj: operatingfsm1/fb1sortfsm/fb1warning.cpp.obj
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.obj
+
+# target to build an object file
+operatingfsm1/fb1sortfsm/fb1warning.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.cpp.obj
+
+operatingfsm1/fb1sortfsm/fb1warning.i: operatingfsm1/fb1sortfsm/fb1warning.cpp.i
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.i
+
+# target to preprocess a source file
+operatingfsm1/fb1sortfsm/fb1warning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.i
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.cpp.i
+
+operatingfsm1/fb1sortfsm/fb1warning.s: operatingfsm1/fb1sortfsm/fb1warning.cpp.s
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.s
+
+# target to generate assembly for a file
+operatingfsm1/fb1sortfsm/fb1warning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.s
+.PHONY : operatingfsm1/fb1sortfsm/fb1warning.cpp.s
+
 operatingfsm1/operatingbasestate1.obj: operatingfsm1/operatingbasestate1.cpp.obj
 .PHONY : operatingfsm1/operatingbasestate1.obj
 
@@ -919,6 +1111,222 @@ operatingfsm1/runningfsm/slow.s: operatingfsm1/runningfsm/slow.cpp.s
 operatingfsm1/runningfsm/slow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.s
 .PHONY : operatingfsm1/runningfsm/slow.cpp.s
+
+operatingfsm1/slowfsm/basestateslow1.obj: operatingfsm1/slowfsm/basestateslow1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/basestateslow1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/basestateslow1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/basestateslow1.cpp.obj
+
+operatingfsm1/slowfsm/basestateslow1.i: operatingfsm1/slowfsm/basestateslow1.cpp.i
+.PHONY : operatingfsm1/slowfsm/basestateslow1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/basestateslow1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.i
+.PHONY : operatingfsm1/slowfsm/basestateslow1.cpp.i
+
+operatingfsm1/slowfsm/basestateslow1.s: operatingfsm1/slowfsm/basestateslow1.cpp.s
+.PHONY : operatingfsm1/slowfsm/basestateslow1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/basestateslow1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.s
+.PHONY : operatingfsm1/slowfsm/basestateslow1.cpp.s
+
+operatingfsm1/slowfsm/bore1.obj: operatingfsm1/slowfsm/bore1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/bore1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/bore1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/bore1.cpp.obj
+
+operatingfsm1/slowfsm/bore1.i: operatingfsm1/slowfsm/bore1.cpp.i
+.PHONY : operatingfsm1/slowfsm/bore1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/bore1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.i
+.PHONY : operatingfsm1/slowfsm/bore1.cpp.i
+
+operatingfsm1/slowfsm/bore1.s: operatingfsm1/slowfsm/bore1.cpp.s
+.PHONY : operatingfsm1/slowfsm/bore1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/bore1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.s
+.PHONY : operatingfsm1/slowfsm/bore1.cpp.s
+
+operatingfsm1/slowfsm/flat1.obj: operatingfsm1/slowfsm/flat1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/flat1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/flat1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/flat1.cpp.obj
+
+operatingfsm1/slowfsm/flat1.i: operatingfsm1/slowfsm/flat1.cpp.i
+.PHONY : operatingfsm1/slowfsm/flat1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/flat1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.i
+.PHONY : operatingfsm1/slowfsm/flat1.cpp.i
+
+operatingfsm1/slowfsm/flat1.s: operatingfsm1/slowfsm/flat1.cpp.s
+.PHONY : operatingfsm1/slowfsm/flat1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/flat1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.s
+.PHONY : operatingfsm1/slowfsm/flat1.cpp.s
+
+operatingfsm1/slowfsm/high1.obj: operatingfsm1/slowfsm/high1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/high1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/high1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/high1.cpp.obj
+
+operatingfsm1/slowfsm/high1.i: operatingfsm1/slowfsm/high1.cpp.i
+.PHONY : operatingfsm1/slowfsm/high1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/high1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.i
+.PHONY : operatingfsm1/slowfsm/high1.cpp.i
+
+operatingfsm1/slowfsm/high1.s: operatingfsm1/slowfsm/high1.cpp.s
+.PHONY : operatingfsm1/slowfsm/high1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/high1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.s
+.PHONY : operatingfsm1/slowfsm/high1.cpp.s
+
+operatingfsm1/slowfsm/idleslow1.obj: operatingfsm1/slowfsm/idleslow1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/idleslow1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/idleslow1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/idleslow1.cpp.obj
+
+operatingfsm1/slowfsm/idleslow1.i: operatingfsm1/slowfsm/idleslow1.cpp.i
+.PHONY : operatingfsm1/slowfsm/idleslow1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/idleslow1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.i
+.PHONY : operatingfsm1/slowfsm/idleslow1.cpp.i
+
+operatingfsm1/slowfsm/idleslow1.s: operatingfsm1/slowfsm/idleslow1.cpp.s
+.PHONY : operatingfsm1/slowfsm/idleslow1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/idleslow1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.s
+.PHONY : operatingfsm1/slowfsm/idleslow1.cpp.s
+
+operatingfsm1/slowfsm/ws_bin1.obj: operatingfsm1/slowfsm/ws_bin1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_bin1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/ws_bin1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_bin1.cpp.obj
+
+operatingfsm1/slowfsm/ws_bin1.i: operatingfsm1/slowfsm/ws_bin1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_bin1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/ws_bin1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_bin1.cpp.i
+
+operatingfsm1/slowfsm/ws_bin1.s: operatingfsm1/slowfsm/ws_bin1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_bin1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/ws_bin1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_bin1.cpp.s
+
+operatingfsm1/slowfsm/ws_bore1.obj: operatingfsm1/slowfsm/ws_bore1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_bore1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/ws_bore1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_bore1.cpp.obj
+
+operatingfsm1/slowfsm/ws_bore1.i: operatingfsm1/slowfsm/ws_bore1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_bore1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/ws_bore1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_bore1.cpp.i
+
+operatingfsm1/slowfsm/ws_bore1.s: operatingfsm1/slowfsm/ws_bore1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_bore1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/ws_bore1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_bore1.cpp.s
+
+operatingfsm1/slowfsm/ws_flat1.obj: operatingfsm1/slowfsm/ws_flat1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_flat1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/ws_flat1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_flat1.cpp.obj
+
+operatingfsm1/slowfsm/ws_flat1.i: operatingfsm1/slowfsm/ws_flat1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_flat1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/ws_flat1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_flat1.cpp.i
+
+operatingfsm1/slowfsm/ws_flat1.s: operatingfsm1/slowfsm/ws_flat1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_flat1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/ws_flat1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_flat1.cpp.s
+
+operatingfsm1/slowfsm/ws_high1.obj: operatingfsm1/slowfsm/ws_high1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_high1.obj
+
+# target to build an object file
+operatingfsm1/slowfsm/ws_high1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj
+.PHONY : operatingfsm1/slowfsm/ws_high1.cpp.obj
+
+operatingfsm1/slowfsm/ws_high1.i: operatingfsm1/slowfsm/ws_high1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_high1.i
+
+# target to preprocess a source file
+operatingfsm1/slowfsm/ws_high1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.i
+.PHONY : operatingfsm1/slowfsm/ws_high1.cpp.i
+
+operatingfsm1/slowfsm/ws_high1.s: operatingfsm1/slowfsm/ws_high1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_high1.s
+
+# target to generate assembly for a file
+operatingfsm1/slowfsm/ws_high1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.s
+.PHONY : operatingfsm1/slowfsm/ws_high1.cpp.s
 
 operatingfsm1/warn_sort_not_possible.obj: operatingfsm1/warn_sort_not_possible.cpp.obj
 .PHONY : operatingfsm1/warn_sort_not_possible.obj
@@ -1073,27 +1481,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fsm_estop
-	@echo ... action.obj
-	@echo ... action.i
-	@echo ... action.s
 	@echo ... calibratingfsm/calibratingbasestate.obj
 	@echo ... calibratingfsm/calibratingbasestate.i
 	@echo ... calibratingfsm/calibratingbasestate.s
-	@echo ... context.obj
-	@echo ... context.i
-	@echo ... context.s
-	@echo ... contextdata.obj
-	@echo ... contextdata.i
-	@echo ... contextdata.s
 	@echo ... estopfsm/basestateestop.obj
 	@echo ... estopfsm/basestateestop.i
 	@echo ... estopfsm/basestateestop.s
 	@echo ... estopfsm/bothpressed.obj
 	@echo ... estopfsm/bothpressed.i
 	@echo ... estopfsm/bothpressed.s
+	@echo ... estopfsm/bothpressedcl.obj
+	@echo ... estopfsm/bothpressedcl.i
+	@echo ... estopfsm/bothpressedcl.s
+	@echo ... estopfsm/connectionlost.obj
+	@echo ... estopfsm/connectionlost.i
+	@echo ... estopfsm/connectionlost.s
 	@echo ... estopfsm/e1pressed.obj
 	@echo ... estopfsm/e1pressed.i
 	@echo ... estopfsm/e1pressed.s
+	@echo ... estopfsm/e1pressedcl.obj
+	@echo ... estopfsm/e1pressedcl.i
+	@echo ... estopfsm/e1pressedcl.s
 	@echo ... estopfsm/e2pressed.obj
 	@echo ... estopfsm/e2pressed.i
 	@echo ... estopfsm/e2pressed.s
@@ -1127,6 +1535,15 @@ help:
 	@echo ... mainfsm/operating.obj
 	@echo ... mainfsm/operating.i
 	@echo ... mainfsm/operating.s
+	@echo ... misc/action.obj
+	@echo ... misc/action.i
+	@echo ... misc/action.s
+	@echo ... misc/context.obj
+	@echo ... misc/context.i
+	@echo ... misc/context.s
+	@echo ... misc/contextdata.obj
+	@echo ... misc/contextdata.i
+	@echo ... misc/contextdata.s
 	@echo ... operatingfsm1/err_lost_ws.obj
 	@echo ... operatingfsm1/err_lost_ws.i
 	@echo ... operatingfsm1/err_lost_ws.s
@@ -1136,6 +1553,18 @@ help:
 	@echo ... operatingfsm1/err_slide_full.obj
 	@echo ... operatingfsm1/err_slide_full.i
 	@echo ... operatingfsm1/err_slide_full.s
+	@echo ... operatingfsm1/error.obj
+	@echo ... operatingfsm1/error.i
+	@echo ... operatingfsm1/error.s
+	@echo ... operatingfsm1/errorfsm/errorbasestate.obj
+	@echo ... operatingfsm1/errorfsm/errorbasestate.i
+	@echo ... operatingfsm1/errorfsm/errorbasestate.s
+	@echo ... operatingfsm1/errorfsm/handlingerror.obj
+	@echo ... operatingfsm1/errorfsm/handlingerror.i
+	@echo ... operatingfsm1/errorfsm/handlingerror.s
+	@echo ... operatingfsm1/errorfsm/waiterror.obj
+	@echo ... operatingfsm1/errorfsm/waiterror.i
+	@echo ... operatingfsm1/errorfsm/waiterror.s
 	@echo ... operatingfsm1/fb1.obj
 	@echo ... operatingfsm1/fb1.i
 	@echo ... operatingfsm1/fb1.s
@@ -1160,6 +1589,9 @@ help:
 	@echo ... operatingfsm1/fb1sortfsm/fb1sortout.obj
 	@echo ... operatingfsm1/fb1sortfsm/fb1sortout.i
 	@echo ... operatingfsm1/fb1sortfsm/fb1sortout.s
+	@echo ... operatingfsm1/fb1sortfsm/fb1warning.obj
+	@echo ... operatingfsm1/fb1sortfsm/fb1warning.i
+	@echo ... operatingfsm1/fb1sortfsm/fb1warning.s
 	@echo ... operatingfsm1/operatingbasestate1.obj
 	@echo ... operatingfsm1/operatingbasestate1.i
 	@echo ... operatingfsm1/operatingbasestate1.s
@@ -1172,6 +1604,33 @@ help:
 	@echo ... operatingfsm1/runningfsm/slow.obj
 	@echo ... operatingfsm1/runningfsm/slow.i
 	@echo ... operatingfsm1/runningfsm/slow.s
+	@echo ... operatingfsm1/slowfsm/basestateslow1.obj
+	@echo ... operatingfsm1/slowfsm/basestateslow1.i
+	@echo ... operatingfsm1/slowfsm/basestateslow1.s
+	@echo ... operatingfsm1/slowfsm/bore1.obj
+	@echo ... operatingfsm1/slowfsm/bore1.i
+	@echo ... operatingfsm1/slowfsm/bore1.s
+	@echo ... operatingfsm1/slowfsm/flat1.obj
+	@echo ... operatingfsm1/slowfsm/flat1.i
+	@echo ... operatingfsm1/slowfsm/flat1.s
+	@echo ... operatingfsm1/slowfsm/high1.obj
+	@echo ... operatingfsm1/slowfsm/high1.i
+	@echo ... operatingfsm1/slowfsm/high1.s
+	@echo ... operatingfsm1/slowfsm/idleslow1.obj
+	@echo ... operatingfsm1/slowfsm/idleslow1.i
+	@echo ... operatingfsm1/slowfsm/idleslow1.s
+	@echo ... operatingfsm1/slowfsm/ws_bin1.obj
+	@echo ... operatingfsm1/slowfsm/ws_bin1.i
+	@echo ... operatingfsm1/slowfsm/ws_bin1.s
+	@echo ... operatingfsm1/slowfsm/ws_bore1.obj
+	@echo ... operatingfsm1/slowfsm/ws_bore1.i
+	@echo ... operatingfsm1/slowfsm/ws_bore1.s
+	@echo ... operatingfsm1/slowfsm/ws_flat1.obj
+	@echo ... operatingfsm1/slowfsm/ws_flat1.i
+	@echo ... operatingfsm1/slowfsm/ws_flat1.s
+	@echo ... operatingfsm1/slowfsm/ws_high1.obj
+	@echo ... operatingfsm1/slowfsm/ws_high1.i
+	@echo ... operatingfsm1/slowfsm/ws_high1.s
 	@echo ... operatingfsm1/warn_sort_not_possible.obj
 	@echo ... operatingfsm1/warn_sort_not_possible.i
 	@echo ... operatingfsm1/warn_sort_not_possible.s

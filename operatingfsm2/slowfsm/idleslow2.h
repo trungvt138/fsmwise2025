@@ -2,12 +2,12 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef IDLESLOW1_H
-#define IDLESLOW1_H
-#include "basestateslow1.h"
+#ifndef IDLESLOW2_H
+#define IDLESLOW2_H
+#include "basestateslow2.h"
 
 
-class IdleSlow1 : public BaseStateSlow1 {
+class IdleSlow2 : public BaseStateSlow2 {
 public:
     TriggerProcessingState heightFlat() override;
 
@@ -16,4 +16,4 @@ public:
 
 
 
-#endif //IDLESLOW1_H
+#endif //IDLESLOW2_H

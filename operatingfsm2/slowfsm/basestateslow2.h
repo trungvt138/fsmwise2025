@@ -2,14 +2,14 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef BASESTATESLOW1_H
-#define BASESTATESLOW1_H
+#ifndef BASESTATESLOW2_H
+#define BASESTATESLOW2_H
 
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
 #include "../../misc/triggerprocessingstate.h"
 
-class BaseStateSlow1 {
+class BaseStateSlow2 {
 protected:
     Actions *action;
     ContextData *data;
@@ -40,4 +40,4 @@ public:
     virtual TriggerProcessingState heightBelt(){ return TriggerProcessingState::pending; }
 };
 
-#endif //BASESTATESLOW1_H
+#endif //BASESTATESLOW2_H

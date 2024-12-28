@@ -2,12 +2,12 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef WS_HIGH1_H
-#define WS_HIGH1_H
-#include "basestateslow1.h"
+#ifndef WS_HIGH2_H
+#define WS_HIGH2_H
+#include "basestateslow2.h"
 
 
-class WS_High1 : public BaseStateSlow1 {
+class WS_High2 : public BaseStateSlow2 {
 public:
     TriggerProcessingState heightFlat() override;
 
@@ -18,4 +18,4 @@ public:
 
 
 
-#endif //WS_HIGH1_H
+#endif //WS_HIGH2_H

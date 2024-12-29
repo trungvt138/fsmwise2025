@@ -4,10 +4,10 @@
 
 #ifndef RUNNINGPSEUDOSTART_H
 #define RUNNINGPSEUDOSTART_H
-#include "runningbasestate.h"
+#include "runningbasestate2.h"
 
 
-class RunningPseudoStart : public RunningBaseState {
+class RunningPseudoStart2 : public RunningBaseState2 {
 
 };
 

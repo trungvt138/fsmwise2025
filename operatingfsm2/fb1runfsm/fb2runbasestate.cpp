@@ -3,13 +3,13 @@
 //
 
 #include "fb2runbasestate.h"
-#include "../runningfsm/runningpseudostart.h"
+#include "../runningfsm/runningpseudostart2.h"
 #include "fb2runidle.h"
 #include <iostream>
 using namespace std;
 
 void FB2RunBaseState::initSubFSM() {
-    runningfsm = new RunningPseudoStart();
+    runningfsm = new RunningPseudoStart2();
     runningfsm->initSubFSM();
 }
 

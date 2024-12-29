@@ -2,12 +2,12 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef FAST_H
-#define FAST_H
-#include "runningbasestate.h"
+#ifndef FAST2_H
+#define FAST2_H
+#include "runningbasestate2.h"
 
 
-class Fast : public RunningBaseState {
+class Fast2 : public RunningBaseState2 {
 public:
     void entry() override;
 
@@ -21,13 +21,13 @@ public:
 
     void showState() override;
 
-    TriggerProcessingState heightStart1() override;
+    TriggerProcessingState heightStart2() override;
 
-    TriggerProcessingState metalRise1() override;
+    TriggerProcessingState metalRise2() override;
 
-    TriggerProcessingState metalFall1() override;
+    TriggerProcessingState metalFall2() override;
 };
 
 
 
-#endif //FAST_H
+#endif //FAST2_H

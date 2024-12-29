@@ -2,12 +2,12 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef SLOW_H
-#define SLOW_H
-#include "runningbasestate.h"
+#ifndef SLOW2_H
+#define SLOW2_H
+#include "runningbasestate2.h"
 
 
-class Slow : public RunningBaseState {
+class Slow2 : public RunningBaseState2 {
 public:
     void entry() override;
 

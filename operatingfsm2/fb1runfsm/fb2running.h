@@ -2,12 +2,12 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef RUNNING_H
-#define RUNNING_H
-#include "fb1runbasestate.h"
+#ifndef RUNNING2_H
+#define RUNNING2_H
+#include "fb2runbasestate.h"
 
 
-class Running : public FB1RunBaseState {
+class Running2 : public FB2RunBaseState {
 public:
     void initSubFSM() override;
 
@@ -21,15 +21,15 @@ public:
 
     void leavingState() override;
 
-    TriggerProcessingState heightStart1() override;
+    TriggerProcessingState heightStart2() override;
 
-    TriggerProcessingState heightEnd1() override;
+    TriggerProcessingState heightEnd2() override;
 
-    TriggerProcessingState metalRise1() override;
+    TriggerProcessingState metalRise2() override;
 
-    TriggerProcessingState metalFall1() override;
+    TriggerProcessingState metalFall2() override;
 
-    TriggerProcessingState endRise1() override;
+    TriggerProcessingState endRise2() override;
 
     TriggerProcessingState heightFlat() override;
 
@@ -42,4 +42,4 @@ public:
 
 
 
-#endif //RUNNING_H
+#endif //RUNNING2_H

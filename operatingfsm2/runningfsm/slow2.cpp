@@ -2,38 +2,38 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#include "slow.h"
+#include "slow2.h"
 #include <iostream>
 
 #include "fast.h"
 using namespace std;
 
-void Slow::entry() {
-    action->driveSlowOn1();
+void Slow2::entry() {
+    action->driveSlowOn2();
 }
 
-void Slow::exit() {
-    action->driveSlowOff1();
+void Slow2::exit() {
+    action->driveSlowOff2();
 }
 
-void Slow::enterByDefaultEntryPoint() {
+void Slow2::enterByDefaultEntryPoint() {
     entry();
     slowfsm->enterViaPseudoStart();
 }
 
-void Slow::enterByDeepHistoryEntryPoint() {
+void Slow2::enterByDeepHistoryEntryPoint() {
     entry();
 }
 
-void Slow::leavingState() {
+void Slow2::leavingState() {
     exit();
 }
 
-void Slow::showState() {
-    RunningBaseState::showState();
+void Slow2::showState() {
+    RunningBaseState2::showState();
 }
 
-TriggerProcessingState Slow::handleDefaultExit(TriggerProcessingState state) {
+TriggerProcessingState Slow2::handleDefaultExit(TriggerProcessingState state) {
     if (state == TriggerProcessingState::endstatereached) {
         slowfsm->exit();
         leavingState();
@@ -43,18 +43,18 @@ TriggerProcessingState Slow::handleDefaultExit(TriggerProcessingState state) {
     return TriggerProcessingState::consumed;
 }
 
-TriggerProcessingState Slow::heightFlat() {
+TriggerProcessingState Slow2::heightFlat() {
     return handleDefaultExit(slowfsm->heightFlat());
 }
 
-TriggerProcessingState Slow::heightHigh() {
+TriggerProcessingState Slow2::heightHigh() {
     return handleDefaultExit(slowfsm->heightHigh());
 }
 
-TriggerProcessingState Slow::heightBore() {
+TriggerProcessingState Slow2::heightBore() {
     return handleDefaultExit(slowfsm->heightBore());
 }
 
-TriggerProcessingState Slow::heightBelt() {
+TriggerProcessingState Slow2::heightBelt() {
     return handleDefaultExit(slowfsm->heightBelt());;
 }

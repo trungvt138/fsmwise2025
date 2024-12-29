@@ -2,12 +2,12 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef IDLE_H
-#define IDLE_H
-#include "fb1runbasestate.h"
+#ifndef IDLE2_H
+#define IDLE2_H
+#include "fb2runbasestate.h"
 
 
-class Fb1RunIdle : public FB1RunBaseState {
+class Fb2RunIdle : public FB2RunBaseState {
 public:
     void initSubFSM() override;
 
@@ -23,9 +23,9 @@ public:
 
     TriggerProcessingState motor_timer_end() override;
 
-    TriggerProcessingState startRise1() override;
+    TriggerProcessingState startRise2() override;
 };
 
 
 
-#endif //IDLE_H
+#endif //IDLE2_H

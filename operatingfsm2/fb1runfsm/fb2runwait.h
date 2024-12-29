@@ -2,12 +2,12 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef WAIT_H
-#define WAIT_H
-#include "fb1runbasestate.h"
+#ifndef WAIT2_H
+#define WAIT2_H
+#include "fb2runbasestate.h"
 
 
-class Fb1RunWait : public FB1RunBaseState {
+class Fb2RunWait : public FB2RunBaseState {
 public:
     void initSubFSM() override;
 
@@ -21,9 +21,9 @@ public:
 
     void leavingState() override;
 
-    TriggerProcessingState end2Fall() override;
+    TriggerProcessingState endFall2() override;
 };
 
 
 
-#endif //WAIT_H
+#endif //WAIT2_H

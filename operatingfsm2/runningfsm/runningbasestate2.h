@@ -2,14 +2,14 @@
 // Created by Trung Dam on 12.12.24.
 //
 
-#ifndef RUNNINGBASESTATE_H
-#define RUNNINGBASESTATE_H
+#ifndef RUNNINGBASESTATE2_H
+#define RUNNINGBASESTATE2_H
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
 #include "../../misc/triggerprocessingstate.h"
 #include "../slowfsm/basestateslow2.h"
 
-class RunningBaseState {
+class RunningBaseState2 {
 protected:
     Actions *action;
     ContextData *data;
@@ -35,10 +35,10 @@ public:
     virtual void leavingState(){exit();};
     virtual void showState(){};
 
-    virtual TriggerProcessingState heightStart1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightEnd1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightStart2(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightEnd2(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState metalRise2(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState metalFall2(){ return TriggerProcessingState::pending; }
 
     virtual TriggerProcessingState heightFlat(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightHigh(){ return TriggerProcessingState::pending; }
@@ -48,4 +48,4 @@ public:
 
 
 
-#endif //RUNNINGBASESTATE_H
+#endif //RUNNINGBASESTATE2_H

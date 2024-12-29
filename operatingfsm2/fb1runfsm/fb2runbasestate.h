@@ -6,14 +6,14 @@
 #define FB2RUNBASESTATE_H
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
-#include "../runningfsm/runningbasestate.h"
+#include "../runningfsm/runningbasestate2.h"
 #include "../../misc/triggerprocessingstate.h"
 
 class FB2RunBaseState {
 protected:
     Actions *action;
     ContextData *data;
-    RunningBaseState *runningfsm;
+    RunningBaseState2 *runningfsm;
 public:
     virtual void initSubFSM();
 

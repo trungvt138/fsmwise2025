@@ -7,13 +7,13 @@
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
 #include "../../misc/triggerprocessingstate.h"
-#include "../slowfsm/basestateslow1.h"
+#include "../slowfsm/basestateslow2.h"
 
 class RunningBaseState {
 protected:
     Actions *action;
     ContextData *data;
-    BaseStateSlow1 *slowfsm;
+    BaseStateSlow2 *slowfsm;
 public:
     virtual void initSubFSM();
 

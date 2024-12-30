@@ -7,17 +7,23 @@
 #include "../misc/action.h"
 #include "../misc/contextdata.h"
 #include "../misc/triggerprocessingstate.h"
+#include "fb1runfsm/fb2runbasestate.h"
+#include "fb1sortfsm/fb2sortbasestate.h"
+#include "errorfsm/errorbasestate2.h"
 
 
 class OperatingBaseState2 {
 protected:
     Actions *actions;
-    ContextData *contextData;
+    ContextData *data;
+    FB2RunBaseState *fb2runFSM;
+    FB2SortBaseState *fb2sortFSM;
+    ErrorBaseState2 *errorFSM2;
 public:
     virtual ~OperatingBaseState2() {
-        //delete fb1runFSM;
-        //delete fb1sortFSM;
-        //delete errorFSM;
+        delete fb2runFSM;
+        delete fb2sortFSM;
+        delete errorFSM2;
     };
     void initSubFSM();
     void setAction(Actions *action);

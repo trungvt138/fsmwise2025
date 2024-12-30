@@ -2,35 +2,35 @@
 // Created by Trung Dam on 11.12.24.
 //
 
-#include "operatingbasestate1.h"
+#include "operatingbasestate2.h"
 
-#include "fb1runfsm/pseudostartfb1run.h"
-#include "fb1sortfsm/pseudostartfb1sort.h"
+#include "fb1runfsm/pseudostartfb2run.h"
+#include "fb1sortfsm/pseudostartfb2sort.h"
 #include <iostream>
 #include "fb2.h"
-#include "errorfsm/pseudostarterror.h"
+#include "errorfsm/pseudostarterror2.h"
 using namespace std;
 
 void OperatingBaseState2::initSubFSM() {
-    fb1runFSM = new PseudoStartFB1Run();
-    fb1runFSM->initSubFSM();
-    fb1sortFSM = new PseudoStartFB1Sort();
-    fb1sortFSM->initSubFSM();
-    errorFSM = new PseudoStartError();
+    fb2runFSM = new PseudoStartFB2Run();
+    fb2runFSM->initSubFSM();
+    fb2sortFSM = new PseudoStartFB2Sort();
+    fb2sortFSM->initSubFSM();
+    errorFSM2 = new PseudoStartError2();
 }
 
 void OperatingBaseState2::setAction(Actions *action) {
     this->actions = action;
-    fb1runFSM->setAction(action);
-    fb1sortFSM->setAction(action);
-    errorFSM->setAction(action);
+    fb2runFSM->setAction(action);
+    fb2sortFSM->setAction(action);
+    errorFSM2->setAction(action);
 }
 
 void OperatingBaseState2::setData(ContextData *data) {
     this->data = data;
-    fb1sortFSM->setData(data);
-    fb1sortFSM->setData(data);
-    errorFSM->setData(data);
+    fb2sortFSM->setData(data);
+    fb2sortFSM->setData(data);
+    errorFSM2->setData(data);
 }
 
 void OperatingBaseState2::enterViaPseudoStart() {
@@ -39,10 +39,10 @@ void OperatingBaseState2::enterViaPseudoStart() {
 }
 
 void OperatingBaseState2::enterViaDeepHistory() {
-    fb1runFSM->enterViaDeepHistory();
+    fb2runFSM->enterViaDeepHistory();
     //
 }
 
 void OperatingBaseState2::resetDeepHistory() {
-    fb1runFSM->resetDeepHistory();
+    fb2runFSM->resetDeepHistory();
 }

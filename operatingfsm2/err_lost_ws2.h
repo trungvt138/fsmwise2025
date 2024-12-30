@@ -1,13 +1,13 @@
 //
-// Created by Trung Dam on 12.12.24.
+// Created by Trung Dam on 22.12.24.
 //
 
-#ifndef FB2_H
-#define FB2_H
+#ifndef ERR_LOST_WS2_H
+#define ERR_LOST_WS2_H
 #include "operatingbasestate2.h"
 
 
-class FB2 : public OperatingBaseState2 {
+class Err_lost_ws2 : public OperatingBaseState2 {
 public:
     void entry() override;
 
@@ -24,8 +24,6 @@ public:
     void leavingState() override;
 
     void showState() override;
-
-    TriggerProcessingState handleDefaultExit(TriggerProcessingState processing_state);
 
     TriggerProcessingState startRise2() override;
 
@@ -51,23 +49,7 @@ public:
 
     TriggerProcessingState metalFall2() override;
 
-
-
     TriggerProcessingState startShortPressed2() override;
-
-    TriggerProcessingState ws_early() override;
-
-    TriggerProcessingState ws_lost() override;
-
-    TriggerProcessingState heightFlat() override;
-
-    TriggerProcessingState heightHigh() override;
-
-    TriggerProcessingState heightBore() override;
-
-    TriggerProcessingState heightBelt() override;
 };
 
-
-
-#endif //FB2_H
+#endif //ERR_LOST_WS2_H

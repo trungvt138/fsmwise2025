@@ -2,24 +2,24 @@
 // Created by trung on 15/12/2024.
 //
 
-#include "fb1sortout.h"
+#include "fb2sortout.h"
 #include <iostream>
 
-#include "fb1sortok.h"
+#include "fb2sortok.h"
 using namespace std;
 
-void FB1SortOut::entry() {
+void FB2SortOut::entry() {
     action->openJunction1();
 }
 
-void FB1SortOut::exit() {
+void FB2SortOut::exit() {
     action->closeJunction1();
 }
 
-TriggerProcessingState FB1SortOut::slideRise1() {
+TriggerProcessingState FB2SortOut::slideRise2() {
     cout << "slideRise1" << endl;
     leavingState();
-    new(this) FB1SortOK;
+    new(this) FB2SortOK;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

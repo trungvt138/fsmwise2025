@@ -2,14 +2,14 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef ERRORBASESTATE_H
-#define ERRORBASESTATE_H
+#ifndef ERRORBASESTATE2_H
+#define ERRORBASESTATE2_H
 
 #include "../../misc/action.h"
 #include "../../misc/contextdata.h"
 #include "../../misc/triggerprocessingstate.h"
 
-class ErrorBaseState {
+class ErrorBaseState2 {
 protected:
     Actions *action;
     ContextData *data;
@@ -42,4 +42,4 @@ public:
 
 
 
-#endif //ERRORBASESTATE_H
+#endif //ERRORBASESTATE2_H

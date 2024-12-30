@@ -2,11 +2,11 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef WAITERROR_H
-#define WAITERROR_H
-#include "errorbasestate.h"
+#ifndef WAITERROR2_H
+#define WAITERROR2_H
+#include "errorbasestate2.h"
 
-class WaitError : public ErrorBaseState {
+class WaitError2 : public ErrorBaseState2 {
 public:
     void exit() override;
 
@@ -14,4 +14,4 @@ public:
 
     TriggerProcessingState resetPressed2() override;
 };
-#endif //WAITERROR_H
+#endif //WAITERROR2_H

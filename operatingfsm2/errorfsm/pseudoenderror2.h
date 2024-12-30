@@ -4,10 +4,10 @@
 
 #ifndef PSEUDOENDERROR_H
 #define PSEUDOENDERROR_H
-#include "errorbasestate.h"
+#include "errorbasestate2.h"
 
 
-class PseudoEndError : public ErrorBaseState {
+class PseudoEndError2 : public ErrorBaseState2 {
 
 };
 #endif //PSEUDOENDERROR_H

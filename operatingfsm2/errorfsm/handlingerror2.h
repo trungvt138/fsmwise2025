@@ -2,12 +2,12 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef HANDLINGERROR_H
-#define HANDLINGERROR_H
-#include "errorbasestate.h"
+#ifndef HANDLINGERROR2_H
+#define HANDLINGERROR2_H
+#include "errorbasestate2.h"
 
 
-class HandlingError : public ErrorBaseState {
+class HandlingError2 : public ErrorBaseState2 {
 public:
     void entry() override;
 
@@ -18,4 +18,4 @@ public:
 
 
 
-#endif //HANDLINGERROR_H
+#endif //HANDLINGERROR2_H

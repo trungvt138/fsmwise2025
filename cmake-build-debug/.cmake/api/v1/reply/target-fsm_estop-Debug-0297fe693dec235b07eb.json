@@ -104,7 +104,36 @@
 				114,
 				118,
 				119,
-				122
+				122,
+				127,
+				131,
+				133,
+				134,
+				135,
+				136,
+				139,
+				140,
+				143,
+				144,
+				148,
+				151,
+				152,
+				156,
+				157,
+				159,
+				161,
+				163,
+				166,
+				167,
+				169,
+				170,
+				175,
+				177,
+				178,
+				182,
+				185,
+				186,
+				189
 			]
 		}
 	],
@@ -192,7 +221,36 @@
 				114,
 				118,
 				119,
-				122
+				122,
+				127,
+				131,
+				133,
+				134,
+				135,
+				136,
+				139,
+				140,
+				143,
+				144,
+				148,
+				151,
+				152,
+				156,
+				157,
+				159,
+				161,
+				163,
+				166,
+				167,
+				169,
+				170,
+				175,
+				177,
+				178,
+				182,
+				185,
+				186,
+				189
 			]
 		},
 		{
@@ -266,7 +324,44 @@
 				117,
 				120,
 				121,
-				123
+				123,
+				124,
+				125,
+				126,
+				128,
+				129,
+				130,
+				132,
+				137,
+				138,
+				141,
+				142,
+				145,
+				146,
+				147,
+				149,
+				150,
+				153,
+				154,
+				155,
+				158,
+				160,
+				162,
+				164,
+				165,
+				168,
+				171,
+				172,
+				173,
+				174,
+				176,
+				179,
+				180,
+				181,
+				183,
+				184,
+				187,
+				188
 			]
 		}
 	],
@@ -947,6 +1042,365 @@
 			"backtrace" : 1,
 			"path" : "operatingfsm1/error.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/warn_sort_not_possible.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/error2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/err_new_ws2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/operatingbasestate2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/err_slide_full2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/err_new_ws2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/warn_sort_not_possible.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/err_lost_ws2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/error2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/err_slide_full2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/err_lost_ws.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1runfsm/fb2runidle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1runfsm/fb2runwait.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1runfsm/fb2runidle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1runfsm/fb2runbasestate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1runfsm/pseudostartfb2run.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1runfsm/fb2runbasestate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1runfsm/fb2runwait.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1runfsm/fb2running.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1runfsm/fb2running.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/errorfsm/pseudoenderror2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/errorfsm/pseudostarterror2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/errorfsm/errorbasestate2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/errorfsm/waiterror2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/errorfsm/handlingerror2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/errorfsm/waiterror2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/errorfsm/handlingerror2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/errorfsm/errorbasestate2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/high2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/bore2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/idleslow2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/ws_bore2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/idleslow2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/flat2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/basestateslow2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/bore2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/flat2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/ws_flat2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/ws_high2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/ws_bin2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/ws_high2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/basestateslow2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/ws_bore2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/ws_bin2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/slowfsm/high2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/pseudoendslow2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/pseudostartslow2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/slowfsm/ws_flat2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortbasestate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1sortfsm/fb2warning.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortok.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1sortfsm/fb2warning.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortok.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/fb1sortfsm/pseudostartfb2sort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/fb1sortfsm/fb2sortout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/runningfsm/runningpseudostart2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/runningfsm/runningbasestate2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/runningfsm/slow2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/runningfsm/fast2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/runningfsm/fast2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "operatingfsm2/runningfsm/slow2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operatingfsm2/runningfsm/runningbasestate2.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

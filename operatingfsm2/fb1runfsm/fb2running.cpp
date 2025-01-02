@@ -5,7 +5,7 @@
 #include "fb2running.h"
 #include <iostream>
 
-#include "fb1runwait.h"
+#include "fb2runwait.h"
 using namespace std;
 
 void Running2::initSubFSM() {
@@ -38,7 +38,7 @@ TriggerProcessingState Running2::endRise2() {
     cout << "Running2::endRise2()" << endl;
     runningfsm->exit();
     leavingState();
-    new(this) Fb1RunWait;
+    new(this) Fb2RunWait;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

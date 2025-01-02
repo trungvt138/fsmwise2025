@@ -5,7 +5,7 @@
 #include "runningbasestate2.h"
 #include <iostream>
 
-#include "fast.h"
+#include "fast2.h"
 #include "../slowfsm/pseudostartslow2.h"
 using namespace std;
 
@@ -24,7 +24,7 @@ void RunningBaseState2::setAction(Actions *action) {
 }
 
 void RunningBaseState2::enterViaPseudoStart() {
-    new(this) Fast;
+    new(this) Fast2;
     enterByDefaultEntryPoint();
 }
 

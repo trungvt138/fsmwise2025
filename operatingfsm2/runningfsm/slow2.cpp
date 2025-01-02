@@ -5,7 +5,7 @@
 #include "slow2.h"
 #include <iostream>
 
-#include "fast.h"
+#include "fast2.h"
 using namespace std;
 
 void Slow2::entry() {
@@ -37,7 +37,7 @@ TriggerProcessingState Slow2::handleDefaultExit(TriggerProcessingState state) {
     if (state == TriggerProcessingState::endstatereached) {
         slowfsm->exit();
         leavingState();
-        new(this) Fast;
+        new(this) Fast2;
         enterByDefaultEntryPoint();
     }
     return TriggerProcessingState::consumed;

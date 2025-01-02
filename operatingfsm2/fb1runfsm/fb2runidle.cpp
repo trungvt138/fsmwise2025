@@ -4,7 +4,7 @@
 
 #include "fb2runidle.h"
 #include <iostream>
-#include "fb1running.h"
+#include "fb2running.h"
 using namespace std;
 
 void Fb2RunIdle::entry() {
@@ -42,7 +42,7 @@ TriggerProcessingState Fb2RunIdle::motor_timer_end() {
 TriggerProcessingState Fb2RunIdle::startRise2() {
     cout << "Fb2RunIdle::startRise1" << endl;
     leavingState();
-    new(this) Running;
+    new(this) Running2;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

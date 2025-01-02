@@ -24,7 +24,7 @@ void FB2RunBaseState::setAction(Actions *action) {
 }
 
 void FB2RunBaseState::enterViaPseudoStart() {
-    new(this) FB2RunIdle;
+    new(this) Fb2RunIdle;
     enterByDefaultEntryPoint();
 }
 
@@ -35,7 +35,7 @@ void FB2RunBaseState::enterViaDeepHistory() {
 void FB2RunBaseState::resetDeepHistory() {
     leavingState();
     runningfsm->exit();
-    new(this) FB2RunIdle;
+    new(this) Fb2RunIdle;
 }
 
 void FB2RunBaseState::showState() {

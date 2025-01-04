@@ -25,7 +25,7 @@ void Operating::enterByDefaultEntryPoint() {
 void Operating::enterByDeepHistoryEntryPoint() {
     entry();
     operatingFSM1->enterViaDeepHistory();
-    //operatingFSM2->enterViaDeepHistory();
+    operatingFSM2->enterViaDeepHistory();
 }
 
 void Operating::resetDeepHistory() {

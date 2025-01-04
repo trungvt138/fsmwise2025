@@ -196,4 +196,46 @@ add_executable(fsm_estop main.cpp
         operatingfsm2/runningfsm/slow2.h
         operatingfsm2/runningfsm/runningbasestate2.cpp
         operatingfsm2/warn_sort_not_possible.h
+        calibratingfsm/calibratingpseudostart.h
+        calibratingfsm/Idle1.cpp
+        calibratingfsm/Idle1.h
+        calibratingfsm/AS11.cpp
+        calibratingfsm/AS11.h
+        calibratingfsm/AS31.cpp
+        calibratingfsm/AS31.h
+        calibratingfsm/AS41.h
+        calibratingfsm/AS41.cpp
+        calibratingfsm/AS51.cpp
+        calibratingfsm/AS51.h
+        calibratingfsm/AS61.cpp
+        calibratingfsm/AS61.h
+        calibratingfsm/AS71.cpp
+        calibratingfsm/AS71.h
+        calibratingfsm/AS81.cpp
+        calibratingfsm/AS81.h
+        calibratingfsm/AS91.cpp
+        calibratingfsm/AS91.h
+        calibratingfsm/Fertig1.cpp
+        calibratingfsm/Fertig1.h
+        calibratingfsm/AS21.cpp
+        calibratingfsm/AS21.h
+        calibratingfsm/Fertig2.cpp
+        calibratingfsm/calibratingpseudoend.h
+        calibratingfsm/AS92.h
+        calibratingfsm/AS92.cpp
+        calibratingfsm/AS82.h
+        calibratingfsm/AS22.cpp
+        calibratingfsm/AS32.cpp
+        calibratingfsm/AS32.h
+        calibratingfsm/AS42.cpp
+        calibratingfsm/AS42.h
+        calibratingfsm/AS52.cpp
+        calibratingfsm/AS52.h
+        calibratingfsm/AS62.cpp
+        calibratingfsm/AS62.h
+        calibratingfsm/AS72.cpp
+        calibratingfsm/AS72.h
+        calibratingfsm/AS82.cpp
+        calibratingfsm/Idle2.cpp
+        calibratingfsm/Idle2.h
 )

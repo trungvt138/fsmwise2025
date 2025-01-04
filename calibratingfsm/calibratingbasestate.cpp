@@ -4,17 +4,22 @@
 
 #include "calibratingbasestate.h"
 
-CalibratingBaseState::CalibratingBaseState() {
-}
-
-CalibratingBaseState::~CalibratingBaseState() {
-}
+#include "Idle1.h"
+#include <iostream>
+using namespace std;
 
 void CalibratingBaseState::initSubFSM() {
 }
 
 void CalibratingBaseState::setAction(Actions *action) {
+    this->action = action;
 }
 
 void CalibratingBaseState::setData(ContextData *data) {
+    this->data = data;
+}
+
+void CalibratingBaseState::enterViaPseudoStart() {
+    new(this) Idle1;
+    enterByDefaultEntryPoint();
 }

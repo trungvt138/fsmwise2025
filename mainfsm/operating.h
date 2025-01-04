@@ -18,8 +18,6 @@ public:
 
     void resetDeepHistory() override;
 
-    void handleDefaultExit(const TriggerProcessingState &handled) override {};
-
     TriggerProcessingState resetPressed1() override;
 
     TriggerProcessingState resetPressed2() override;

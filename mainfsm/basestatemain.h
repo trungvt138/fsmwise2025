@@ -47,7 +47,7 @@ public:
     virtual void entry(){};
     virtual void exit(){};
 
-    virtual void handleDefaultExit(const TriggerProcessingState &handled) {};
+    virtual TriggerProcessingState handleDefaultExit(const TriggerProcessingState &handled) {return TriggerProcessingState::pending; };
     
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startShortPressed2(){ return TriggerProcessingState::pending; }

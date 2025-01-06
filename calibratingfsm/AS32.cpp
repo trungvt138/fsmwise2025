@@ -9,7 +9,7 @@
 using namespace std;
 
 void AS32::entry() {
-    action->driveSlowOff1();
+    //action->driveSlowOff1();
     //TODO: weltmodell->starttimer();
 }
 

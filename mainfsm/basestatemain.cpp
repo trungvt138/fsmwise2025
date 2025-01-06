@@ -5,7 +5,6 @@
 #include "basestatemain.h"
 #include <iostream>
 #include "idle.h"
-#include "../calibratingfsm/calibratingpseudostart.h"
 #include "../operatingfsm1/pseudostartoperating1.h"
 #include "../operatingfsm2/pseudostartoperating2.h"
 using namespace std;
@@ -15,7 +14,7 @@ void BaseStateMain::initSubFSM() {
     operatingFSM1->initSubFSM();
     operatingFSM2 = new PseudoStartOperating2();
     operatingFSM2->initSubFSM();
-    calibratingFSM = new CalibratingPseudoStart();
+    calibratingFSM = new CalibratingBaseState();
     calibratingFSM->initSubFSM();
 }
 

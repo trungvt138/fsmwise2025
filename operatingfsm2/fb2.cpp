@@ -127,18 +127,18 @@ TriggerProcessingState FB2::ws_lost() {
     return TriggerProcessingState::consumed;
 }
 
-TriggerProcessingState FB2::heightFlat() {
+TriggerProcessingState FB2::heightFlat2() {
     return fb2runFSM->heightFlat();
 }
 
-TriggerProcessingState FB2::heightHigh() {
+TriggerProcessingState FB2::heightHigh2() {
     return fb2runFSM->heightHigh();
 }
 
-TriggerProcessingState FB2::heightBore() {
+TriggerProcessingState FB2::heightBore2() {
     return fb2runFSM->heightBore();
 }
 
-TriggerProcessingState FB2::heightBelt() {
+TriggerProcessingState FB2::heightBelt2() {
     return fb2runFSM->heightBelt();
 }

@@ -193,20 +193,36 @@ void Context::connectionBack() {
     state->connectionBack();
 }
 
-void Context::heightFlat() {
-    state->heightFlat();
+void Context::heightFlat1() {
+    state->heightFlat1();
 }
 
-void Context::heightHigh() {
-    state->heightHigh();
+void Context::heightHigh1() {
+    state->heightHigh1();
 }
 
-void Context::heightBore() {
-    state->heightBore();
+void Context::heightBore1() {
+    state->heightBore1();
 }
 
-void Context::heightBelt() {
-    state->heightBelt();
+void Context::heightBelt1() {
+    state->heightBelt1();
+}
+
+void Context::heightFlat2() {
+    state->heightFlat2();
+}
+
+void Context::heightHigh2() {
+    state->heightHigh2();
+}
+
+void Context::heightBore2() {
+    state->heightBore2();
+}
+
+void Context::heightBelt2() {
+    state->heightBelt2();
 }
 
 void Context::showState() {

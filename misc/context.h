@@ -67,10 +67,15 @@ public:
     void connectionLost();
     void connectionBack();
 
-    void heightFlat();
-    void heightHigh();
-    void heightBore();
-    void heightBelt();
+    void heightFlat1();
+    void heightHigh1();
+    void heightBore1();
+    void heightBelt1();
+
+    void heightFlat2();
+    void heightHigh2();
+    void heightBore2();
+    void heightBelt2();
 
     void showState();
 };

@@ -25,13 +25,13 @@ public:
 
     TriggerProcessingState handleDefaultExit(TriggerProcessingState state);
 
-    TriggerProcessingState heightFlat() override;
+    TriggerProcessingState heightFlat1() override;
 
-    TriggerProcessingState heightHigh() override;
+    TriggerProcessingState heightHigh1() override;
 
-    TriggerProcessingState heightBore() override;
+    TriggerProcessingState heightBore1() override;
 
-    TriggerProcessingState heightBelt() override;
+    TriggerProcessingState heightBelt1() override;
 
 };
 

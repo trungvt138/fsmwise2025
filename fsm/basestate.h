@@ -90,10 +90,15 @@ public:
     virtual void connectionLost(){};
     virtual void connectionBack(){};
 
-    virtual void heightFlat(){}
-    virtual void heightHigh(){}
-    virtual void heightBore(){}
-    virtual void heightBelt(){}
+    virtual void heightFlat1(){}
+    virtual void heightHigh1(){}
+    virtual void heightBore1(){}
+    virtual void heightBelt1(){}
+
+    virtual void heightFlat2(){}
+    virtual void heightHigh2(){}
+    virtual void heightBore2(){}
+    virtual void heightBelt2(){}
 
 };
 

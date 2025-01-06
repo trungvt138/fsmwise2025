@@ -186,20 +186,36 @@ TriggerProcessingState Operating::ws_metal() {
     return BaseStateMain::ws_metal();
 }
 
-TriggerProcessingState Operating::heightFlat() {
-    return operatingFSM1->heightFlat();
+TriggerProcessingState Operating::heightFlat1() {
+    return operatingFSM1->heightFlat1();
 }
 
-TriggerProcessingState Operating::heightHigh() {
-    return operatingFSM1->heightHigh();
+TriggerProcessingState Operating::heightHigh1() {
+    return operatingFSM1->heightHigh1();
 }
 
-TriggerProcessingState Operating::heightBore() {
-    return operatingFSM1->heightBore();
+TriggerProcessingState Operating::heightBore1() {
+    return operatingFSM1->heightBore1();
 }
 
-TriggerProcessingState Operating::heightBelt() {
-    return operatingFSM1->heightBelt();
+TriggerProcessingState Operating::heightBelt1() {
+    return operatingFSM1->heightBelt1();
+}
+
+TriggerProcessingState Operating::heightFlat2() {
+    return operatingFSM2->heightFlat2();
+}
+
+TriggerProcessingState Operating::heightHigh2() {
+    return operatingFSM2->heightHigh2();
+}
+
+TriggerProcessingState Operating::heightBore2() {
+    return operatingFSM2->heightBore2();
+}
+
+TriggerProcessingState Operating::heightBelt2() {
+    return operatingFSM2->heightBelt2();
 }
 
 void Operating::showState() {

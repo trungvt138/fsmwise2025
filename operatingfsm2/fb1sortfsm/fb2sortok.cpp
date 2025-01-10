@@ -4,7 +4,8 @@
 
 #include "fb2sortok.h"
 #include <iostream>
-
+#include <thread>
+#include <chrono>
 #include "fb2sortout.h"
 #include "fb2warning.h"
 using namespace std;
@@ -30,13 +31,30 @@ void FB2SortOK::leavingState() {
 }
 
 TriggerProcessingState FB2SortOK::sortRise2() {
-    cout << "Sorting Rise 2" << endl;
-    //TODO must check the sequence first
-    //if (!checksequence(ws_height))
-    leavingState();
-    new(this) FB2SortOut;
-    enterByDefaultEntryPoint();
-    return TriggerProcessingState::consumed;
+	cout << "FB2SortOK::sortRise2()" << endl;
+	//TODO must check the sequence first
+	/*if (wm.checksequence(ws_height)) {
+	  *  leavingState();
+	     new(this) FB1SortOut;
+	     enterByDefaultEntryPoint();
+	* }
+	else {}*/
+
+    if (action->issortout(2)) {
+    	leavingState();
+    	new(this) FB2SortOut;
+    	enterByDefaultEntryPoint();
+    }
+    else {
+        action->openJunction2();
+
+        std::thread([this]() {
+        	std::this_thread::sleep_for(std::chrono::seconds(1));
+        	action->closeJunction2();
+        }).detach();
+    }
+
+	return TriggerProcessingState::consumed;
 }
 
 TriggerProcessingState FB2SortOK::sortFall2() {
@@ -44,7 +62,7 @@ TriggerProcessingState FB2SortOK::sortFall2() {
 }
 
 TriggerProcessingState FB2SortOK::slideRise2() {
-    cout << "Sliding Rise 2" << endl;
+    cout << "FB2SortOK::slideRise2()" << endl;
     leavingState();
     new(this) FB2Warning;
     enterByDefaultEntryPoint();

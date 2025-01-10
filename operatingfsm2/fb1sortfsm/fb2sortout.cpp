@@ -17,7 +17,7 @@ void FB2SortOut::exit() {
 }
 
 TriggerProcessingState FB2SortOut::slideRise2() {
-    cout << "slideRise1" << endl;
+    cout << "FB2SortOut::slideRise2" << endl;
     leavingState();
     new(this) FB2SortOK;
     enterByDefaultEntryPoint();

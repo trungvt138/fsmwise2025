@@ -20,8 +20,8 @@ TriggerProcessingState FB1Warning::sortRise1() {
     cout << "FB1Warning::sortRise1" << endl;
     //TODO: check sequence here
     //if (!checksequence() && isSlide2Full())
-    leavingState();
-    return TriggerProcessingState::explicitexit;
+//    leavingState();
+//    return TriggerProcessingState::explicitexit;
     //else
     //leavingState()
 }

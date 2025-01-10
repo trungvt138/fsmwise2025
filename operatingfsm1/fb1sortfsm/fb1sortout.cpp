@@ -9,11 +9,11 @@
 using namespace std;
 
 void FB1SortOut::entry() {
-    action->openJunction1();
+    //action->openJunction1();
 }
 
 void FB1SortOut::exit() {
-    action->closeJunction1();
+    //action->closeJunction1();
 }
 
 TriggerProcessingState FB1SortOut::slideRise1() {

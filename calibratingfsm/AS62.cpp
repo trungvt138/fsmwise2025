@@ -7,7 +7,7 @@
 using namespace std;
 
 void AS62::entry() {
-    action->driveStop1();
+    action->driveStopOn1();
     action->driveRight2();
     //TODO: wm->starttimer();
 }

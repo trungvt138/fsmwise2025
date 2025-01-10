@@ -67,6 +67,9 @@ public:
     virtual TriggerProcessingState ws_early(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_lost(){ return TriggerProcessingState::pending; };
 
+    virtual TriggerProcessingState endFall2(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState startRise2(){ return TriggerProcessingState::pending; };
+
     virtual TriggerProcessingState heightFlat1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightHigh1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBore1(){ return TriggerProcessingState::pending; }

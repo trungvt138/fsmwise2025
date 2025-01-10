@@ -21,7 +21,7 @@ public:
 
     void leavingState() override;
 
-    TriggerProcessingState end2Fall() override;
+    TriggerProcessingState endFall2() override;
 };
 
 

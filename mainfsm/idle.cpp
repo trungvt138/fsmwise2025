@@ -14,6 +14,8 @@ void Idle::entry() {
     actions->lightStartOn2();
     actions->lightResetOn1();
     actions->lightResetOn2();
+    actions->driveStopOn1();
+    actions->driveStopOn2();
 }
 
 void Idle::exit() {

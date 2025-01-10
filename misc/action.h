@@ -37,8 +37,10 @@ public:
 
     virtual void driveRight1();
     virtual void driveRight2();
-    virtual void driveStop1();
-    virtual void driveStop2();
+    virtual void driveStopOn1();
+    virtual void driveStopOn2();
+    virtual void driveStopOff1();
+    virtual void driveStopOff2();
     virtual void driveSlowOn1();
     virtual void driveSlowOff1();
     virtual void driveSlowOn2();
@@ -58,6 +60,11 @@ public:
     virtual void lightResetOff1();
     virtual void lightResetOn2();
     virtual void lightResetOff2();
+
+    virtual void reset_wm();
+
+    virtual bool isFbEmpty(int);
+    virtual bool issortout(int);
 };
 
 

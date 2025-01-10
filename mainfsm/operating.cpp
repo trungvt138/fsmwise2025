@@ -9,11 +9,13 @@
 using namespace std;
 
 void Operating::entry() {
-    BaseStateMain::entry();
+    actions->lightGreenOn1();
+    actions->lightGreenOn2();
 }
 
 void Operating::exit() {
-    BaseStateMain::exit();
+	actions->lightGreenOff1();
+	actions->lightGreenOff2();
 }
 
 void Operating::enterByDefaultEntryPoint() {
@@ -25,7 +27,7 @@ void Operating::enterByDefaultEntryPoint() {
 void Operating::enterByDeepHistoryEntryPoint() {
     entry();
     operatingFSM1->enterViaDeepHistory();
-    //operatingFSM2->enterViaDeepHistory();
+    operatingFSM2->enterViaDeepHistory();
 }
 
 void Operating::resetDeepHistory() {
@@ -50,6 +52,7 @@ TriggerProcessingState Operating::startShortPressed2() {
 }
 
 TriggerProcessingState Operating::stopPressed1() {
+	cout << "Operating::stopPressed1" << endl;
     leavingState();
     new(this) Idle;
     enterByDefaultEntryPoint();
@@ -57,6 +60,7 @@ TriggerProcessingState Operating::stopPressed1() {
 }
 
 TriggerProcessingState Operating::stopPressed2() {
+	cout << "Operating::stopPressed2" << endl;
     leavingState();
     new(this) Idle;
     enterByDefaultEntryPoint();
@@ -72,7 +76,12 @@ TriggerProcessingState Operating::startFall1() {
 }
 
 TriggerProcessingState Operating::startRise2() {
-    return operatingFSM2->startRise2();
+	TriggerProcessingState state1 = operatingFSM1->startRise2();
+    TriggerProcessingState state2 = operatingFSM2->startRise2();
+    if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
+    	return TriggerProcessingState::consumed;
+    }
+    return TriggerProcessingState::pending;
 }
 
 TriggerProcessingState Operating::startFall2() {
@@ -104,11 +113,17 @@ TriggerProcessingState Operating::endRise2() {
 }
 
 TriggerProcessingState Operating::endFall1() {
-    return operatingFSM1->endFall1();
+    return operatingFSM2->endFall1();
 }
 
 TriggerProcessingState Operating::endFall2() {
-    return operatingFSM2->endFall2();
+	//data->dec_fb2();
+	TriggerProcessingState state1 = operatingFSM1->endFall2();
+    TriggerProcessingState state2 = operatingFSM2->endFall2();
+    if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
+    	return TriggerProcessingState::consumed;
+    }
+    return TriggerProcessingState::pending;
 }
 
 TriggerProcessingState Operating::heightStart1() {

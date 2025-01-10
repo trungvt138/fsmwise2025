@@ -23,7 +23,9 @@ public:
 
     TriggerProcessingState motor_timer_end() override;
 
-    TriggerProcessingState startRise2() override;
+    //TriggerProcessingState startRise2() override;
+
+    TriggerProcessingState endFall1() override;
 };
 
 

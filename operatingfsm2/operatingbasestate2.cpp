@@ -28,7 +28,7 @@ void OperatingBaseState2::setAction(Actions *action) {
 
 void OperatingBaseState2::setData(ContextData *data) {
     this->data = data;
-    fb2sortFSM->setData(data);
+    fb2runFSM->setData(data);
     fb2sortFSM->setData(data);
     errorFSM2->setData(data);
 }

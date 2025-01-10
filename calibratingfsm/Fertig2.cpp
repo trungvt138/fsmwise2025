@@ -10,7 +10,7 @@ using namespace std;
 
 void Fertig2::entry() {
     //TODO: wm->starttimer(); ????
-    action->driveStop2();
+    action->driveStopOn2();
 }
 
 void Fertig2::exit() {

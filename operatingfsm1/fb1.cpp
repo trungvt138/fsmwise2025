@@ -63,15 +63,23 @@ TriggerProcessingState FB1::startRise1() {
 }
 
 TriggerProcessingState FB1::startFall1() {
-    return OperatingBaseState1::startFall1();
+    return fb1runFSM->startFall1();
 }
 
 TriggerProcessingState FB1::endRise1() {
-    return OperatingBaseState1::endRise1();
+    return fb1runFSM->endRise1();
 }
 
 TriggerProcessingState FB1::endFall1() {
-    return OperatingBaseState1::endFall1();
+    return fb1runFSM->endFall1();
+}
+
+TriggerProcessingState FB1::startRise2() {
+    return fb1runFSM->startRise2();
+}
+
+TriggerProcessingState FB1::endFall2() {
+    return fb1runFSM->endFall2();
 }
 
 TriggerProcessingState FB1::sortRise1() {

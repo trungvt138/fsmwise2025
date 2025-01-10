@@ -9,7 +9,7 @@
 using namespace std;
 
 void Fast::entry() {
-    action->driveRight1();
+	action->driveRight1();
 }
 
 void Fast::exit() {

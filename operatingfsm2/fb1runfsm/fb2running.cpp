@@ -13,11 +13,11 @@ void Running2::initSubFSM() {
 }
 
 void Running2::entry() {
-    FB2RunBaseState::entry();
+	action->driveStopOff2();
 }
 
 void Running2::exit() {
-    action->driveStop1();
+    action->driveStopOn2();
 }
 
 void Running2::enterByDefaultEntryPoint() {

@@ -63,15 +63,15 @@ TriggerProcessingState FB2::startRise2() {
 }
 
 TriggerProcessingState FB2::startFall2() {
-    return OperatingBaseState2::startFall2();
+    return fb2runFSM->startFall2();
 }
 
 TriggerProcessingState FB2::endRise2() {
-    return OperatingBaseState2::endRise2();
+    return fb2runFSM->endRise2();
 }
 
 TriggerProcessingState FB2::endFall2() {
-    return OperatingBaseState2::endFall2();
+    return fb2runFSM->endFall2();
 }
 
 TriggerProcessingState FB2::sortRise2() {
@@ -141,4 +141,8 @@ TriggerProcessingState FB2::heightBore2() {
 
 TriggerProcessingState FB2::heightBelt2() {
     return fb2runFSM->heightBelt();
+}
+
+TriggerProcessingState FB2::endFall1() {
+    return fb2runFSM->endFall1();
 }

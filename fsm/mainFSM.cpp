@@ -228,19 +228,35 @@ void MainFSM::ws_metal() {
     mainfsm->ws_metal();
 }
 
-void MainFSM::heightFlat() {
-    mainfsm->heightFlat();
+void MainFSM::heightFlat1() {
+    mainfsm->heightFlat1();
 }
 
-void MainFSM::heightHigh() {
-    mainfsm->heightHigh();
+void MainFSM::heightHigh1() {
+    mainfsm->heightHigh1();
 }
 
-void MainFSM::heightBore() {
-    mainfsm->heightBore();
+void MainFSM::heightBore1() {
+    mainfsm->heightBore1();
 }
 
-void MainFSM::heightBelt() {
-    mainfsm->heightBelt();
+void MainFSM::heightBelt1() {
+    mainfsm->heightBelt1();
+}
+
+void MainFSM::heightFlat2() {
+    mainfsm->heightFlat2();
+}
+
+void MainFSM::heightHigh2() {
+    mainfsm->heightHigh2();
+}
+
+void MainFSM::heightBore2() {
+    mainfsm->heightBore2();
+}
+
+void MainFSM::heightBelt2() {
+    mainfsm->heightBelt2();
 }
 

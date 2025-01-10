@@ -11,8 +11,8 @@ using namespace std;
 void Error::entry() {
     actions->lightRedBlinkFast1();
     actions->lightRedBlinkFast2();
-    actions->driveStop1();
-    actions->driveStop2();
+    actions->driveStopOn1();
+    actions->driveStopOn2();
     actions->lightResetOn1();
     actions->lightResetOn2();
 }
@@ -20,6 +20,8 @@ void Error::entry() {
 void Error::exit() {
     actions->lightRedOff1();
     actions->lightRedOff2();
+    actions->driveStopOff1();
+    actions->driveStopOff2();
     actions->lightStartOff1();
     actions->lightStartOff2();
 }

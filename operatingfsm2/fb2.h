@@ -52,6 +52,8 @@ public:
     TriggerProcessingState metalFall2() override;
 
 
+    TriggerProcessingState endFall1() override;
+
 
     TriggerProcessingState startShortPressed2() override;
 

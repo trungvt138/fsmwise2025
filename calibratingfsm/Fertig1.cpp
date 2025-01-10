@@ -10,11 +10,12 @@ using namespace std;
 
 void Fertig1::entry() {
     //TODO: wm->starttimer(); ????
-    action->driveStop2();
+    action->driveStopOn2();
 }
 
 void Fertig1::exit() {
     //TODO: wm->savetime(); ?????
+	action->driveStopOff2();
 }
 
 TriggerProcessingState Fertig1::endFall2() {

@@ -12,7 +12,7 @@ void Fb1RunIdle::entry() {
 }
 
 void Fb1RunIdle::exit() {
-    action->driveRight1();
+
 }
 
 void Fb1RunIdle::initSubFSM() {

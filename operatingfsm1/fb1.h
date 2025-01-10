@@ -55,6 +55,10 @@ public:
 
     TriggerProcessingState startShortPressed1() override;
 
+    TriggerProcessingState startRise2() override;
+
+    TriggerProcessingState endFall2() override;
+
     TriggerProcessingState ws_early() override;
 
     TriggerProcessingState ws_lost() override;

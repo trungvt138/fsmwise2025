@@ -31,6 +31,8 @@ public:
 
     TriggerProcessingState endRise1() override;
 
+    TriggerProcessingState startRise2() override;
+
     TriggerProcessingState heightFlat1() override;
 
     TriggerProcessingState heightHigh1() override;

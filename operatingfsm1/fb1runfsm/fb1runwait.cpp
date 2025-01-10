@@ -19,6 +19,7 @@ void Fb1RunWait::entry() {
 }
 
 void Fb1RunWait::exit() {
+	action->driveSlowOff1();
     action->driveRight1();
 }
 
@@ -34,14 +35,10 @@ void Fb1RunWait::leavingState() {
     exit();
 }
 
-TriggerProcessingState Fb1RunWait::end2Fall() {
+TriggerProcessingState Fb1RunWait::endFall2() {
+	cout << "Fb1RunWait::endFall2()" << endl;
     leavingState();
-    if (data->isFB1Clear()) {
-        new(this) Fb1RunIdle;
-        enterByDefaultEntryPoint();
-    } else {
-        new(this) Running;
-        enterByDeepHistoryEntryPoint();
-    }
+    new(this) Running;
+    enterByDeepHistoryEntryPoint();
     return TriggerProcessingState::consumed;
 }

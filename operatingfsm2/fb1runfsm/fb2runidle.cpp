@@ -12,7 +12,7 @@ void Fb2RunIdle::entry() {
 }
 
 void Fb2RunIdle::exit() {
-    action->driveRight1();
+
 }
 
 void Fb2RunIdle::initSubFSM() {
@@ -39,8 +39,8 @@ TriggerProcessingState Fb2RunIdle::motor_timer_end() {
     return TriggerProcessingState::consumed;
 }
 
-TriggerProcessingState Fb2RunIdle::startRise2() {
-    cout << "Fb2RunIdle::startRise1" << endl;
+TriggerProcessingState Fb2RunIdle::endFall1() {
+    cout << "Fb2RunIdle::endFall1" << endl;
     leavingState();
     new(this) Running2;
     enterByDefaultEntryPoint();

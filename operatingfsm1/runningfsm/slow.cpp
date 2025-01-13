@@ -23,6 +23,7 @@ void Slow::enterByDefaultEntryPoint() {
 
 void Slow::enterByDeepHistoryEntryPoint() {
     entry();
+    slowfsm->enterViaDeepHistory();
 }
 
 void Slow::leavingState() {
@@ -57,4 +58,8 @@ TriggerProcessingState Slow::heightBore1() {
 
 TriggerProcessingState Slow::heightBelt1() {
     return handleDefaultExit(slowfsm->heightBelt());;
+}
+
+TriggerProcessingState Slow::heightBin1() {
+    return handleDefaultExit(slowfsm->heightBin());;
 }

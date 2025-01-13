@@ -7,7 +7,8 @@
 #include <chrono>
 #include "../fsm/pseudostartstate.h"
 
-Context::Context(Actions *shared_action) : action(shared_action) {
+Context::Context(Actions *shared_action, Weltmodell* weltmodell) : action(shared_action) {
+    this->weltmodell = weltmodell;
     action->closeJunction1();
     action->closeJunction2();
     action->driveStopOn1();

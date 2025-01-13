@@ -7,7 +7,7 @@
 #include "action.h"
 #include "contextdata.h"
 #include "../fsm/basestate.h"
-//#include "../../WM/weltmodell.h"
+#include "../../WM/weltmodell.h"
 
 
 class Context {
@@ -15,10 +15,10 @@ private:
     BaseState *state;
     Actions *action;
     ContextData data;
-    //Weltmodell* weltmodell;
+    Weltmodell* weltmodell;
 
 public:
-    Context(Actions *shared_action);
+    Context(Actions *shared_action,Weltmodell* weltmodell );
     virtual ~Context();
 
     void updateEstop(bool val);

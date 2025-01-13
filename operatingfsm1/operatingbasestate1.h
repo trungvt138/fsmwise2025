@@ -60,20 +60,22 @@ public:
     virtual TriggerProcessingState heightEnd1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
+
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; };
-    virtual TriggerProcessingState startShortPressed2(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState resetPressed1() { return TriggerProcessingState::pending; };
-    virtual TriggerProcessingState resetPressed2() { return TriggerProcessingState::pending; };
+
     virtual TriggerProcessingState ws_early(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_lost(){ return TriggerProcessingState::pending; };
 
     virtual TriggerProcessingState endFall2(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState startRise2(){ return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState slideRise2(){ return TriggerProcessingState::pending; };
 
     virtual TriggerProcessingState heightFlat1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightHigh1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBore1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBelt1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBin1(){ return TriggerProcessingState::pending; }
 };
 
 

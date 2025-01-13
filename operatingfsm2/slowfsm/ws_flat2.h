@@ -9,7 +9,7 @@
 
 class WS_Flat2 : public BaseStateSlow2 {
 public:
-    TriggerProcessingState heightHigh() override;
+    TriggerProcessingState heightBin() override;
 
     TriggerProcessingState heightBelt() override;
 };

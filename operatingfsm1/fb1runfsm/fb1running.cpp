@@ -66,6 +66,18 @@ TriggerProcessingState Running::startRise2() {
 	return TriggerProcessingState::pending;
 }
 
+TriggerProcessingState Running::slideRise1() {
+	cout << "Running::slideRise1()" << endl;
+	if (action->isFbEmpty(1)) {
+		runningfsm->exit();
+		leavingState();
+		new(this) Fb1RunIdle;
+		enterByDefaultEntryPoint();
+		return TriggerProcessingState::consumed;
+	}
+	return TriggerProcessingState::pending;
+}
+
 TriggerProcessingState Running::heightStart1() {
     return runningfsm->heightStart1();
 }
@@ -96,4 +108,8 @@ TriggerProcessingState Running::heightBore1() {
 
 TriggerProcessingState Running::heightBelt1() {
     return runningfsm->heightBelt1();
+}
+
+TriggerProcessingState Running::heightBin1() {
+    return runningfsm->heightBin1();
 }

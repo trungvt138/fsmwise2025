@@ -40,6 +40,10 @@ public:
     TriggerProcessingState heightBore1() override;
 
     TriggerProcessingState heightBelt1() override;
+
+    TriggerProcessingState heightBin1() override;
+
+    TriggerProcessingState slideRise1() override;
 };
 
 

@@ -12,6 +12,7 @@ TriggerProcessingState WS_Bin2::heightBelt() {
     cout << "WS_Bin2::heightBelt()" << endl;
     leavingState();
     //TODO: set_ws_height(bin)
+    action->set_ws_type_fb2(24);
     new(this) PseudoEndSlow2;
     return TriggerProcessingState::endstatereached;
 }

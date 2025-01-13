@@ -41,9 +41,10 @@ TriggerProcessingState FB2SortOK::sortRise2() {
 	else {}*/
 
     if (action->issortout(2)) {
-    	leavingState();
-    	new(this) FB2SortOut;
-    	enterByDefaultEntryPoint();
+    	action->closeJunction2();
+//    	leavingState();
+//    	new(this) FB2SortOut;
+//    	enterByDefaultEntryPoint();
     }
     else {
         action->openJunction2();

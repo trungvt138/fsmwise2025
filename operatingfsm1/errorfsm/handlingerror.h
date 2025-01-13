@@ -12,8 +12,6 @@ public:
     void entry() override;
 
     TriggerProcessingState startShortPressed1() override;
-
-    TriggerProcessingState startShortPressed2() override;
 };
 
 

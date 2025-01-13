@@ -20,6 +20,9 @@ public:
     virtual void lightGreenBlink1();
     virtual void lightGreenBlink2();
 
+    virtual void lightGreenBlinkOff1();
+    virtual void lightGreenBlinkOff2();
+
     virtual void lightRedOn1();
     virtual void lightRedOff1();
     virtual void lightRedOn2();
@@ -29,6 +32,11 @@ public:
     virtual void lightRedBlinkFast2();
     virtual void lightRedBlinkSlow1();
     virtual void lightRedBlinkSlow2();
+
+    virtual void lightRedBlinkFastOff1();
+    virtual void lightRedBlinkFastOff2();
+    virtual void lightRedBlinkSlowOff1();
+    virtual void lightRedBlinkSlowOff2();
 
     virtual void lightYellowOn1();
     virtual void lightYellowOff1();
@@ -61,10 +69,13 @@ public:
     virtual void lightResetOn2();
     virtual void lightResetOff2();
 
-    virtual void reset_wm();
-
     virtual bool isFbEmpty(int);
+    virtual void reset_wm();
     virtual bool issortout(int);
+    virtual bool isSlide2Full(void);
+    virtual void set_ws_type_fb1(int);
+    virtual void set_ws_type_fb2(int);
+
 };
 
 

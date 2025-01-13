@@ -39,10 +39,9 @@ TriggerProcessingState FB1SortOK::sortRise1() {
          enterByDefaultEntryPoint();
      * }
      else {}*/
+    std::cout << " Hier sollte issortout aufgerufen werden" << std::endl;
     if (action->issortout(1)) {
-    	leavingState();
-    	new(this) FB1SortOut;
-    	enterByDefaultEntryPoint();
+    	action->closeJunction1();
     }
     else {
         action->openJunction1();

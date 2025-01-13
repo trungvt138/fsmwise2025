@@ -169,3 +169,37 @@ bool Actions::isFbEmpty(int n) {
 bool Actions::issortout(int n) {
     return true;
 }
+
+void Actions::lightGreenBlinkOff1() {
+    cout << "Actions::lightGreenBlinkOff1" << endl;
+}
+
+void Actions::lightGreenBlinkOff2() {
+    cout << "Actions::lightGreenBlinkOff2" << endl;
+}
+
+void Actions::lightRedBlinkFastOff1() {
+    cout << "Actions::lightRedBlinkFastOff1" << endl;
+}
+
+void Actions::lightRedBlinkFastOff2() {
+    cout << "Actions::lightRedBlinkFastOff2" << endl;
+}
+
+void Actions::lightRedBlinkSlowOff1() {
+    cout << "Actions::lightRedBlinkSlowOff1" << endl;
+}
+
+void Actions::lightRedBlinkSlowOff2() {
+    cout << "Actions::lightRedBlinkSlowOff2" << endl;
+}
+
+bool Actions::isSlide2Full() {
+    return true;
+}
+
+void Actions::set_ws_type_fb1(int) {
+}
+
+void Actions::set_ws_type_fb2(int) {
+}

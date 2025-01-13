@@ -8,7 +8,7 @@
 using namespace std;
 
 void WaitError2::exit() {
-    action->lightResetOff1();
+    //action->lightResetOff1();
     action->lightResetOff2();
 }
 

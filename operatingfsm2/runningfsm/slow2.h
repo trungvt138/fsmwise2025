@@ -33,6 +33,8 @@ public:
 
     TriggerProcessingState heightBelt() override;
 
+    TriggerProcessingState heightBin() override;
+
 };
 
 

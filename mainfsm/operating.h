@@ -80,15 +80,13 @@ public:
 
     TriggerProcessingState startShortPressed2() override;
 
-    TriggerProcessingState ws_early() override;
+    TriggerProcessingState ws_early1() override;
 
-    TriggerProcessingState ws_lost() override;
+    TriggerProcessingState ws_lost1() override;
 
-    TriggerProcessingState irqUpdate() override;
+    TriggerProcessingState ws_early2() override;
 
-    TriggerProcessingState ws_height() override;
-
-    TriggerProcessingState ws_metal() override;
+    TriggerProcessingState ws_lost2() override;
 
     TriggerProcessingState heightFlat1() override;
 
@@ -98,6 +96,8 @@ public:
 
     TriggerProcessingState heightBelt1() override;
 
+    TriggerProcessingState heightBin1() override;
+
     TriggerProcessingState heightFlat2() override;
 
     TriggerProcessingState heightHigh2() override;
@@ -105,6 +105,8 @@ public:
     TriggerProcessingState heightBore2() override;
 
     TriggerProcessingState heightBelt2() override;
+
+    TriggerProcessingState heightBin2() override;
 
     void showState() override;
 };

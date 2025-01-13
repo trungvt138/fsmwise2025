@@ -40,7 +40,7 @@ TriggerProcessingState Operating::resetPressed1() {
 }
 
 TriggerProcessingState Operating::resetPressed2() {
-    return operatingFSM1->resetPressed2();
+    return operatingFSM2->resetPressed2();
 }
 
 TriggerProcessingState Operating::startShortPressed1() {
@@ -97,7 +97,12 @@ TriggerProcessingState Operating::slideFall1() {
 }
 
 TriggerProcessingState Operating::slideRise2() {
-    return operatingFSM2->slideRise2();
+	TriggerProcessingState state1 = operatingFSM1->slideRise2();
+	 TriggerProcessingState state2 = operatingFSM2->slideRise2();
+	 if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
+	    return TriggerProcessingState::consumed;
+	 }
+	return TriggerProcessingState::pending;
 }
 
 TriggerProcessingState Operating::slideFall2() {
@@ -117,7 +122,6 @@ TriggerProcessingState Operating::endFall1() {
 }
 
 TriggerProcessingState Operating::endFall2() {
-	//data->dec_fb2();
 	TriggerProcessingState state1 = operatingFSM1->endFall2();
     TriggerProcessingState state2 = operatingFSM2->endFall2();
     if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
@@ -178,27 +182,24 @@ TriggerProcessingState Operating::sortFall2() {
 //     return operatingFSM2->connectionLost();
 // }
 
-TriggerProcessingState Operating::ws_early() {
+TriggerProcessingState Operating::ws_early1() {
     TriggerProcessingState state = operatingFSM1->ws_early();
     return state;
 }
 
-TriggerProcessingState Operating::ws_lost() {
+TriggerProcessingState Operating::ws_lost1() {
     TriggerProcessingState state = operatingFSM1->ws_lost();
-    //operatingFSM2->motor_timer_end();
     return state;
 }
 
-TriggerProcessingState Operating::irqUpdate() {
-    return BaseStateMain::irqUpdate();
+TriggerProcessingState Operating::ws_early2() {
+    TriggerProcessingState state = operatingFSM2->ws_early();
+    return state;
 }
 
-TriggerProcessingState Operating::ws_height() {
-    return BaseStateMain::ws_height();
-}
-
-TriggerProcessingState Operating::ws_metal() {
-    return BaseStateMain::ws_metal();
+TriggerProcessingState Operating::ws_lost2() {
+    TriggerProcessingState state = operatingFSM2->ws_lost();
+    return state;
 }
 
 TriggerProcessingState Operating::heightFlat1() {
@@ -217,6 +218,10 @@ TriggerProcessingState Operating::heightBelt1() {
     return operatingFSM1->heightBelt1();
 }
 
+TriggerProcessingState Operating::heightBin1() {
+    return operatingFSM1->heightBin1();
+}
+
 TriggerProcessingState Operating::heightFlat2() {
     return operatingFSM2->heightFlat2();
 }
@@ -231,6 +236,10 @@ TriggerProcessingState Operating::heightBore2() {
 
 TriggerProcessingState Operating::heightBelt2() {
     return operatingFSM2->heightBelt2();
+}
+
+TriggerProcessingState Operating::heightBin2() {
+    return operatingFSM2->heightBin2();
 }
 
 void Operating::showState() {

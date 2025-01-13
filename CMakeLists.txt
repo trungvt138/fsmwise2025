@@ -64,14 +64,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/fb1sortfsm/pseudostartfb1sort.h
         operatingfsm1/fb1.cpp
         operatingfsm1/fb1.h
-        operatingfsm1/warn_sort_not_possible.cpp
-        operatingfsm1/warn_sort_not_possible.h
-        operatingfsm1/err_new_ws.cpp
-        operatingfsm1/err_new_ws.h
-        operatingfsm1/Err_lost_ws.cpp
-        operatingfsm1/Err_lost_ws.h
-        operatingfsm1/Err_slide_full.cpp
-        operatingfsm1/Err_slide_full.h
         operatingfsm1/fb1runfsm/fb1runidle.cpp
         operatingfsm1/fb1runfsm/fb1runidle.h
         operatingfsm1/fb1runfsm/fb1runwait.cpp
@@ -128,19 +120,11 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/error.cpp
         operatingfsm1/error.h
         operatingfsm2/fb2.h
-        operatingfsm2/warn_sort_not_possible.h
         operatingfsm2/error2.h
         operatingfsm2/pseudostartoperating2.h
-        operatingfsm2/err_new_ws2.cpp
         operatingfsm2/operatingbasestate2.cpp
         operatingfsm2/operatingbasestate2.h
-        operatingfsm2/err_slide_full2.h
-        operatingfsm2/err_new_ws2.h
-        operatingfsm2/warn_sort_not_possible.cpp
-        operatingfsm2/err_lost_ws2.h
         operatingfsm2/error2.cpp
-        operatingfsm2/err_slide_full2.cpp
-        operatingfsm2/err_lost_ws.cpp
         operatingfsm2/fb2.cpp
         operatingfsm2/fb1runfsm/fb2runidle.h
         operatingfsm2/fb1runfsm/fb2runwait.h
@@ -195,7 +179,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm2/runningfsm/fast2.h
         operatingfsm2/runningfsm/slow2.h
         operatingfsm2/runningfsm/runningbasestate2.cpp
-        operatingfsm2/warn_sort_not_possible.h
         calibratingfsm/calibratingpseudostart.h
         calibratingfsm/Idle1.cpp
         calibratingfsm/Idle1.h
@@ -238,4 +221,5 @@ add_executable(fsm_estop main.cpp
         calibratingfsm/AS82.cpp
         calibratingfsm/Idle2.cpp
         calibratingfsm/Idle2.h
+        estopfsm/e2pressedcl.cpp
 )

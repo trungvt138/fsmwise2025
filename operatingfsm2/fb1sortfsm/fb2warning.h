@@ -9,6 +9,10 @@
 
 class FB2Warning : public FB2SortBaseState {
 public:
+    void entry() override;
+
+    void exit() override;
+
     TriggerProcessingState slideFall2() override;
 
     TriggerProcessingState sortRise2() override;

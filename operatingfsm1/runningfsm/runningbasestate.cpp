@@ -29,8 +29,8 @@ void RunningBaseState::enterViaPseudoStart() {
 }
 
 void RunningBaseState::enterViaDeepHistory() {
-    entry();
-    enterByDefaultEntryPoint();
+    //entry();
+    enterByDeepHistoryEntryPoint();
 }
 
 void RunningBaseState::resetDeepHistory() {

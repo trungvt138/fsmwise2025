@@ -208,24 +208,20 @@ void MainFSM::connectionLost() {
     }
 }
 
-void MainFSM::ws_lost() {
-    mainfsm->ws_lost();
+void MainFSM::ws_lost1() {
+    mainfsm->ws_lost1();
 }
 
-void MainFSM::ws_early() {
-    mainfsm->ws_early();
+void MainFSM::ws_early1() {
+    mainfsm->ws_early1();
 }
 
-void MainFSM::irqUpdate() {
-    mainfsm->irqUpdate();
+void MainFSM::ws_lost2() {
+    mainfsm->ws_lost2();
 }
 
-void MainFSM::ws_height() {
-    mainfsm->ws_height();
-}
-
-void MainFSM::ws_metal() {
-    mainfsm->ws_metal();
+void MainFSM::ws_early2() {
+    mainfsm->ws_early2();
 }
 
 void MainFSM::heightFlat1() {
@@ -244,6 +240,10 @@ void MainFSM::heightBelt1() {
     mainfsm->heightBelt1();
 }
 
+void MainFSM::heightBin1() {
+    mainfsm->heightBin1();
+}
+
 void MainFSM::heightFlat2() {
     mainfsm->heightFlat2();
 }
@@ -258,5 +258,9 @@ void MainFSM::heightBore2() {
 
 void MainFSM::heightBelt2() {
     mainfsm->heightBelt2();
+}
+
+void MainFSM::heightBin2() {
+    mainfsm->heightBin2();
 }
 

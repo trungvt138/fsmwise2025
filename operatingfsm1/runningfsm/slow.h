@@ -17,6 +17,8 @@ public:
 
     void enterByDeepHistoryEntryPoint() override;
 
+
+
     void leavingState() override;
 
     void showState() override;
@@ -32,6 +34,8 @@ public:
     TriggerProcessingState heightBore1() override;
 
     TriggerProcessingState heightBelt1() override;
+
+    TriggerProcessingState heightBin1() override;
 
 };
 

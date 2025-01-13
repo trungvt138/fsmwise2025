@@ -6,13 +6,10 @@
 #include <iostream>
 
 #include "error.h"
-#include "err_lost_ws.h"
-#include "err_new_ws.h"
-#include "err_slide_full.h"
 using namespace std;
 
 void FB1::entry() {
-    OperatingBaseState1::entry();
+    actions->lightGreenOn1();
 }
 
 void FB1::exit() {
@@ -26,7 +23,7 @@ void FB1::enterViaPseudoStart() {
 void FB1::enterViaDeepHistory() {
     entry();
     fb1runFSM->enterViaDeepHistory();
-    //fb1sortFSM->enterViaDeepHistory();
+    fb1sortFSM->enterViaDeepHistory();
 }
 
 void FB1::enterByDefaultEntryPoint() {
@@ -36,7 +33,7 @@ void FB1::enterByDefaultEntryPoint() {
 }
 
 void FB1::enterByDeepHistoryEntryPoint() {
-    OperatingBaseState1::enterByDeepHistoryEntryPoint();
+    enterViaDeepHistory();
 }
 
 void FB1::leavingState() {
@@ -92,7 +89,16 @@ TriggerProcessingState FB1::sortFall1() {
 }
 
 TriggerProcessingState FB1::slideRise1() {
-    return fb1sortFSM->slideRise1();
+	TriggerProcessingState state1 = fb1runFSM->slideRise1();
+    TriggerProcessingState state2 = fb1sortFSM->slideRise1();
+    if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
+    	return TriggerProcessingState::consumed;
+    }
+    return TriggerProcessingState::pending;
+}
+
+TriggerProcessingState FB1::slideRise2() {
+    return fb1runFSM->slideRise2();
 }
 
 TriggerProcessingState FB1::slideFall1() {
@@ -149,4 +155,8 @@ TriggerProcessingState FB1::heightBore1() {
 
 TriggerProcessingState FB1::heightBelt1() {
     return fb1runFSM->heightBelt1();
+}
+
+TriggerProcessingState FB1::heightBin1() {
+    return fb1runFSM->heightBin1();
 }

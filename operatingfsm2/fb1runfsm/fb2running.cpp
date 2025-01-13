@@ -4,7 +4,7 @@
 
 #include "fb2running.h"
 #include <iostream>
-
+#include "fb2runidle.h"
 #include "fb2runwait.h"
 using namespace std;
 
@@ -43,6 +43,15 @@ TriggerProcessingState Running2::endRise2() {
     return TriggerProcessingState::consumed;
 }
 
+TriggerProcessingState Running2::slideRise2() {
+	cout << "Running2::slideRise2()" << endl;
+	runningfsm->exit();
+	leavingState();
+	new(this) Fb2RunIdle;
+	enterByDefaultEntryPoint();
+	return TriggerProcessingState::consumed;
+}
+
 TriggerProcessingState Running2::heightStart2() {
     return runningfsm->heightStart2();
 }
@@ -73,4 +82,8 @@ TriggerProcessingState Running2::heightBore() {
 
 TriggerProcessingState Running2::heightBelt() {
     return runningfsm->heightBelt();
+}
+
+TriggerProcessingState Running2::heightBin() {
+    return runningfsm->heightBin();
 }

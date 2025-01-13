@@ -22,6 +22,8 @@ public:
     void leavingState() override;
 
     TriggerProcessingState endFall2() override;
+
+    TriggerProcessingState slideRise2() override;
 };
 
 

@@ -44,6 +44,7 @@ public:
     virtual TriggerProcessingState heightHigh1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBore1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState heightBelt1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBin1(){ return TriggerProcessingState::pending; }
 };
 
 

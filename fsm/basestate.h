@@ -81,11 +81,10 @@ public:
     virtual void metalRise2(){}
     virtual void metalFall2(){}
 
-    virtual void ws_early(){};
-    virtual void ws_lost(){};
-    virtual void irqUpdate(){};
-    virtual void ws_height(){};
-    virtual void ws_metal(){};
+    virtual void ws_early1(){};
+    virtual void ws_lost1(){};
+    virtual void ws_early2(){};
+    virtual void ws_lost2(){};
 
     virtual void connectionLost(){};
     virtual void connectionBack(){};
@@ -94,11 +93,13 @@ public:
     virtual void heightHigh1(){}
     virtual void heightBore1(){}
     virtual void heightBelt1(){}
+    virtual void heightBin1(){}
 
     virtual void heightFlat2(){}
     virtual void heightHigh2(){}
     virtual void heightBore2(){}
     virtual void heightBelt2(){}
+    virtual void heightBin2(){}
 
 };
 

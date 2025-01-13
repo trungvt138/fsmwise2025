@@ -9,6 +9,10 @@
 
 class FB1Warning : public FB1SortBaseState {
 public:
+    void entry() override;
+
+    void exit() override;
+
     TriggerProcessingState slideFall1() override;
 
     TriggerProcessingState sortRise1() override;

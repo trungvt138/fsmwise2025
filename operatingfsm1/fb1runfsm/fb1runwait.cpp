@@ -42,3 +42,11 @@ TriggerProcessingState Fb1RunWait::endFall2() {
     enterByDeepHistoryEntryPoint();
     return TriggerProcessingState::consumed;
 }
+
+TriggerProcessingState Fb1RunWait::slideRise2() {
+	cout << "Fb1RunWait::slideRise2()" << endl;
+    leavingState();
+    new(this) Running;
+    enterByDeepHistoryEntryPoint();
+    return TriggerProcessingState::consumed;
+}

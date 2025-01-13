@@ -6,13 +6,10 @@
 #include <iostream>
 
 #include "error2.h"
-#include "err_lost_ws2.h"
-#include "err_new_ws2.h"
-#include "err_slide_full2.h"
 using namespace std;
 
 void FB2::entry() {
-    OperatingBaseState2::entry();
+    actions->lightGreenOn2();
 }
 
 void FB2::exit() {
@@ -36,7 +33,7 @@ void FB2::enterByDefaultEntryPoint() {
 }
 
 void FB2::enterByDeepHistoryEntryPoint() {
-    OperatingBaseState2::enterByDeepHistoryEntryPoint();
+    enterViaDeepHistory();
 }
 
 void FB2::leavingState() {
@@ -84,7 +81,12 @@ TriggerProcessingState FB2::sortFall2() {
 }
 
 TriggerProcessingState FB2::slideRise2() {
-    return fb2sortFSM->slideRise2();
+	TriggerProcessingState state1 = fb2runFSM->slideRise2();
+	TriggerProcessingState state2 = fb2sortFSM->slideRise2();
+	if (state1 == TriggerProcessingState::consumed || state2 == TriggerProcessingState::consumed) {
+	    return TriggerProcessingState::consumed;
+	}
+	return TriggerProcessingState::pending;
 }
 
 TriggerProcessingState FB2::slideFall2() {
@@ -141,6 +143,10 @@ TriggerProcessingState FB2::heightBore2() {
 
 TriggerProcessingState FB2::heightBelt2() {
     return fb2runFSM->heightBelt();
+}
+
+TriggerProcessingState FB2::heightBin2() {
+    return fb2runFSM->heightBin();
 }
 
 TriggerProcessingState FB2::endFall1() {

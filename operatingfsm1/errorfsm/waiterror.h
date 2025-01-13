@@ -11,7 +11,5 @@ public:
     void exit() override;
 
     TriggerProcessingState resetPressed1() override;
-
-    TriggerProcessingState resetPressed2() override;
 };
 #endif //WAITERROR_H

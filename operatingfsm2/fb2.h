@@ -68,6 +68,8 @@ public:
     TriggerProcessingState heightBore2() override;
 
     TriggerProcessingState heightBelt2() override;
+
+    TriggerProcessingState heightBin2() override;
 };
 
 

@@ -9,9 +9,11 @@
 using namespace std;
 
 void HandlingError2::entry() {
-    action->lightStartOn1();
+    //action->lightStartOn1();
     action->lightStartOn2();
-    action->lightRedOn1();
+    action->lightRedBlinkFastOff2();
+    action->lightRedBlinkSlowOff2();
+    //action->lightRedOn1();
     action->lightRedOn2();
 }
 

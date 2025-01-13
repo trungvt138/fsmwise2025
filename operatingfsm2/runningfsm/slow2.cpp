@@ -58,3 +58,7 @@ TriggerProcessingState Slow2::heightBore() {
 TriggerProcessingState Slow2::heightBelt() {
     return handleDefaultExit(slowfsm->heightBelt());;
 }
+
+TriggerProcessingState Slow2::heightBin() {
+    return handleDefaultExit(slowfsm->heightBin());;
+}

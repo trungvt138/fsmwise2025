@@ -4,25 +4,21 @@
 
 #include "error2.h"
 #include <iostream>
-
+#include "../mainfsm/operating.h"
 #include "fb2.h"
 using namespace std;
 
 void Error2::entry() {
-    actions->lightRedBlinkFast1();
+    //actions->lightRedBlinkFast1();
+	actions->lightGreenOff2();
     actions->lightRedBlinkFast2();
-    actions->driveStopOn1();
     actions->driveStopOn2();
-    actions->lightResetOn1();
     actions->lightResetOn2();
 }
 
 void Error2::exit() {
-    actions->lightRedOff1();
     actions->lightRedOff2();
-    actions->lightStartOff1();
     actions->lightStartOff2();
-    actions->driveStopOff1();
     actions->driveStopOff2();
 }
 
@@ -31,39 +27,34 @@ TriggerProcessingState Error2::handleDefaultExit(TriggerProcessingState state) {
         errorFSM2->exit();
         leavingState();
         new(this) FB2;
-        enterByDefaultEntryPoint();
+        enterByDeepHistoryEntryPoint();
     }
     return TriggerProcessingState::consumed;
 }
 
 void Error2::enterViaErrNewWS() {
-    entry();
     cout << "enterViaErrNewWS" << endl;
+    cout << "Error WS auf FB2 neu aufgetaucht" << endl;
+    entry();
     errorFSM2->enterViaPseudoStart();
 }
 
 void Error2::enterViaErrLostWS() {
-    entry();
     cout << "enterViaErrLostWS" << endl;
+    cout << "Error WS auf FB1 verschwunden" << endl;
+    entry();
     errorFSM2->enterViaPseudoStart();
 }
 
 void Error2::enterViaErrSlideFull() {
-    entry();
     cout << "enterViaErrSlideFull" << endl;
+    cout << "Error Slide 2 voll" << endl;
+    entry();
     errorFSM2->enterViaPseudoStart();
-}
-
-TriggerProcessingState Error2::startShortPressed1() {
-    return handleDefaultExit(errorFSM2->startShortPressed1());
 }
 
 TriggerProcessingState Error2::startShortPressed2() {
     return handleDefaultExit(errorFSM2->startShortPressed2());
-}
-
-TriggerProcessingState Error2::resetPressed1() {
-    return errorFSM2->resetPressed1();
 }
 
 TriggerProcessingState Error2::resetPressed2() {

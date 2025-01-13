@@ -17,7 +17,7 @@ void FB1SortOut::exit() {
 }
 
 TriggerProcessingState FB1SortOut::slideRise1() {
-    cout << "slideRise1" << endl;
+    cout << "FB1SortOut::slideRise1" << endl;
     leavingState();
     new(this) FB1SortOK;
     enterByDefaultEntryPoint();

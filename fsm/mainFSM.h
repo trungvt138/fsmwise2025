@@ -93,15 +93,13 @@ public:
 
     void sortFall2() override;
 
-    void ws_lost() override;
+    void ws_lost1() override;
 
-    void ws_early() override;
+    void ws_early1() override;
 
-    void irqUpdate() override;
+    void ws_lost2() override;
 
-    void ws_height() override;
-
-    void ws_metal() override;
+    void ws_early2() override;
 
     void heightFlat1() override;
 
@@ -111,6 +109,8 @@ public:
 
     void heightBelt1() override;
 
+    void heightBin1() override;
+
     void heightFlat2() override;
 
     void heightHigh2() override;
@@ -118,6 +118,8 @@ public:
     void heightBore2() override;
 
     void heightBelt2() override;
+
+    void heightBin2() override;
 };
 
 

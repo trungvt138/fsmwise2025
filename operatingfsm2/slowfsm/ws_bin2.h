@@ -2,8 +2,8 @@
 // Created by Trung Dam on 20.12.24.
 //
 
-#ifndef WS_BIN1_H
-#define WS_BIN1_H
+#ifndef WS_BIN2_H
+#define WS_BIN2_H
 #include "basestateslow2.h"
 
 
@@ -14,4 +14,4 @@ public:
 
 
 
-#endif //WS_BIN1_H
+#endif //WS_BIN2_H

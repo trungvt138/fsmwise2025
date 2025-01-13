@@ -33,10 +33,16 @@ void EstopFSM::handleDefaultExit(const TriggerProcessingState &processing_state)
 }
 
 void EstopFSM::entry() {
+	action->lightRedBlinkFastOff1();
+	action->lightRedBlinkFastOff2();
+	action->lightYellowOff1();
+	action->lightYellowOff2();
     action->lightRedOn1();
     action->lightRedOn2();
     action->driveStopOn1();
     action->driveStopOn2();
+    action->driveSlowOff1();
+    action->driveSlowOff2();
     action->closeJunction1();
     action->closeJunction2();
 }

@@ -9,20 +9,23 @@
 #include "connectionlost.h"
 #include "e1pressed.h"
 #include "e1pressedcl.h"
+#include "e2pressedcl.h"
 using namespace std;
 
 TriggerProcessingState BothPressedCL::estopUnpressed1() {
     cout << "BothPressedCL::estopUnpressed1()" << endl;
-    new(this) ConnectionLost;
+    new(this) E2PressedCL;
+    return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState BothPressedCL::estopUnpressed2() {
+    cout << "BothPressedCL::estopUnpressed2()" << endl;
+    new(this) E1PressedCL;
     return TriggerProcessingState::consumed;
 }
 
 TriggerProcessingState BothPressedCL::connectionBack() {
     cout << "BothPressedCL::connectionBack()" << endl;
-    if (data->isE2PressedAfterCL()) {
-        new(this) BothPressed;
-    } else {
-        new(this) E1Pressed;
-    }
-    return BaseStateEstop::connectionBack();
+    new(this) BothPressed;
+    return TriggerProcessingState::consumed;
 }

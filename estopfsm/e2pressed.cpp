@@ -4,9 +4,8 @@
 
 #include "e2pressed.h"
 #include <iostream>
-
+#include "e2pressedcl.h"
 #include "bothpressed.h"
-#include "connectionlost.h"
 #include "resetFSM.h"
 using namespace std;
 
@@ -27,7 +26,7 @@ TriggerProcessingState E2Pressed::estopUnpressed2() {
 
 TriggerProcessingState E2Pressed::connectionLost() {
     cout << "E2Pressed::connectionLost()" << endl;
-    new(this) ConnectionLost;
+    new(this) E2PressedCL;
     return TriggerProcessingState::consumed;
 }
 

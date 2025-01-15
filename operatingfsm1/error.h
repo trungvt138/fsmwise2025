@@ -15,11 +15,7 @@ public:
 
     TriggerProcessingState startShortPressed1() override;
 
-    TriggerProcessingState startShortPressed2() override;
-
     TriggerProcessingState resetPressed1() override;
-
-    TriggerProcessingState resetPressed2() override;
 
     void enterViaErrNewWS() override;
 

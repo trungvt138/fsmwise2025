@@ -31,13 +31,19 @@ public:
 
     TriggerProcessingState endRise1() override;
 
-    TriggerProcessingState heightFlat() override;
+    TriggerProcessingState startRise2() override;
 
-    TriggerProcessingState heightHigh() override;
+    TriggerProcessingState heightFlat1() override;
 
-    TriggerProcessingState heightBore() override;
+    TriggerProcessingState heightHigh1() override;
 
-    TriggerProcessingState heightBelt() override;
+    TriggerProcessingState heightBore1() override;
+
+    TriggerProcessingState heightBelt1() override;
+
+    TriggerProcessingState heightBin1() override;
+
+    TriggerProcessingState slideRise1() override;
 };
 
 

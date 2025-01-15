@@ -4,7 +4,7 @@
 
 #include "e1pressedcl.h"
 #include <iostream>
-
+#include "bothpressedcl.h"
 #include "bothpressed.h"
 #include "connectionlost.h"
 #include "e1pressed.h"
@@ -16,12 +16,14 @@ TriggerProcessingState E1PressedCL::estopUnpressed1() {
     return TriggerProcessingState::consumed;
 }
 
+TriggerProcessingState E1PressedCL::estopPressed2() {
+    cout << "E1PressedCL::estopPressed2()" << endl;
+    new(this) BothPressedCL;
+    return TriggerProcessingState::consumed;
+}
+
 TriggerProcessingState E1PressedCL::connectionBack() {
     cout << "E1PressedCL::connectionBack()" << endl;
-    if (data->isE2PressedAfterCL()) {
-        new(this) BothPressed;
-    } else {
-        new(this) E1Pressed;
-    }
+    new(this) E1Pressed;
     return TriggerProcessingState::consumed;
 }

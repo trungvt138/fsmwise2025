@@ -6,6 +6,7 @@
 #include <iostream>
 
 #include "e1pressedcl.h"
+#include "e2pressedcl.h"
 #include "e2pressed.h"
 #include "resetFSM.h"
 using namespace std;
@@ -16,14 +17,15 @@ TriggerProcessingState ConnectionLost::estopPressed1() {
     return TriggerProcessingState::consumed;
 }
 
+TriggerProcessingState ConnectionLost::estopPressed2() {
+    cout << "ConnectionLost::estopPressed2" << endl;
+    new(this) E2PressedCL;
+    return TriggerProcessingState::consumed;
+}
+
 TriggerProcessingState ConnectionLost::connectionBack() {
     cout << "ConnectionLost::connectionBack" << endl;
-    if (data->isE2PressedAfterCL()) {
-        new(this) E2Pressed;
-    }
-    else {
-        new(this) ResetFSM;
-        enterByDefaultEntryPoint();
-    }
+    new(this) ResetFSM;
+    enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

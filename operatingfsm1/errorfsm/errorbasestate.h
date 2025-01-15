@@ -35,9 +35,7 @@ public:
     void showState();
 
     virtual TriggerProcessingState resetPressed1() { return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState resetPressed2() { return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startShortPressed1() { return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState startShortPressed2() { return TriggerProcessingState::pending; }
 };
 
 

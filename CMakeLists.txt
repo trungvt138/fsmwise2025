@@ -64,14 +64,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/fb1sortfsm/pseudostartfb1sort.h
         operatingfsm1/fb1.cpp
         operatingfsm1/fb1.h
-        operatingfsm1/warn_sort_not_possible.cpp
-        operatingfsm1/warn_sort_not_possible.h
-        operatingfsm1/err_new_ws.cpp
-        operatingfsm1/err_new_ws.h
-        operatingfsm1/Err_lost_ws.cpp
-        operatingfsm1/Err_lost_ws.h
-        operatingfsm1/Err_slide_full.cpp
-        operatingfsm1/Err_slide_full.h
         operatingfsm1/fb1runfsm/fb1runidle.cpp
         operatingfsm1/fb1runfsm/fb1runidle.h
         operatingfsm1/fb1runfsm/fb1runwait.cpp
@@ -127,4 +119,107 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/errorfsm/waiterror.h
         operatingfsm1/error.cpp
         operatingfsm1/error.h
+        operatingfsm2/fb2.h
+        operatingfsm2/error2.h
+        operatingfsm2/pseudostartoperating2.h
+        operatingfsm2/operatingbasestate2.cpp
+        operatingfsm2/operatingbasestate2.h
+        operatingfsm2/error2.cpp
+        operatingfsm2/fb2.cpp
+        operatingfsm2/fb1runfsm/fb2runidle.h
+        operatingfsm2/fb1runfsm/fb2runwait.h
+        operatingfsm2/fb1runfsm/fb2runidle.cpp
+        operatingfsm2/fb1runfsm/fb2runbasestate.cpp
+        operatingfsm2/fb1runfsm/pseudostartfb2run.h
+        operatingfsm2/fb1runfsm/fb2runbasestate.h
+        operatingfsm2/fb1runfsm/fb2runwait.cpp
+        operatingfsm2/fb1runfsm/fb2running.cpp
+        operatingfsm2/fb1runfsm/fb2running.h
+        operatingfsm2/errorfsm/pseudoenderror2.h
+        operatingfsm2/errorfsm/pseudostarterror2.h
+        operatingfsm2/errorfsm/errorbasestate2.cpp
+        operatingfsm2/errorfsm/waiterror2.h
+        operatingfsm2/errorfsm/handlingerror2.h
+        operatingfsm2/errorfsm/waiterror2.cpp
+        operatingfsm2/errorfsm/handlingerror2.cpp
+        operatingfsm2/errorfsm/errorbasestate2.h
+        operatingfsm2/slowfsm/high2.h
+        operatingfsm2/slowfsm/bore2.h
+        operatingfsm2/slowfsm/idleslow2.cpp
+        operatingfsm2/slowfsm/ws_bore2.cpp
+        operatingfsm2/slowfsm/idleslow2.h
+        operatingfsm2/slowfsm/flat2.cpp
+        operatingfsm2/slowfsm/basestateslow2.h
+        operatingfsm2/slowfsm/bore2.cpp
+        operatingfsm2/slowfsm/flat2.h
+        operatingfsm2/slowfsm/ws_flat2.cpp
+        operatingfsm2/slowfsm/ws_high2.h
+        operatingfsm2/slowfsm/ws_bin2.h
+        operatingfsm2/slowfsm/ws_high2.cpp
+        operatingfsm2/slowfsm/basestateslow2.cpp
+        operatingfsm2/slowfsm/ws_bore2.h
+        operatingfsm2/slowfsm/ws_bin2.cpp
+        operatingfsm2/slowfsm/high2.cpp
+        operatingfsm2/slowfsm/pseudoendslow2.h
+        operatingfsm2/slowfsm/pseudostartslow2.h
+        operatingfsm2/slowfsm/ws_flat2.h
+        operatingfsm2/fb1sortfsm/fb2sortbasestate.h
+        operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp
+        operatingfsm2/fb1sortfsm/fb2warning.h
+        operatingfsm2/fb1sortfsm/fb2sortok.cpp
+        operatingfsm2/fb1sortfsm/fb2warning.cpp
+        operatingfsm2/fb1sortfsm/fb2sortout.h
+        operatingfsm2/fb1sortfsm/fb2sortok.h
+        operatingfsm2/fb1sortfsm/pseudostartfb2sort.h
+        operatingfsm2/fb1sortfsm/fb2sortout.cpp
+        operatingfsm2/runningfsm/runningpseudostart2.h
+        operatingfsm2/runningfsm/runningbasestate2.h
+        operatingfsm2/runningfsm/slow2.cpp
+        operatingfsm2/runningfsm/fast2.cpp
+        operatingfsm2/runningfsm/fast2.h
+        operatingfsm2/runningfsm/slow2.h
+        operatingfsm2/runningfsm/runningbasestate2.cpp
+        calibratingfsm/calibratingpseudostart.h
+        calibratingfsm/Idle1.cpp
+        calibratingfsm/Idle1.h
+        calibratingfsm/AS11.cpp
+        calibratingfsm/AS11.h
+        calibratingfsm/AS31.cpp
+        calibratingfsm/AS31.h
+        calibratingfsm/AS41.h
+        calibratingfsm/AS41.cpp
+        calibratingfsm/AS51.cpp
+        calibratingfsm/AS51.h
+        calibratingfsm/AS61.cpp
+        calibratingfsm/AS61.h
+        calibratingfsm/AS71.cpp
+        calibratingfsm/AS71.h
+        calibratingfsm/AS81.cpp
+        calibratingfsm/AS81.h
+        calibratingfsm/AS91.cpp
+        calibratingfsm/AS91.h
+        calibratingfsm/Fertig1.cpp
+        calibratingfsm/Fertig1.h
+        calibratingfsm/AS21.cpp
+        calibratingfsm/AS21.h
+        calibratingfsm/Fertig2.cpp
+        calibratingfsm/calibratingpseudoend.h
+        calibratingfsm/AS92.h
+        calibratingfsm/AS92.cpp
+        calibratingfsm/AS82.h
+        calibratingfsm/AS22.cpp
+        calibratingfsm/AS32.cpp
+        calibratingfsm/AS32.h
+        calibratingfsm/AS42.cpp
+        calibratingfsm/AS42.h
+        calibratingfsm/AS52.cpp
+        calibratingfsm/AS52.h
+        calibratingfsm/AS62.cpp
+        calibratingfsm/AS62.h
+        calibratingfsm/AS72.cpp
+        calibratingfsm/AS72.h
+        calibratingfsm/AS82.cpp
+        calibratingfsm/Idle2.cpp
+        calibratingfsm/Idle2.h
+        estopfsm/e2pressedcl.cpp
 )

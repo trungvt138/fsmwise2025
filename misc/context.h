@@ -7,6 +7,7 @@
 #include "action.h"
 #include "contextdata.h"
 #include "../fsm/basestate.h"
+//#include "../../WM/weltmodell.h"
 
 
 class Context {
@@ -14,10 +15,13 @@ private:
     BaseState *state;
     Actions *action;
     ContextData data;
+    //Weltmodell* weltmodell;
 
 public:
     Context(Actions *shared_action);
     virtual ~Context();
+
+    void updateEstop(bool val);
 
     void startShortPressed1();
     void startLongPressed1();
@@ -57,20 +61,25 @@ public:
     void heightStart2();
     void heightEnd2();
 
-
-    void ws_lost();
-    void ws_early();
-    void irqUpdate();
-    void ws_height();
-    void ws_metal();
+    void ws_lost1();
+    void ws_early1();
+    void ws_early2();
+    void ws_lost2();
 
     void connectionLost();
     void connectionBack();
 
-    void heightFlat();
-    void heightHigh();
-    void heightBore();
-    void heightBelt();
+    void heightFlat1();
+    void heightHigh1();
+    void heightBore1();
+    void heightBelt1();
+    void heightBin1();
+
+    void heightFlat2();
+    void heightHigh2();
+    void heightBore2();
+    void heightBelt2();
+    void heightBin2();
 
     void showState();
 };

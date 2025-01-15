@@ -9,15 +9,15 @@
 using namespace std;
 
 void FB1SortOut::entry() {
-    action->openJunction1();
+    //action->openJunction1();
 }
 
 void FB1SortOut::exit() {
-    action->closeJunction1();
+    //action->closeJunction1();
 }
 
 TriggerProcessingState FB1SortOut::slideRise1() {
-    cout << "slideRise1" << endl;
+    cout << "FB1SortOut::slideRise1" << endl;
     leavingState();
     new(this) FB1SortOK;
     enterByDefaultEntryPoint();

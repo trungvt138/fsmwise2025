@@ -3,16 +3,27 @@
 //
 
 #include "context.h"
-
+#include <thread>
+#include <chrono>
 #include "../fsm/pseudostartstate.h"
 
 Context::Context(Actions *shared_action) : action(shared_action) {
-    state = new PseudoStartState();
+    action->closeJunction1();
+    action->closeJunction2();
+    action->driveStopOn1();
+    action->driveStopOn2();
+    action->lightGreenOff1();
+    action->lightGreenOff2();
+    action->lightRedOff1();
+    action->lightYellowOff1();
+    action->lightYellowOff2();
+	state = new PseudoStartState();
     state->initSubFSM();
 
     // all state pointer should be initialised now
     state->setData(&data);
     state->setAction(shared_action);
+    //state->setWM(weltmodell);
 
     // ready to go ...
     state->enterViaPseudoStart();  // Start state machine with initial transition
@@ -20,6 +31,10 @@ Context::Context(Actions *shared_action) : action(shared_action) {
 
 Context::~Context() {
     delete state;
+}
+
+void Context::updateEstop(bool val) {
+    data.setE2PressedAfterCL(val);
 }
 
 void Context::startShortPressed1() {
@@ -58,6 +73,7 @@ void Context::estopPressed1() {
 }
 
 void Context::estopPressed2() {
+
     state->estopPressed2();
 }
 
@@ -165,24 +181,20 @@ void Context::sortFall2() {
     state->sortFall2();
 }
 
-void Context::ws_lost() {
-    state->ws_lost();
+void Context::ws_lost1() {
+    state->ws_lost1();
 }
 
-void Context::ws_early() {
-    state->ws_early();
+void Context::ws_early1() {
+    state->ws_early1();
 }
 
-void Context::irqUpdate() {
-    state->irqUpdate();
+void Context::ws_lost2() {
+    state->ws_lost2();
 }
 
-void Context::ws_height() {
-    state->ws_height();
-}
-
-void Context::ws_metal() {
-    state->ws_metal();
+void Context::ws_early2() {
+    state->ws_early2();
 }
 
 void Context::connectionLost() {
@@ -193,20 +205,44 @@ void Context::connectionBack() {
     state->connectionBack();
 }
 
-void Context::heightFlat() {
-    state->heightFlat();
+void Context::heightFlat1() {
+    state->heightFlat1();
 }
 
-void Context::heightHigh() {
-    state->heightHigh();
+void Context::heightHigh1() {
+    state->heightHigh1();
 }
 
-void Context::heightBore() {
-    state->heightBore();
+void Context::heightBore1() {
+    state->heightBore1();
 }
 
-void Context::heightBelt() {
-    state->heightBelt();
+void Context::heightBelt1() {
+    state->heightBelt1();
+}
+
+void Context::heightBin1() {
+    state->heightBin1();
+}
+
+void Context::heightFlat2() {
+    state->heightFlat2();
+}
+
+void Context::heightHigh2() {
+    state->heightHigh2();
+}
+
+void Context::heightBore2() {
+    state->heightBore2();
+}
+
+void Context::heightBelt2() {
+    state->heightBelt2();
+}
+
+void Context::heightBin2() {
+    state->heightBin2();
 }
 
 void Context::showState() {

@@ -55,17 +55,25 @@ public:
 
     TriggerProcessingState startShortPressed1() override;
 
+    TriggerProcessingState startRise2() override;
+
+    TriggerProcessingState endFall2() override;
+
+    TriggerProcessingState slideRise2() override;
+
     TriggerProcessingState ws_early() override;
 
     TriggerProcessingState ws_lost() override;
 
-    TriggerProcessingState heightFlat() override;
+    TriggerProcessingState heightFlat1() override;
 
-    TriggerProcessingState heightHigh() override;
+    TriggerProcessingState heightHigh1() override;
 
-    TriggerProcessingState heightBore() override;
+    TriggerProcessingState heightBore1() override;
 
-    TriggerProcessingState heightBelt() override;
+    TriggerProcessingState heightBelt1() override;
+
+    TriggerProcessingState heightBin1() override;
 };
 
 

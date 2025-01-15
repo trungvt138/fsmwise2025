@@ -106,12 +106,19 @@ void Actions::driveRight1() {
 void Actions::driveRight2() {
     cout << "Actions::driveRight2" << endl;
 }
-void Actions::driveStop1() {
-    cout << "Actions::driveStop1" << endl;
+void Actions::driveStopOn1() {
+    cout << "Actions::driveStopOn1" << endl;
 }
-void Actions::driveStop2() {
-    cout << "Actions::driveStop2" << endl;
+void Actions::driveStopOn2() {
+    cout << "Actions::driveStopOn2" << endl;
 }
+void Actions::driveStopOff1() {
+    cout << "Actions::driveStopOff1" << endl;
+}
+void Actions::driveStopOff2() {
+    cout << "Actions::driveStopOff2" << endl;
+}
+
 void Actions::driveSlowOff1() {
     cout << "Actions::driveSlowOff1" << endl;
 }
@@ -149,4 +156,50 @@ void Actions::lightResetOn2() {
 
 void Actions::lightResetOff2() {
     cout << "Actions::lightResetOff2" << endl;
+}
+
+void Actions::reset_wm() {
+    cout << "Actions::reset_wm" << endl;
+}
+
+bool Actions::isFbEmpty(int n) {
+    return true;
+}
+
+bool Actions::issortout(int n) {
+    return true;
+}
+
+void Actions::lightGreenBlinkOff1() {
+    cout << "Actions::lightGreenBlinkOff1" << endl;
+}
+
+void Actions::lightGreenBlinkOff2() {
+    cout << "Actions::lightGreenBlinkOff2" << endl;
+}
+
+void Actions::lightRedBlinkFastOff1() {
+    cout << "Actions::lightRedBlinkFastOff1" << endl;
+}
+
+void Actions::lightRedBlinkFastOff2() {
+    cout << "Actions::lightRedBlinkFastOff2" << endl;
+}
+
+void Actions::lightRedBlinkSlowOff1() {
+    cout << "Actions::lightRedBlinkSlowOff1" << endl;
+}
+
+void Actions::lightRedBlinkSlowOff2() {
+    cout << "Actions::lightRedBlinkSlowOff2" << endl;
+}
+
+bool Actions::isSlide2Full() {
+    return true;
+}
+
+void Actions::set_ws_type_fb1(int) {
+}
+
+void Actions::set_ws_type_fb2(int) {
 }

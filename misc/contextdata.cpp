@@ -5,7 +5,7 @@
 #include "contextdata.h"
 
 bool ContextData::isFB1Clear() {
-    return fb1_clr;
+    return fb1_count == 0;
 }
 
 void ContextData::setFB1Clear(bool val) {
@@ -27,4 +27,5 @@ bool ContextData::isE2PressedAfterCL() {
 void ContextData::setE2PressedAfterCL(bool val) {
     isE2Pressed = val;
 }
+
 

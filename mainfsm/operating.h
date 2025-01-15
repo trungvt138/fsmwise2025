@@ -18,8 +18,6 @@ public:
 
     void resetDeepHistory() override;
 
-    void handleDefaultExit(const TriggerProcessingState &handled) override {};
-
     TriggerProcessingState resetPressed1() override;
 
     TriggerProcessingState resetPressed2() override;
@@ -82,23 +80,33 @@ public:
 
     TriggerProcessingState startShortPressed2() override;
 
-    TriggerProcessingState ws_early() override;
+    TriggerProcessingState ws_early1() override;
 
-    TriggerProcessingState ws_lost() override;
+    TriggerProcessingState ws_lost1() override;
 
-    TriggerProcessingState irqUpdate() override;
+    TriggerProcessingState ws_early2() override;
 
-    TriggerProcessingState ws_height() override;
+    TriggerProcessingState ws_lost2() override;
 
-    TriggerProcessingState ws_metal() override;
+    TriggerProcessingState heightFlat1() override;
 
-    TriggerProcessingState heightFlat() override;
+    TriggerProcessingState heightHigh1() override;
 
-    TriggerProcessingState heightHigh() override;
+    TriggerProcessingState heightBore1() override;
 
-    TriggerProcessingState heightBore() override;
+    TriggerProcessingState heightBelt1() override;
 
-    TriggerProcessingState heightBelt() override;
+    TriggerProcessingState heightBin1() override;
+
+    TriggerProcessingState heightFlat2() override;
+
+    TriggerProcessingState heightHigh2() override;
+
+    TriggerProcessingState heightBore2() override;
+
+    TriggerProcessingState heightBelt2() override;
+
+    TriggerProcessingState heightBin2() override;
 
     void showState() override;
 };

@@ -7,6 +7,7 @@
 #include "../mainfsm/operating.h"
 
 class PseudoStartOperating2 : public OperatingBaseState2 {
-
+public:
+    void enterViaDeepHistory() override {enterViaPseudoStart();};
 };
 #endif //PSEUDOSTARTOPERATING2_H

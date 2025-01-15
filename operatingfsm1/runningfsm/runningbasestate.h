@@ -40,10 +40,11 @@ public:
     virtual TriggerProcessingState metalRise1(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState metalFall1(){ return TriggerProcessingState::pending; }
 
-    virtual TriggerProcessingState heightFlat(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightHigh(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightBore(){ return TriggerProcessingState::pending; }
-    virtual TriggerProcessingState heightBelt(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightFlat1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightHigh1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBore1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBelt1(){ return TriggerProcessingState::pending; }
+    virtual TriggerProcessingState heightBin1(){ return TriggerProcessingState::pending; }
 };
 
 

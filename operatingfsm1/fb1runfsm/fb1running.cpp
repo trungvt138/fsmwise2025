@@ -4,7 +4,7 @@
 
 #include "fb1running.h"
 #include <iostream>
-
+#include "fb1runidle.h"
 #include "fb1runwait.h"
 using namespace std;
 
@@ -13,11 +13,11 @@ void Running::initSubFSM() {
 }
 
 void Running::entry() {
-    FB1RunBaseState::entry();
+	action->driveStopOff1();
 }
 
 void Running::exit() {
-    action->driveStop1();
+    action->driveStopOn1();
 }
 
 void Running::enterByDefaultEntryPoint() {
@@ -36,11 +36,46 @@ void Running::leavingState() {
 
 TriggerProcessingState Running::endRise1() {
     cout << "Running::endRise1()" << endl;
-    runningfsm->exit();
-    leavingState();
-    new(this) Fb1RunWait;
-    enterByDefaultEntryPoint();
-    return TriggerProcessingState::consumed;
+    //TODO:  wm check FB2 clear here
+    //if !FB2_clear:
+    if (!action->isFbEmpty(2)) {
+    	runningfsm->exit();
+    	leavingState();
+    	new(this) Fb1RunWait;
+    	enterByDefaultEntryPoint();
+    	return TriggerProcessingState::consumed;
+    }
+
+
+    //else:
+    return TriggerProcessingState::pending;
+}
+
+TriggerProcessingState Running::startRise2() {
+	cout << "Running::startRise2()" << endl;
+	//TODO: wm check FB1 clear here
+	//if FB1_clear:
+	if (action->isFbEmpty(1)) {
+		runningfsm->exit();
+		leavingState();
+		new(this) Fb1RunIdle;
+		enterByDefaultEntryPoint();
+		return TriggerProcessingState::consumed;
+	}
+	//else:
+	return TriggerProcessingState::pending;
+}
+
+TriggerProcessingState Running::slideRise1() {
+	cout << "Running::slideRise1()" << endl;
+	if (action->isFbEmpty(1)) {
+		runningfsm->exit();
+		leavingState();
+		new(this) Fb1RunIdle;
+		enterByDefaultEntryPoint();
+		return TriggerProcessingState::consumed;
+	}
+	return TriggerProcessingState::pending;
 }
 
 TriggerProcessingState Running::heightStart1() {
@@ -59,18 +94,22 @@ TriggerProcessingState Running::metalFall1() {
     return runningfsm->metalFall1();
 }
 
-TriggerProcessingState Running::heightFlat() {
-    return runningfsm->heightFlat();
+TriggerProcessingState Running::heightFlat1() {
+    return runningfsm->heightFlat1();
 }
 
-TriggerProcessingState Running::heightHigh() {
-    return runningfsm->heightHigh();
+TriggerProcessingState Running::heightHigh1() {
+    return runningfsm->heightHigh1();
 }
 
-TriggerProcessingState Running::heightBore() {
-    return runningfsm->heightBore();
+TriggerProcessingState Running::heightBore1() {
+    return runningfsm->heightBore1();
 }
 
-TriggerProcessingState Running::heightBelt() {
-    return runningfsm->heightBelt();
+TriggerProcessingState Running::heightBelt1() {
+    return runningfsm->heightBelt1();
+}
+
+TriggerProcessingState Running::heightBin1() {
+    return runningfsm->heightBin1();
 }

@@ -28,7 +28,7 @@ void OperatingBaseState1::setAction(Actions *action) {
 
 void OperatingBaseState1::setData(ContextData *data) {
     this->data = data;
-    fb1sortFSM->setData(data);
+    fb1runFSM->setData(data);
     fb1sortFSM->setData(data);
     errorFSM->setData(data);
 }

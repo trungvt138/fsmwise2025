@@ -14,5 +14,10 @@ TriggerProcessingState WS_Bore1::heightBelt() {
     //TODO: set_ws_height(bore)
     action->set_ws_type_fb1(23);
     new(this) PseudoEndSlow1;
+    cout << "WS Bore" << endl;
     return TriggerProcessingState::endstatereached;
+}
+
+void WS_Bore1::enterByDeepHistoryEntryPoint() {
+    entry();
 }

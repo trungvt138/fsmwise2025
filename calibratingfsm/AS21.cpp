@@ -4,22 +4,24 @@
 
 #include "AS21.h"
 #include <iostream>
-#include "AS22.h"
+#include "AS31.h"
 
 using namespace std;
 
 void AS21::entry() {
-    //TODO: weltmodell->starttimer();
-    action->driveRight1();
+    action->startTimer();
+    action->driveSlowOn1();
+    //action->saveHeight();
 }
 
 void AS21::exit() {
-    //TODO: weltmodell->savetime();
+    action->saveTimeSlow(2);
 }
 
-TriggerProcessingState AS21::heightStart1() {
+TriggerProcessingState AS21::heightEnd1() {
+	cout << "AS21::heightEnd1()" << endl;
     leavingState();
-    new(this) AS21;
+    new(this) AS31;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

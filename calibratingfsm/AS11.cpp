@@ -9,15 +9,17 @@
 using namespace std;
 
 void AS11::entry() {
-    //TODO: weltmodell->starttimer();
+    action->startTimer();
     action->driveRight1();
 }
 
 void AS11::exit() {
     //TODO: weltmodell->savetime();
+	action->saveTimeFast(1);
 }
 
 TriggerProcessingState AS11::heightStart1() {
+	cout << "AS11::heightStart1()" << endl;
     leavingState();
     new(this) AS21;
     enterByDefaultEntryPoint();

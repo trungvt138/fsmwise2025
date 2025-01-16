@@ -32,5 +32,10 @@ TriggerProcessingState WS_High2::heightBelt() {
     //TODO: set_ws_height(high)
     action->set_ws_type_fb2(22);
     new(this) PseudoEndSlow2;
+    cout << "WS High" << endl;
     return TriggerProcessingState::endstatereached;
+}
+
+void WS_High2::enterByDeepHistoryEntryPoint() {
+    entry();
 }

@@ -152,6 +152,30 @@ calibratingfsm/AS11.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.s
 .PHONY : calibratingfsm/AS11.cpp.s
 
+calibratingfsm/AS12.obj: calibratingfsm/AS12.cpp.obj
+.PHONY : calibratingfsm/AS12.obj
+
+# target to build an object file
+calibratingfsm/AS12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj
+.PHONY : calibratingfsm/AS12.cpp.obj
+
+calibratingfsm/AS12.i: calibratingfsm/AS12.cpp.i
+.PHONY : calibratingfsm/AS12.i
+
+# target to preprocess a source file
+calibratingfsm/AS12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.i
+.PHONY : calibratingfsm/AS12.cpp.i
+
+calibratingfsm/AS12.s: calibratingfsm/AS12.cpp.s
+.PHONY : calibratingfsm/AS12.s
+
+# target to generate assembly for a file
+calibratingfsm/AS12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.s
+.PHONY : calibratingfsm/AS12.cpp.s
+
 calibratingfsm/AS21.obj: calibratingfsm/AS21.cpp.obj
 .PHONY : calibratingfsm/AS21.obj
 
@@ -1592,78 +1616,6 @@ operatingfsm1/slowfsm/basestateslow1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.s
 .PHONY : operatingfsm1/slowfsm/basestateslow1.cpp.s
 
-operatingfsm1/slowfsm/bore1.obj: operatingfsm1/slowfsm/bore1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/bore1.obj
-
-# target to build an object file
-operatingfsm1/slowfsm/bore1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/bore1.cpp.obj
-
-operatingfsm1/slowfsm/bore1.i: operatingfsm1/slowfsm/bore1.cpp.i
-.PHONY : operatingfsm1/slowfsm/bore1.i
-
-# target to preprocess a source file
-operatingfsm1/slowfsm/bore1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.i
-.PHONY : operatingfsm1/slowfsm/bore1.cpp.i
-
-operatingfsm1/slowfsm/bore1.s: operatingfsm1/slowfsm/bore1.cpp.s
-.PHONY : operatingfsm1/slowfsm/bore1.s
-
-# target to generate assembly for a file
-operatingfsm1/slowfsm/bore1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.s
-.PHONY : operatingfsm1/slowfsm/bore1.cpp.s
-
-operatingfsm1/slowfsm/flat1.obj: operatingfsm1/slowfsm/flat1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/flat1.obj
-
-# target to build an object file
-operatingfsm1/slowfsm/flat1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/flat1.cpp.obj
-
-operatingfsm1/slowfsm/flat1.i: operatingfsm1/slowfsm/flat1.cpp.i
-.PHONY : operatingfsm1/slowfsm/flat1.i
-
-# target to preprocess a source file
-operatingfsm1/slowfsm/flat1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.i
-.PHONY : operatingfsm1/slowfsm/flat1.cpp.i
-
-operatingfsm1/slowfsm/flat1.s: operatingfsm1/slowfsm/flat1.cpp.s
-.PHONY : operatingfsm1/slowfsm/flat1.s
-
-# target to generate assembly for a file
-operatingfsm1/slowfsm/flat1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.s
-.PHONY : operatingfsm1/slowfsm/flat1.cpp.s
-
-operatingfsm1/slowfsm/high1.obj: operatingfsm1/slowfsm/high1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/high1.obj
-
-# target to build an object file
-operatingfsm1/slowfsm/high1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj
-.PHONY : operatingfsm1/slowfsm/high1.cpp.obj
-
-operatingfsm1/slowfsm/high1.i: operatingfsm1/slowfsm/high1.cpp.i
-.PHONY : operatingfsm1/slowfsm/high1.i
-
-# target to preprocess a source file
-operatingfsm1/slowfsm/high1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.i
-.PHONY : operatingfsm1/slowfsm/high1.cpp.i
-
-operatingfsm1/slowfsm/high1.s: operatingfsm1/slowfsm/high1.cpp.s
-.PHONY : operatingfsm1/slowfsm/high1.s
-
-# target to generate assembly for a file
-operatingfsm1/slowfsm/high1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.s
-.PHONY : operatingfsm1/slowfsm/high1.cpp.s
-
 operatingfsm1/slowfsm/idleslow1.obj: operatingfsm1/slowfsm/idleslow1.cpp.obj
 .PHONY : operatingfsm1/slowfsm/idleslow1.obj
 
@@ -2216,78 +2168,6 @@ operatingfsm2/slowfsm/basestateslow2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.s
 .PHONY : operatingfsm2/slowfsm/basestateslow2.cpp.s
 
-operatingfsm2/slowfsm/bore2.obj: operatingfsm2/slowfsm/bore2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/bore2.obj
-
-# target to build an object file
-operatingfsm2/slowfsm/bore2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/bore2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/bore2.cpp.obj
-
-operatingfsm2/slowfsm/bore2.i: operatingfsm2/slowfsm/bore2.cpp.i
-.PHONY : operatingfsm2/slowfsm/bore2.i
-
-# target to preprocess a source file
-operatingfsm2/slowfsm/bore2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/bore2.cpp.i
-.PHONY : operatingfsm2/slowfsm/bore2.cpp.i
-
-operatingfsm2/slowfsm/bore2.s: operatingfsm2/slowfsm/bore2.cpp.s
-.PHONY : operatingfsm2/slowfsm/bore2.s
-
-# target to generate assembly for a file
-operatingfsm2/slowfsm/bore2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/bore2.cpp.s
-.PHONY : operatingfsm2/slowfsm/bore2.cpp.s
-
-operatingfsm2/slowfsm/flat2.obj: operatingfsm2/slowfsm/flat2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/flat2.obj
-
-# target to build an object file
-operatingfsm2/slowfsm/flat2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/flat2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/flat2.cpp.obj
-
-operatingfsm2/slowfsm/flat2.i: operatingfsm2/slowfsm/flat2.cpp.i
-.PHONY : operatingfsm2/slowfsm/flat2.i
-
-# target to preprocess a source file
-operatingfsm2/slowfsm/flat2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/flat2.cpp.i
-.PHONY : operatingfsm2/slowfsm/flat2.cpp.i
-
-operatingfsm2/slowfsm/flat2.s: operatingfsm2/slowfsm/flat2.cpp.s
-.PHONY : operatingfsm2/slowfsm/flat2.s
-
-# target to generate assembly for a file
-operatingfsm2/slowfsm/flat2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/flat2.cpp.s
-.PHONY : operatingfsm2/slowfsm/flat2.cpp.s
-
-operatingfsm2/slowfsm/high2.obj: operatingfsm2/slowfsm/high2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/high2.obj
-
-# target to build an object file
-operatingfsm2/slowfsm/high2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/high2.cpp.obj
-.PHONY : operatingfsm2/slowfsm/high2.cpp.obj
-
-operatingfsm2/slowfsm/high2.i: operatingfsm2/slowfsm/high2.cpp.i
-.PHONY : operatingfsm2/slowfsm/high2.i
-
-# target to preprocess a source file
-operatingfsm2/slowfsm/high2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/high2.cpp.i
-.PHONY : operatingfsm2/slowfsm/high2.cpp.i
-
-operatingfsm2/slowfsm/high2.s: operatingfsm2/slowfsm/high2.cpp.s
-.PHONY : operatingfsm2/slowfsm/high2.s
-
-# target to generate assembly for a file
-operatingfsm2/slowfsm/high2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsm_estop.dir\build.make CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/high2.cpp.s
-.PHONY : operatingfsm2/slowfsm/high2.cpp.s
-
 operatingfsm2/slowfsm/idleslow2.obj: operatingfsm2/slowfsm/idleslow2.cpp.obj
 .PHONY : operatingfsm2/slowfsm/idleslow2.obj
 
@@ -2516,6 +2396,9 @@ help:
 	@echo ... calibratingfsm/AS11.obj
 	@echo ... calibratingfsm/AS11.i
 	@echo ... calibratingfsm/AS11.s
+	@echo ... calibratingfsm/AS12.obj
+	@echo ... calibratingfsm/AS12.i
+	@echo ... calibratingfsm/AS12.s
 	@echo ... calibratingfsm/AS21.obj
 	@echo ... calibratingfsm/AS21.i
 	@echo ... calibratingfsm/AS21.s
@@ -2696,15 +2579,6 @@ help:
 	@echo ... operatingfsm1/slowfsm/basestateslow1.obj
 	@echo ... operatingfsm1/slowfsm/basestateslow1.i
 	@echo ... operatingfsm1/slowfsm/basestateslow1.s
-	@echo ... operatingfsm1/slowfsm/bore1.obj
-	@echo ... operatingfsm1/slowfsm/bore1.i
-	@echo ... operatingfsm1/slowfsm/bore1.s
-	@echo ... operatingfsm1/slowfsm/flat1.obj
-	@echo ... operatingfsm1/slowfsm/flat1.i
-	@echo ... operatingfsm1/slowfsm/flat1.s
-	@echo ... operatingfsm1/slowfsm/high1.obj
-	@echo ... operatingfsm1/slowfsm/high1.i
-	@echo ... operatingfsm1/slowfsm/high1.s
 	@echo ... operatingfsm1/slowfsm/idleslow1.obj
 	@echo ... operatingfsm1/slowfsm/idleslow1.i
 	@echo ... operatingfsm1/slowfsm/idleslow1.s
@@ -2774,15 +2648,6 @@ help:
 	@echo ... operatingfsm2/slowfsm/basestateslow2.obj
 	@echo ... operatingfsm2/slowfsm/basestateslow2.i
 	@echo ... operatingfsm2/slowfsm/basestateslow2.s
-	@echo ... operatingfsm2/slowfsm/bore2.obj
-	@echo ... operatingfsm2/slowfsm/bore2.i
-	@echo ... operatingfsm2/slowfsm/bore2.s
-	@echo ... operatingfsm2/slowfsm/flat2.obj
-	@echo ... operatingfsm2/slowfsm/flat2.i
-	@echo ... operatingfsm2/slowfsm/flat2.s
-	@echo ... operatingfsm2/slowfsm/high2.obj
-	@echo ... operatingfsm2/slowfsm/high2.i
-	@echo ... operatingfsm2/slowfsm/high2.s
 	@echo ... operatingfsm2/slowfsm/idleslow2.obj
 	@echo ... operatingfsm2/slowfsm/idleslow2.i
 	@echo ... operatingfsm2/slowfsm/idleslow2.s

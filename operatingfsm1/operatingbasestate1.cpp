@@ -39,10 +39,13 @@ void OperatingBaseState1::enterViaPseudoStart() {
 }
 
 void OperatingBaseState1::enterViaDeepHistory() {
-    fb1runFSM->enterViaDeepHistory();
-    //
+    //fb1runFSM->enterViaDeepHistory();
+    new(this) FB1;
+    enterByDeepHistoryEntryPoint();
 }
 
 void OperatingBaseState1::resetDeepHistory() {
-    fb1runFSM->resetDeepHistory();
+	//leavingState();
+    //errorFSM->resetDeepHistory();
+    //fb1runFSM->resetDeepHistory();
 }

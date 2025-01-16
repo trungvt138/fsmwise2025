@@ -36,12 +36,20 @@ void FB1::enterByDeepHistoryEntryPoint() {
     enterViaDeepHistory();
 }
 
+void FB1::resetDeepHistory() {
+    fb1runFSM->resetDeepHistory();
+    new(this) FB1;
+}
+
+
 void FB1::leavingState() {
     OperatingBaseState1::leavingState();
 }
 
 void FB1::showState() {
-    OperatingBaseState1::showState();
+    cout << "Im in FB1 state" << endl;
+    fb1runFSM->showState();
+    fb1sortFSM->showState();
 }
 
 TriggerProcessingState FB1::handleDefaultExit(TriggerProcessingState processing_state) {

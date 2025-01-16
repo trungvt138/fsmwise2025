@@ -8,14 +8,15 @@
 using namespace std;
 
 void AS42::entry() {
-    //TODO: weltmodell->starttimer();
+	action->startTimer();
 }
 
 void AS42::exit() {
-    //TODO: weltmodell->savetime();
+	action->saveTimeSlow(4);
 }
 
-TriggerProcessingState AS42::sortRise1() {
+TriggerProcessingState AS42::endRise1() {
+	cout << "AS42::endRise1()" << endl;
     leavingState();
     new(this) AS52;
     enterByDefaultEntryPoint();

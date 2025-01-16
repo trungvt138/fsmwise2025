@@ -10,14 +10,21 @@ using namespace std;
 
 void AS31::entry() {
     action->driveSlowOff1();
-    //TODO: weltmodell->starttimer();
+    action->startTimer();
 }
 
 void AS31::exit() {
-    //TODO: weltmodell->savetime();
+    action->saveTimeFast(3);
 }
 
 TriggerProcessingState AS31::sortRise1() {
+	cout << "AS31::sortRise1()" << endl;
+    // action->openJunction1();
+    //
+    // std::thread([this]() {
+    // 	std::this_thread::sleep_for(std::chrono::seconds(1));
+    // 	action->closeJunction1();
+    // }).detach();
     leavingState();
     new(this) AS41;
     enterByDefaultEntryPoint();

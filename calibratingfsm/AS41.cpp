@@ -9,14 +9,16 @@
 using namespace std;
 
 void AS41::entry() {
-    //TODO: weltmodell->starttimer();
+    action->startTimer();
 }
 
 void AS41::exit() {
-    //TODO: weltmodell->savetime();
+    action->saveTimeFast(4);
+    action->driveStopOff2();
 }
 
-TriggerProcessingState AS41::sortRise1() {
+TriggerProcessingState AS41::endRise1() {
+	cout << "AS41::endRise1()" << endl;
     leavingState();
     new(this) AS51;
     enterByDefaultEntryPoint();

@@ -9,15 +9,21 @@
 using namespace std;
 
 void AS32::entry() {
-    //action->driveSlowOff1();
-    //TODO: weltmodell->starttimer();
+    action->startTimer();
 }
 
 void AS32::exit() {
-    //TODO: weltmodell->savetime();
+	action->saveTimeSlow(3);
 }
 
 TriggerProcessingState AS32::sortRise1() {
+	cout << "AS32::sortRise1()" << endl;
+    action->openJunction1();
+
+    // std::thread([this]() {
+    // 	std::this_thread::sleep_for(std::chrono::seconds(2));
+    // 	action->closeJunction1();
+    // }).detach();
     leavingState();
     new(this) AS42;
     enterByDefaultEntryPoint();

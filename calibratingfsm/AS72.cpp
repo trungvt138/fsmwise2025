@@ -8,16 +8,17 @@
 using namespace std;
 
 void AS72::entry() {
-    action->driveSlowOn2();
-    //TODO: wm->starttimer();
+	action->startTimer();
+	action->driveSlowOn2();
 }
 
 void AS72::exit() {
-    //TODO: wm->savetime();
-    //TODO: wm->saveHeight();
+	action->saveTimeSlow(7);
+    //TODO: action->saveHeight();
 }
 
-TriggerProcessingState AS72::heightStart2() {
+TriggerProcessingState AS72::heightEnd2() {
+	cout << "AS72::heightEnd2()" << endl;
     leavingState();
     new(this) AS82;
     enterByDefaultEntryPoint();

@@ -446,66 +446,10 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1.cpp.s
 
-CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/warn_sort_not_possible.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\warn_sort_not_possible.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\warn_sort_not_possible.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\warn_sort_not_possible.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\warn_sort_not_possible.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\warn_sort_not_possible.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\warn_sort_not_possible.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\warn_sort_not_possible.cpp.s
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/err_new_ws.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\err_new_ws.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_new_ws.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_new_ws.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_new_ws.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\err_new_ws.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_new_ws.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_new_ws.cpp.s
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/err_lost_ws.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\err_lost_ws.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_lost_ws.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_lost_ws.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_lost_ws.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\err_lost_ws.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_lost_ws.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_lost_ws.cpp.s
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/err_slide_full.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\err_slide_full.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_slide_full.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_slide_full.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_slide_full.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\err_slide_full.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\err_slide_full.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\err_slide_full.cpp.s
-
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1runfsm/fb1runidle.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1runidle.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1runidle.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1runfsm\fb1runidle.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.i: cmake_force
@@ -519,7 +463,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1runfsm/fb1runwait.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1runwait.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1runwait.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1runfsm\fb1runwait.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.i: cmake_force
@@ -533,7 +477,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1runfsm/fb1running.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1running.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1runfsm\fb1running.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1runfsm\fb1running.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.i: cmake_force
@@ -547,7 +491,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/runningfsm/runningbasestate.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\runningbasestate.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\runningbasestate.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\runningfsm\runningbasestate.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.i: cmake_force
@@ -561,7 +505,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/runningbasestate.cpp.s: cmake_
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/runningfsm/fast.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\fast.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\fast.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\runningfsm\fast.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.i: cmake_force
@@ -575,7 +519,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/fast.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/runningfsm/slow.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\slow.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\runningfsm\slow.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\runningfsm\slow.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.i: cmake_force
@@ -589,7 +533,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/runningfsm/slow.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1sortfsm/fb1sortok.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1sortok.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1sortok.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1sortfsm\fb1sortok.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.i: cmake_force
@@ -603,7 +547,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortok.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1sortfsm/fb1sortout.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1sortout.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1sortout.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1sortfsm\fb1sortout.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.i: cmake_force
@@ -617,7 +561,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortout.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/estopfsm/e1pressedcl.cpp
 CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.obj -MF CMakeFiles\fsm_estop.dir\estopfsm\e1pressedcl.cpp.obj.d -o CMakeFiles\fsm_estop.dir\estopfsm\e1pressedcl.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\e1pressedcl.cpp
 
 CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.i: cmake_force
@@ -631,7 +575,7 @@ CMakeFiles/fsm_estop.dir/estopfsm/e1pressedcl.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/estopfsm/connectionlost.cpp
 CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.obj -MF CMakeFiles\fsm_estop.dir\estopfsm\connectionlost.cpp.obj.d -o CMakeFiles\fsm_estop.dir\estopfsm\connectionlost.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\connectionlost.cpp
 
 CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.i: cmake_force
@@ -645,7 +589,7 @@ CMakeFiles/fsm_estop.dir/estopfsm/connectionlost.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/estopfsm/bothpressedcl.cpp
 CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.obj -MF CMakeFiles\fsm_estop.dir\estopfsm\bothpressedcl.cpp.obj.d -o CMakeFiles\fsm_estop.dir\estopfsm\bothpressedcl.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\bothpressedcl.cpp
 
 CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.i: cmake_force
@@ -659,7 +603,7 @@ CMakeFiles/fsm_estop.dir/estopfsm/bothpressedcl.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/fb1sortfsm/fb1warning.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1warning.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\fb1sortfsm\fb1warning.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\fb1sortfsm\fb1warning.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.i: cmake_force
@@ -673,7 +617,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1warning.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/basestateslow1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\basestateslow1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\basestateslow1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\basestateslow1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.i: cmake_force
@@ -687,7 +631,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/idleslow1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\idleslow1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\idleslow1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\idleslow1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.i: cmake_force
@@ -701,7 +645,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/ws_flat1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_flat1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_flat1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_flat1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.i: cmake_force
@@ -715,7 +659,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/ws_high1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_high1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_high1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_high1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.i: cmake_force
@@ -726,24 +670,10 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_high1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_high1.cpp.s
 
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/bore1.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\bore1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\bore1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\bore1.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\bore1.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\bore1.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\bore1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\bore1.cpp.s
-
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/ws_bore1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_bore1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_bore1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_bore1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.i: cmake_force
@@ -757,7 +687,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/ws_bin1.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_bin1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_bin1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_bin1.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.i: cmake_force
@@ -768,38 +698,10 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\ws_bin1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\ws_bin1.cpp.s
 
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/high1.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\high1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\high1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\high1.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\high1.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\high1.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\high1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\high1.cpp.s
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/slowfsm/flat1.cpp
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\flat1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\flat1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\flat1.cpp
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\flat1.cpp > CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\flat1.cpp.i
-
-CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\slowfsm\flat1.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\slowfsm\flat1.cpp.s
-
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/errorfsm/errorbasestate.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\errorbasestate.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\errorbasestate.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\errorfsm\errorbasestate.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.i: cmake_force
@@ -813,7 +715,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.s: cmake_forc
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/errorfsm/waiterror.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\waiterror.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\waiterror.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\errorfsm\waiterror.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.i: cmake_force
@@ -827,7 +729,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/errorfsm/handlingerror.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\handlingerror.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\errorfsm\handlingerror.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\errorfsm\handlingerror.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.i: cmake_force
@@ -841,7 +743,7 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.s: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
 CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm1/error.cpp
 CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm1\error.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm1\error.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\error.cpp
 
 CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.i: cmake_force
@@ -851,6 +753,636 @@ CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.i: cmake_force
 CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm1\error.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm1\error.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/error2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\error2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\error2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\error2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\error2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\error2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\error2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\error2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1runfsm/fb2runidle.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runidle.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runidle.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runidle.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runidle.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runidle.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runidle.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runidle.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1runfsm/fb2runbasestate.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runbasestate.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runbasestate.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runbasestate.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runbasestate.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runbasestate.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runbasestate.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runbasestate.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1runfsm/fb2runwait.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runwait.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runwait.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runwait.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runwait.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runwait.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2runwait.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2runwait.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1runfsm/fb2running.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2running.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2running.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2running.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2running.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2running.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1runfsm\fb2running.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1runfsm\fb2running.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/errorfsm/errorbasestate2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\errorbasestate2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\errorbasestate2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\errorbasestate2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\errorbasestate2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\errorbasestate2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\errorbasestate2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\errorbasestate2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/errorfsm/waiterror2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\waiterror2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\waiterror2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\waiterror2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\waiterror2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\waiterror2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\waiterror2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\waiterror2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/errorfsm/handlingerror2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\handlingerror2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\handlingerror2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\handlingerror2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\handlingerror2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\handlingerror2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\errorfsm\handlingerror2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\errorfsm\handlingerror2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/idleslow2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\idleslow2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\idleslow2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\idleslow2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\idleslow2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\idleslow2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\idleslow2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\idleslow2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/ws_bore2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bore2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bore2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bore2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bore2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bore2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bore2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bore2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/ws_flat2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_flat2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_flat2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_flat2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_flat2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_flat2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_flat2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_flat2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/ws_high2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_high2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_high2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_high2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_high2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_high2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_high2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_high2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/basestateslow2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\basestateslow2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\basestateslow2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\basestateslow2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\basestateslow2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\basestateslow2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\basestateslow2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\basestateslow2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/slowfsm/ws_bin2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bin2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bin2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bin2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bin2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bin2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\slowfsm\ws_bin2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\slowfsm\ws_bin2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortbasestate.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1sortfsm/fb2sortok.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortok.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortok.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortok.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortok.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortok.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortok.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortok.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1sortfsm/fb2warning.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2warning.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2warning.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2warning.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2warning.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2warning.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2warning.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2warning.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/fb1sortfsm/fb2sortout.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortout.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortout.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortout.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortout.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortout.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\fb1sortfsm\fb2sortout.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\fb1sortfsm\fb2sortout.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/runningfsm/slow2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\slow2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\slow2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\slow2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\slow2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\slow2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\slow2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\slow2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/runningfsm/fast2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\fast2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\fast2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\fast2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\fast2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\fast2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\fast2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\fast2.cpp.s
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/operatingfsm2/runningfsm/runningbasestate2.cpp
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj -MF CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\runningbasestate2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\runningbasestate2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\runningbasestate2.cpp
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\runningbasestate2.cpp > CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\runningbasestate2.cpp.i
+
+CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\operatingfsm2\runningfsm\runningbasestate2.cpp -o CMakeFiles\fsm_estop.dir\operatingfsm2\runningfsm\runningbasestate2.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/Idle1.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\Idle1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\Idle1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle1.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle1.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\Idle1.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle1.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\Idle1.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS11.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS11.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS11.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS11.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS11.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS11.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS11.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS11.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS31.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS31.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS31.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS31.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS31.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS31.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS31.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS31.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS41.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS41.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS41.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS41.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS41.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS41.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS41.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS41.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS51.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS51.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS51.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS51.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS51.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS51.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS51.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS51.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS61.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS61.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS61.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS61.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS61.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS61.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS61.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS61.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS71.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS71.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS71.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS71.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS71.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS71.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS71.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS71.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS81.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS81.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS81.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS81.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS81.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS81.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS81.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS81.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS91.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS91.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS91.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS91.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS91.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS91.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS91.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS91.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/Fertig1.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig1.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig1.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig1.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig1.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig1.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig1.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig1.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS21.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS21.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS21.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS21.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS21.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS21.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS21.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS21.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/Fertig2.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig2.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig2.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig2.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Fertig2.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\Fertig2.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS92.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS92.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS92.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS92.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS92.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS92.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS92.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS92.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS22.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS22.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS22.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS22.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS22.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS22.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS22.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS22.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS32.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS32.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS32.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS32.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS32.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS32.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS32.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS32.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS42.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS42.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS42.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS42.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS42.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS42.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS42.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS42.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS52.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS52.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS52.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS52.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS52.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS52.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS52.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS52.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS62.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS62.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS62.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS62.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS62.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS62.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS62.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS62.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS72.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS72.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS72.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS72.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS72.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS72.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS72.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS72.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS82.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS82.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS82.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS82.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS82.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS82.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS82.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS82.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/Idle2.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\Idle2.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\Idle2.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle2.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle2.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\Idle2.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\Idle2.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\Idle2.cpp.s
+
+CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/estopfsm/e2pressedcl.cpp
+CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj -MF CMakeFiles\fsm_estop.dir\estopfsm\e2pressedcl.cpp.obj.d -o CMakeFiles\fsm_estop.dir\estopfsm\e2pressedcl.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\e2pressedcl.cpp
+
+CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\e2pressedcl.cpp > CMakeFiles\fsm_estop.dir\estopfsm\e2pressedcl.cpp.i
+
+CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\estopfsm\e2pressedcl.cpp -o CMakeFiles\fsm_estop.dir\estopfsm\e2pressedcl.cpp.s
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj: CMakeFiles/fsm_estop.dir/flags.make
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj: C:/Users/trung/CLionProjects/fsmwise2025/calibratingfsm/AS12.cpp
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj: CMakeFiles/fsm_estop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj -MF CMakeFiles\fsm_estop.dir\calibratingfsm\AS12.cpp.obj.d -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS12.cpp.obj -c C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS12.cpp
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS12.cpp > CMakeFiles\fsm_estop.dir\calibratingfsm\AS12.cpp.i
+
+CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\trung\CLionProjects\fsmwise2025\calibratingfsm\AS12.cpp -o CMakeFiles\fsm_estop.dir\calibratingfsm\AS12.cpp.s
 
 # Object files for target fsm_estop
 fsm_estop_OBJECTS = \
@@ -881,10 +1413,6 @@ fsm_estop_OBJECTS = \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runbasestate.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortbasestate.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj" \
@@ -901,15 +1429,57 @@ fsm_estop_OBJECTS = \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj" \
 "CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj" \
-"CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj"
+"CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj" \
+"CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj"
 
 # External object files for target fsm_estop
 fsm_estop_EXTERNAL_OBJECTS =
@@ -941,10 +1511,6 @@ fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/operatingbasestate2.cpp.ob
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runbasestate.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1sortfsm/fb1sortbasestate.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/warn_sort_not_possible.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/err_new_ws.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/err_lost_ws.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/err_slide_full.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runidle.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1runwait.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/fb1runfsm/fb1running.cpp.obj
@@ -961,20 +1527,62 @@ fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/basestateslow1.cpp
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/idleslow1.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_flat1.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_high1.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/bore1.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bore1.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/ws_bin1.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/high1.cpp.obj
-fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/slowfsm/flat1.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/errorbasestate.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/waiterror.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/errorfsm/handlingerror.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm1/error.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/error2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runidle.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runbasestate.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2runwait.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1runfsm/fb2running.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/errorbasestate2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/waiterror2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/errorfsm/handlingerror2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/idleslow2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bore2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_flat2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_high2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/basestateslow2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/slowfsm/ws_bin2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortbasestate.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortok.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2warning.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/fb1sortfsm/fb2sortout.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/slow2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/fast2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/operatingfsm2/runningfsm/runningbasestate2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/Idle1.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS11.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS31.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS41.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS51.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS61.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS71.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS81.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS91.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig1.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS21.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/Fertig2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS92.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS22.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS32.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS42.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS52.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS62.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS72.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS82.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/Idle2.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/estopfsm/e2pressedcl.cpp.obj
+fsm_estop.exe: CMakeFiles/fsm_estop.dir/calibratingfsm/AS12.cpp.obj
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/build.make
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/linkLibs.rsp
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/objects1.rsp
 fsm_estop.exe: CMakeFiles/fsm_estop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable fsm_estop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\trung\CLionProjects\fsmwise2025\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking CXX executable fsm_estop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fsm_estop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -23,6 +23,8 @@ public:
 
     void enterViaErrSlideFull() override;
 
+    void resetDeepHistory() override;
+
     virtual TriggerProcessingState handleDefaultExit(TriggerProcessingState state);
 };
 

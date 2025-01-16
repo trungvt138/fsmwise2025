@@ -41,19 +41,26 @@ TriggerProcessingState FB2SortOK::sortRise2() {
 	else {}*/
 
     if (action->issortout(2)) {
-    	action->closeJunction2();
+//  	action->closeJunction2();
 //    	leavingState();
 //    	new(this) FB2SortOut;
 //    	enterByDefaultEntryPoint();
-    }
-    else {
-        action->openJunction2();
+    	action->openJunction2();
 
-        std::thread([this]() {
-        	std::this_thread::sleep_for(std::chrono::seconds(1));
-        	action->closeJunction2();
-        }).detach();
+    	std::thread([this]() {
+    	      std::this_thread::sleep_for(std::chrono::seconds(1));
+    	      action->closeJunction2();
+    	}).detach();
     }
+
+//    else {
+//        action->openJunction2();
+//
+//        std::thread([this]() {
+//        	std::this_thread::sleep_for(std::chrono::seconds(1));
+//        	action->closeJunction2();
+//        }).detach();
+//    }
 
 	return TriggerProcessingState::consumed;
 }

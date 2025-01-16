@@ -32,12 +32,12 @@ TriggerProcessingState FB2Warning::sortRise2() {
         return TriggerProcessingState::explicitexit;
     }
     else {
-        action->openJunction2();
-
-        //std::thread([this]() {
-        	//std::this_thread::sleep_for(std::chrono::seconds(1));
-        	action->closeJunction2();
-        //}).detach();
+        // action->openJunction2();
+        //
+        // std::thread([this]() {
+        // 	std::this_thread::sleep_for(std::chrono::seconds(1));
+        // 	action->closeJunction2();
+        // }).detach();
         return TriggerProcessingState::consumed;
     }
     //return TriggerProcessingState::pending;

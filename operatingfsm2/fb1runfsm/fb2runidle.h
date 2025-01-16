@@ -26,6 +26,8 @@ public:
     //TriggerProcessingState startRise2() override;
 
     TriggerProcessingState endFall1() override;
+
+    void showState() override;
 };
 
 

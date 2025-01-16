@@ -22,7 +22,7 @@ public:
     virtual void leavingState(){exit();};
 
     virtual void enterViaPseudoStart();
-
+    virtual void resetDeepHistory();
     virtual void entry(){};
     virtual void exit(){};
 

@@ -12,6 +12,8 @@ public:
     TriggerProcessingState heightBin() override;
 
     TriggerProcessingState heightBelt() override;
+
+    void enterByDeepHistoryEntryPoint() override;
 };
 
 

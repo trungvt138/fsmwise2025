@@ -23,3 +23,8 @@ TriggerProcessingState IdleSlow1::heightHigh() {
     new(this) WS_High1;
     return TriggerProcessingState::consumed;
 }
+
+void IdleSlow1::enterByDeepHistoryEntryPoint() {
+    entry();
+}
+

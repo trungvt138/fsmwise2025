@@ -25,6 +25,8 @@ public:
 
     void showState() override;
 
+    void resetDeepHistory() override;
+
     TriggerProcessingState handleDefaultExit(TriggerProcessingState processing_state);
 
     TriggerProcessingState startRise2() override;

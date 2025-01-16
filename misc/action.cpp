@@ -203,3 +203,4 @@ void Actions::set_ws_type_fb1(int) {
 
 void Actions::set_ws_type_fb2(int) {
 }
+

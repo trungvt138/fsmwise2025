@@ -29,7 +29,7 @@ void Fast::leavingState() {
 }
 
 void Fast::showState() {
-    RunningBaseState::showState();
+	cout << "Im in Fast state" << endl;
 }
 
 TriggerProcessingState Fast::heightStart1() {
@@ -50,3 +50,4 @@ TriggerProcessingState Fast::metalRise1() {
 TriggerProcessingState Fast::metalFall1() {
     return RunningBaseState::metalFall1();
 }
+

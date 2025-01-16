@@ -25,6 +25,7 @@ void Idle::exit() {
 
 TriggerProcessingState Idle::startShortPressed1() {
     leavingState();
+    actions->startProductionModeHS();
     new(this) Operating;
     enterByDeepHistoryEntryPoint();
     return TriggerProcessingState::consumed;
@@ -32,6 +33,7 @@ TriggerProcessingState Idle::startShortPressed1() {
 
 TriggerProcessingState Idle::startShortPressed2() {
     leavingState();
+    actions->startProductionModeHS();
     new(this) Operating;
     enterByDeepHistoryEntryPoint();
     return TriggerProcessingState::consumed;

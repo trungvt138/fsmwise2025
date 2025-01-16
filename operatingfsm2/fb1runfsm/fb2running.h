@@ -42,6 +42,8 @@ public:
     TriggerProcessingState heightBin() override;
 
     TriggerProcessingState slideRise2() override;
+
+    void showState() override;
 };
 
 

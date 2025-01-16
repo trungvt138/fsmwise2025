@@ -10,6 +10,8 @@
 class WS_Bore2 : public BaseStateSlow2 {
 public:
     TriggerProcessingState heightBelt() override;
+
+    void enterByDeepHistoryEntryPoint() override;
 };
 
 

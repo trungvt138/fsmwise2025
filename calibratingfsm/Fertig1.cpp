@@ -15,7 +15,7 @@ void Fertig1::entry() {
 
 void Fertig1::exit() {
     //TODO: wm->savetime(); ?????
-	action->driveStopOff2();
+	//action->driveStopOff2();
 }
 
 TriggerProcessingState Fertig1::endFall2() {

@@ -12,6 +12,8 @@ public:
     TriggerProcessingState heightFlat() override;
 
     TriggerProcessingState heightHigh() override;
+
+    void enterByDeepHistoryEntryPoint() override;
 };
 
 

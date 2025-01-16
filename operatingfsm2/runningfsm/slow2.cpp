@@ -23,6 +23,7 @@ void Slow2::enterByDefaultEntryPoint() {
 
 void Slow2::enterByDeepHistoryEntryPoint() {
     entry();
+    slowfsm->enterViaDeepHistory();
 }
 
 void Slow2::leavingState() {

@@ -113,3 +113,8 @@ TriggerProcessingState Running::heightBelt1() {
 TriggerProcessingState Running::heightBin1() {
     return runningfsm->heightBin1();
 }
+
+void Running::showState() {
+	cout << "Im in Running state" << endl;
+	runningfsm->showState();
+}

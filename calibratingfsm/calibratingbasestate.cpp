@@ -23,3 +23,7 @@ void CalibratingBaseState::enterViaPseudoStart() {
     new(this) Idle1;
     enterByDefaultEntryPoint();
 }
+
+void CalibratingBaseState::resetDeepHistory() {
+	new(this) CalibratingBaseState;
+}

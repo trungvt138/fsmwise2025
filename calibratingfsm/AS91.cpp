@@ -9,11 +9,11 @@
 using namespace std;
 
 void AS91::entry() {
-    //TODO: wm->starttimer();
+    action->startTimer();
 }
 
 void AS91::exit() {
-    //TODO: wm->savetime();
+    action->saveTimeFast(9);
 }
 
 TriggerProcessingState AS91::endRise2() {

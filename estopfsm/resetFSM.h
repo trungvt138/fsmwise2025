@@ -9,7 +9,7 @@
 
 class ResetFSM : public BaseStateEstop {
 public:
-    TriggerProcessingState handleDefaultExit();
+    TriggerProcessingState handleDefaultExit(TriggerProcessingState);
 
     void enterByDefaultEntryPoint() override;
 

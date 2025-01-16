@@ -13,7 +13,7 @@ class AS42 : public CalibratingBaseState {
 public:
     void entry() override;
     void exit() override;
-    TriggerProcessingState sortRise1() override;
+    TriggerProcessingState endRise1() override;
 };
 
 

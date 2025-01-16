@@ -19,7 +19,7 @@ void Error2::entry() {
 void Error2::exit() {
     actions->lightRedOff2();
     actions->lightStartOff2();
-    actions->driveStopOff2();
+    //actions->driveStopOff2();
 }
 
 TriggerProcessingState Error2::handleDefaultExit(TriggerProcessingState state) {
@@ -27,7 +27,7 @@ TriggerProcessingState Error2::handleDefaultExit(TriggerProcessingState state) {
         errorFSM2->exit();
         leavingState();
         new(this) FB2;
-        enterByDeepHistoryEntryPoint();
+        enterByDefaultEntryPoint();
     }
     return TriggerProcessingState::consumed;
 }
@@ -60,3 +60,8 @@ TriggerProcessingState Error2::startShortPressed2() {
 TriggerProcessingState Error2::resetPressed2() {
     return errorFSM2->resetPressed2();
 }
+
+void Error2::resetDeepHistory() {
+    errorFSM2->resetDeepHistory();
+}
+

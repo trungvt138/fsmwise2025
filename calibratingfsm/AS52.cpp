@@ -8,14 +8,18 @@
 using namespace std;
 
 void AS52::entry() {
-    //TODO: weltmodell->starttimer();
+	action->driveStopOff2();
+	action->driveRight2();
+	action->startTimer();
 }
 
 void AS52::exit() {
-    //TODO: weltmodell->savetime();
+	action->saveTimeSlow(5);
 }
 
-TriggerProcessingState AS52::endFall1() {
+TriggerProcessingState AS52::startRise2() {
+	cout << "AS52::startRise2()" << endl;
+	action->setCaliHighHole2();
     leavingState();
     new(this) AS62;
     enterByDefaultEntryPoint();

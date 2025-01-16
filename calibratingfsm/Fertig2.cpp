@@ -11,6 +11,7 @@ using namespace std;
 void Fertig2::entry() {
     //TODO: wm->starttimer(); ????
     action->driveStopOn2();
+    //action->driveSlowOff2();
 }
 
 void Fertig2::exit() {
@@ -18,6 +19,7 @@ void Fertig2::exit() {
 }
 
 TriggerProcessingState Fertig2::endFall2() {
+	action->set_all_toleranz(2);
     leavingState();
     new(this) CalibratingPseudoEnd;
     enterByDefaultEntryPoint();

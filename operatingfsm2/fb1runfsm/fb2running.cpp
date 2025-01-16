@@ -87,3 +87,8 @@ TriggerProcessingState Running2::heightBelt() {
 TriggerProcessingState Running2::heightBin() {
     return runningfsm->heightBin();
 }
+
+void Running2::showState() {
+	cout << "Im in Running2 state" << endl;
+	runningfsm->showState();
+}

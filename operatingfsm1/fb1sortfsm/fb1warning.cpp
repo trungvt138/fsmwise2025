@@ -32,11 +32,11 @@ TriggerProcessingState FB1Warning::sortRise1() {
        leavingState();
        return TriggerProcessingState::explicitexit;
     } else {
-        action->openJunction1();
-        //std::thread([this]() {
-        	//std::this_thread::sleep_for(std::chrono::seconds(1));
-        	action->closeJunction1();
-        //}).detach();
+        // action->openJunction1();
+        // std::thread([this]() {
+        // 	std::this_thread::sleep_for(std::chrono::seconds(1));
+        // 	action->closeJunction1();
+        // }).detach();
     	return TriggerProcessingState::consumed;
     }
     //return TriggerProcessingState::pending;

@@ -21,9 +21,9 @@ public:
 
     void leavingState() override;
 
-    TriggerProcessingState motor_timer_end() override;
-
     TriggerProcessingState startRise1() override;
+
+    void showState() override;
 };
 
 

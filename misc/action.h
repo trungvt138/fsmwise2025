@@ -76,6 +76,19 @@ public:
     virtual void set_ws_type_fb1(int);
     virtual void set_ws_type_fb2(int);
 
+    virtual void startTimer(){};
+    virtual void saveTimeFast(int){};
+    virtual void saveTimeSlow(int){};
+    virtual void startProductionModeHS(){};
+
+    virtual void set_all_toleranz(double){};
+
+    void setCaliBand(){};
+    void setCaliFlat1(){};
+    void setCaliFlat2(){};
+    void setCaliHighHole1(){};
+    void setCaliHighHole2(){};
+
 };
 
 

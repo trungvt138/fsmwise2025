@@ -33,7 +33,7 @@ public:
     virtual void enterByDeepHistoryEntryPoint(){entry();};
 
     virtual void leavingState(){exit();};
-    void showState();
+    virtual void showState();
 
     virtual TriggerProcessingState startRise2(){ return TriggerProcessingState::pending; }
     virtual TriggerProcessingState startFall2(){ return TriggerProcessingState::pending; }

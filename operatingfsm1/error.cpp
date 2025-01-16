@@ -19,7 +19,7 @@ void Error::entry() {
 
 void Error::exit() {
     actions->lightRedOff1();
-    actions->driveStopOff1();
+    //actions->driveStopOff1();
     actions->lightStartOff1();
 }
 
@@ -32,6 +32,11 @@ TriggerProcessingState Error::handleDefaultExit(TriggerProcessingState state) {
     }
     return TriggerProcessingState::consumed;
 }
+
+void Error::resetDeepHistory() {
+    errorFSM->resetDeepHistory();
+}
+
 
 void Error::enterViaErrNewWS() {
     cout << "enterViaErrNewWS" << endl;

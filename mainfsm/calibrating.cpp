@@ -11,11 +11,12 @@ using namespace std;
 void Calibrating::entry() {
     actions->lightGreenBlink1();
     actions->lightGreenBlink2();
+
 }
 
 void Calibrating::exit() {
-    actions->lightGreenOff1();
-    actions->lightGreenOff2();
+    actions->lightGreenBlinkOff1();
+    actions->lightGreenBlinkOff2();
 }
 
 void Calibrating::enterByDefaultEntryPoint() {
@@ -24,7 +25,7 @@ void Calibrating::enterByDefaultEntryPoint() {
 }
 
 void Calibrating::resetDeepHistory() {
-    BaseStateMain::resetDeepHistory();
+    calibratingFSM->resetDeepHistory();
 }
 
 TriggerProcessingState Calibrating::handleDefaultExit(const TriggerProcessingState &handled) {

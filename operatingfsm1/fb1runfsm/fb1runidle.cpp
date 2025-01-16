@@ -31,18 +31,14 @@ void Fb1RunIdle::leavingState() {
     exit();
 }
 
-TriggerProcessingState Fb1RunIdle::motor_timer_end() {
-    cout << "Fb1RunIdle::motor_timer_end" << endl;
-    leavingState();
-    new(this) Fb1RunIdle;
-    enterByDefaultEntryPoint();
-    return TriggerProcessingState::consumed;
-}
-
 TriggerProcessingState Fb1RunIdle::startRise1() {
     cout << "Fb1RunIdle::startRise1" << endl;
     leavingState();
     new(this) Running;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
+}
+
+void Fb1RunIdle::showState() {
+	cout << "Im in Fb1RunIdle" << endl;
 }

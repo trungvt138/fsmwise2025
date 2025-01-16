@@ -9,14 +9,17 @@
 using namespace std;
 
 void AS51::entry() {
-    //TODO: weltmodell->starttimer();
+    action->startTimer();
 }
 
 void AS51::exit() {
-    //TODO: weltmodell->savetime();
+    action->saveTimeFast(5);
+    action->driveStopOn1();
 }
 
-TriggerProcessingState AS51::endFall1() {
+TriggerProcessingState AS51::startRise2() {
+	cout << "AS51::startRise2()" << endl;
+	action->setCaliFlat2();
     leavingState();
     new(this) AS61;
     enterByDefaultEntryPoint();

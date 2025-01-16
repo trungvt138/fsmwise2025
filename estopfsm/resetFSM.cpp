@@ -12,15 +12,13 @@
 #include "e2pressed.h"
 using namespace std;
 
-TriggerProcessingState ResetFSM::handleDefaultExit() {
-    TriggerProcessingState processing_state = TriggerProcessingState::pending;
-    if (resetfsm->isPseudoEndState()) {
+TriggerProcessingState ResetFSM::handleDefaultExit(TriggerProcessingState state) {
+    if (state == TriggerProcessingState::endstatereached) {
         leavingState();
         new(this) PseudoEndEstop;
         enterByDefaultEntryPoint();
-        processing_state = TriggerProcessingState::endstatereached;
     }
-    return processing_state;
+    return state;
 }
 
 void ResetFSM::enterByDefaultEntryPoint() {
@@ -34,14 +32,12 @@ void ResetFSM::showState() {
 
 TriggerProcessingState ResetFSM::resetPressed1() {
     cout << "ResetFSM::resetPressed1()" << endl;
-    resetfsm->resetPressed1();
-    return handleDefaultExit();
+    return handleDefaultExit(resetfsm->resetPressed1());
 }
 
 TriggerProcessingState ResetFSM::resetPressed2() {
     cout << "ResetFSM::resetPressed2()" << endl;
-    resetfsm->resetPressed2();
-    return handleDefaultExit();
+    return handleDefaultExit(resetfsm->resetPressed2());
 }
 
 TriggerProcessingState ResetFSM::estopPressed1() {

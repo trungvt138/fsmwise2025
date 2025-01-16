@@ -8,16 +8,16 @@
 using namespace std;
 
 void AS61::entry() {
+	action->startTimer();
     action->driveStopOn1();
     action->driveRight2();
-    //TODO: wm->starttimer();
 }
 
 void AS61::exit() {
-    //TODO: wm->savetime();
+    action->saveTimeFast(6);
 }
 
-TriggerProcessingState AS61::startRise2() {
+TriggerProcessingState AS61::heightStart2() {
     leavingState();
     new(this) AS71;
     leavingState();

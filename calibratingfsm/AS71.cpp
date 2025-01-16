@@ -9,16 +9,15 @@
 using namespace std;
 
 void AS71::entry() {
+	action->startTimer();
     action->driveSlowOn2();
-    //TODO: wm->starttimer();
 }
 
 void AS71::exit() {
-    //TODO: wm->savetime();
-    //TODO: wm->saveHeight();
+    action->saveTimeSlow(7);
 }
 
-TriggerProcessingState AS71::heightStart2() {
+TriggerProcessingState AS71::heightEnd2() {
     leavingState();
     new(this) AS81;
     enterByDefaultEntryPoint();

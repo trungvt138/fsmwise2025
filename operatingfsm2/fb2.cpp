@@ -41,7 +41,9 @@ void FB2::leavingState() {
 }
 
 void FB2::showState() {
-    OperatingBaseState2::showState();
+    cout << "Im in FB2 state" << endl;
+    fb2runFSM->showState();
+    fb2sortFSM->showState();
 }
 
 TriggerProcessingState FB2::handleDefaultExit(TriggerProcessingState processing_state) {
@@ -152,3 +154,8 @@ TriggerProcessingState FB2::heightBin2() {
 TriggerProcessingState FB2::endFall1() {
     return fb2runFSM->endFall1();
 }
+
+void FB2::resetDeepHistory() {
+    fb2runFSM->resetDeepHistory();
+}
+

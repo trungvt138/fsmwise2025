@@ -13,7 +13,7 @@ public:
 
     void exit() override;
 
-    TriggerProcessingState startRise2() override;
+    TriggerProcessingState heightStart2() override;
 };
 
 

@@ -44,8 +44,10 @@ public:
     TriggerProcessingState heightBin1() override;
 
     TriggerProcessingState slideRise1() override;
-};
 
+    void showState() override;
+
+};
 
 
 #endif //RUNNING_H

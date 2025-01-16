@@ -5,19 +5,20 @@
 #include "Idle2.h"
 #include <iostream>
 using namespace std;
-#include "AS21.h"
+#include "AS12.h"
 
 void Idle2::entry() {
-    CalibratingBaseState::entry();
+	cout << "WS_B auflegen" << endl;
 }
 
 void Idle2::exit() {
-    cout << "WS_F auflegen" << endl;
+    action->driveStopOff1();
 }
 
 TriggerProcessingState Idle2::startRise1() {
+	action->setCaliHighHole1();
     leavingState();
-    new(this) AS21;
+    new(this) AS12;
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }

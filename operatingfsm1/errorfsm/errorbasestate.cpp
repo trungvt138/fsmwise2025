@@ -28,6 +28,8 @@ void ErrorBaseState::enterViaDeepHistory() {
 }
 
 void ErrorBaseState::resetDeepHistory() {
+	exit();
+	new(this) ErrorBaseState;
 }
 
 void ErrorBaseState::showState() {

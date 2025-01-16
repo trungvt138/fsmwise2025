@@ -248,6 +248,15 @@ fsm_estop_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 fsm_estop_SOURCE_DIR:STATIC=C:/Users/trung/CLionProjects/fsmwise2025
 
+//Value Computed by CMake
+fsmwise2025_BINARY_DIR:STATIC=C:/Users/trung/CLionProjects/fsmwise2025/cmake-build-debug
+
+//Value Computed by CMake
+fsmwise2025_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+fsmwise2025_SOURCE_DIR:STATIC=C:/Users/trung/CLionProjects/fsmwise2025
+
 
 ########################
 # INTERNAL cache entries

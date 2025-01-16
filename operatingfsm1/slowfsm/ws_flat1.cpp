@@ -15,6 +15,7 @@ TriggerProcessingState WS_Flat1::heightBelt() {
     //TODO: set_ws_height(flat)
     action->set_ws_type_fb1(21);
     new(this) PseudoEndSlow1;
+    cout << "WS Flat" << endl;
     return TriggerProcessingState::endstatereached;
 }
 
@@ -23,4 +24,8 @@ TriggerProcessingState WS_Flat1::heightBin() {
     leavingState();
     new(this) WS_Bin1;
     return TriggerProcessingState::consumed;
+}
+
+void WS_Flat1::enterByDeepHistoryEntryPoint() {
+    entry();
 }

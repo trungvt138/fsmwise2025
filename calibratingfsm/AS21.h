@@ -11,7 +11,7 @@ class AS21 : public CalibratingBaseState {
 public:
     void entry() override;
     void exit() override;
-    TriggerProcessingState heightStart1() override;
+    TriggerProcessingState heightEnd1() override;
 };
 
 

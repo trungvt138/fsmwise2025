@@ -46,3 +46,7 @@ TriggerProcessingState Fb2RunIdle::endFall1() {
     enterByDefaultEntryPoint();
     return TriggerProcessingState::consumed;
 }
+
+void Fb2RunIdle::showState() {
+	cout << "Im in Fb2RunIdle state" << endl;
+}

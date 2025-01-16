@@ -24,7 +24,7 @@ public:
 
     void enterViaPseudoStart();
 
-    void enterViaDeepHistory();
+    virtual void enterViaDeepHistory();
 
     void resetDeepHistory();
 

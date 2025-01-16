@@ -98,17 +98,11 @@ add_executable(fsm_estop main.cpp
         operatingfsm1/slowfsm/ws_flat1.h
         operatingfsm1/slowfsm/ws_high1.cpp
         operatingfsm1/slowfsm/ws_high1.h
-        operatingfsm1/slowfsm/bore1.cpp
-        operatingfsm1/slowfsm/bore1.h
         operatingfsm1/slowfsm/ws_bore1.cpp
         operatingfsm1/slowfsm/ws_bore1.h
         operatingfsm1/slowfsm/ws_bin1.cpp
         operatingfsm1/slowfsm/ws_bin1.h
-        operatingfsm1/slowfsm/high1.cpp
-        operatingfsm1/slowfsm/high1.h
         operatingfsm1/slowfsm/pseudoendslow1.h
-        operatingfsm1/slowfsm/flat1.cpp
-        operatingfsm1/slowfsm/flat1.h
         operatingfsm1/errorfsm/errorbasestate.cpp
         operatingfsm1/errorfsm/errorbasestate.h
         operatingfsm1/errorfsm/pseudostarterror.h
@@ -143,15 +137,10 @@ add_executable(fsm_estop main.cpp
         operatingfsm2/errorfsm/waiterror2.cpp
         operatingfsm2/errorfsm/handlingerror2.cpp
         operatingfsm2/errorfsm/errorbasestate2.h
-        operatingfsm2/slowfsm/high2.h
-        operatingfsm2/slowfsm/bore2.h
         operatingfsm2/slowfsm/idleslow2.cpp
         operatingfsm2/slowfsm/ws_bore2.cpp
         operatingfsm2/slowfsm/idleslow2.h
-        operatingfsm2/slowfsm/flat2.cpp
         operatingfsm2/slowfsm/basestateslow2.h
-        operatingfsm2/slowfsm/bore2.cpp
-        operatingfsm2/slowfsm/flat2.h
         operatingfsm2/slowfsm/ws_flat2.cpp
         operatingfsm2/slowfsm/ws_high2.h
         operatingfsm2/slowfsm/ws_bin2.h
@@ -159,7 +148,6 @@ add_executable(fsm_estop main.cpp
         operatingfsm2/slowfsm/basestateslow2.cpp
         operatingfsm2/slowfsm/ws_bore2.h
         operatingfsm2/slowfsm/ws_bin2.cpp
-        operatingfsm2/slowfsm/high2.cpp
         operatingfsm2/slowfsm/pseudoendslow2.h
         operatingfsm2/slowfsm/pseudostartslow2.h
         operatingfsm2/slowfsm/ws_flat2.h
@@ -222,4 +210,6 @@ add_executable(fsm_estop main.cpp
         calibratingfsm/Idle2.cpp
         calibratingfsm/Idle2.h
         estopfsm/e2pressedcl.cpp
+        calibratingfsm/Fertig2.h
+        calibratingfsm/AS12.cpp
 )

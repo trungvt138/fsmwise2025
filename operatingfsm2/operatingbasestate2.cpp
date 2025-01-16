@@ -39,10 +39,12 @@ void OperatingBaseState2::enterViaPseudoStart() {
 }
 
 void OperatingBaseState2::enterViaDeepHistory() {
-    fb2runFSM->enterViaDeepHistory();
-    //
+    new(this) FB2;
+    enterByDeepHistoryEntryPoint();
 }
 
 void OperatingBaseState2::resetDeepHistory() {
-    fb2runFSM->resetDeepHistory();
+	// leavingState();
+	// errorFSM2->resetDeepHistory();
+    // fb2runFSM->resetDeepHistory();
 }

@@ -19,7 +19,7 @@ void MainFSM::exit() {
 }
 
 void MainFSM::showState() {
-    cout << "MainFSM::showState()" << endl;
+    cout << "Im in MainFSM state" << endl;
     mainfsm->showState();
 }
 
@@ -37,10 +37,12 @@ void MainFSM::startShortPressed2() {
 }
 
 void MainFSM::startLongPressed1() {
+	cout << "MainFSM::startLongPressed1()" << endl;
     mainfsm->startLongPressed1();
 }
 
 void MainFSM::startLongPressed2() {
+	cout << "MainFSM::startLongPressed2()" << endl;
     mainfsm->startLongPressed2();
 }
 
@@ -172,8 +174,8 @@ void MainFSM::estopPressed1() {
     cout << "MainFSM::estopPressed1()" << endl;
     TriggerProcessingState processing_state = mainfsm->estopPressed1();
     if (processing_state == TriggerProcessingState::pending) {
-        mainfsm->resetDeepHistory();
         mainfsm->exit();
+        mainfsm->resetDeepHistory();
         leavingState();
         new(this) EstopFSM;
         enterViaPortE1();
@@ -184,8 +186,8 @@ void MainFSM::estopPressed2() {
     cout << "MainFSM::estopPressed2()" << endl;
     TriggerProcessingState processing_state = mainfsm->estopPressed2();
     if (processing_state == TriggerProcessingState::pending) {
-        mainfsm->resetDeepHistory();
         mainfsm->exit();
+        mainfsm->resetDeepHistory();
         leavingState();
         new(this) EstopFSM;
         enterViaPortE2();
@@ -200,8 +202,8 @@ void MainFSM::connectionLost() {
     //data->setE2PressedAfterCL(true);
 
     if (processing_state == TriggerProcessingState::pending) {
-        mainfsm->resetDeepHistory();
-        mainfsm->exit();
+    	mainfsm->exit();
+    	mainfsm->resetDeepHistory();
         leavingState();
         new(this) EstopFSM;
         enterViaPortCL();

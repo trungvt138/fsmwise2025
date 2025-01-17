@@ -64,6 +64,9 @@ public:
     virtual TriggerProcessingState startShortPressed1(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState resetPressed1() { return TriggerProcessingState::pending; };
 
+    virtual TriggerProcessingState stopPressed1() { return TriggerProcessingState::pending; };
+    virtual TriggerProcessingState stopPressed2() { return TriggerProcessingState::pending; };
+
     virtual TriggerProcessingState ws_early(){ return TriggerProcessingState::pending; };
     virtual TriggerProcessingState ws_lost(){ return TriggerProcessingState::pending; };
 

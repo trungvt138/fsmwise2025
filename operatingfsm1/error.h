@@ -17,6 +17,10 @@ public:
 
     TriggerProcessingState resetPressed1() override;
 
+    TriggerProcessingState stopPressed1() override;
+
+    TriggerProcessingState stopPressed2() override;
+
     void enterViaErrNewWS() override;
 
     void enterViaErrLostWS() override;

@@ -53,17 +53,25 @@ TriggerProcessingState Operating::startShortPressed2() {
 
 TriggerProcessingState Operating::stopPressed1() {
 	cout << "Operating::stopPressed1" << endl;
-    leavingState();
-    new(this) Idle;
-    enterByDefaultEntryPoint();
+    TriggerProcessingState state1 = operatingFSM1->stopPressed1();
+    TriggerProcessingState state2 = operatingFSM2->stopPressed1();
+    if (state1 == TriggerProcessingState::pending && state2 == TriggerProcessingState::pending) {
+        leavingState();
+        new(this) Idle;
+        enterByDefaultEntryPoint();
+    }
     return TriggerProcessingState::consumed;
 }
 
 TriggerProcessingState Operating::stopPressed2() {
 	cout << "Operating::stopPressed2" << endl;
-    leavingState();
-    new(this) Idle;
-    enterByDefaultEntryPoint();
+    TriggerProcessingState state1 = operatingFSM1->stopPressed2();
+    TriggerProcessingState state2 = operatingFSM2->stopPressed2();
+    if (state1 == TriggerProcessingState::pending && state2 == TriggerProcessingState::pending) {
+        leavingState();
+        new(this) Idle;
+        enterByDefaultEntryPoint();
+    }
     return TriggerProcessingState::consumed;
 }
 

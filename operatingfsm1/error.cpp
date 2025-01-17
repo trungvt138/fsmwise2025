@@ -62,3 +62,11 @@ TriggerProcessingState Error::startShortPressed1() {
 TriggerProcessingState Error::resetPressed1() {
     return errorFSM->resetPressed1();
 }
+
+TriggerProcessingState Error::stopPressed1() {
+    return TriggerProcessingState::consumed;
+}
+
+TriggerProcessingState Error::stopPressed2() {
+    return TriggerProcessingState::consumed;
+}

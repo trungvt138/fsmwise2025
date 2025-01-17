@@ -9,12 +9,13 @@ int main(int argc, char** argv)
     Context fsm(action);
     fsm.startShortPressed1();
     fsm.startRise1();
-    fsm.heightStart1();
-    fsm.heightHigh1();
-    fsm.stopPressed1();
+    fsm.ws_early1();
+    fsm.estopPressed1();
+    fsm.estopUnpressed1();
+    fsm.resetPressed1();
+    fsm.resetPressed2();
     fsm.startShortPressed1();
-    fsm.heightBore1();
-    fsm.heightBelt1();
+
     //Test EStop
 
 
